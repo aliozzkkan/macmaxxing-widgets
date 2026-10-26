@@ -1,0 +1,10 @@
+{
+  "density": "모양",
+  "idle": "재생 중인 항목 없음",
+  "openSource": "소스 열기",
+  "queue": "다음 항목",
+  "queueEmpty": "대기열이 비어 있습니다",
+  "subtitle": "음악 또는 비디오 정보 및 재생 제어기를 표시합니다.",
+  "widget.summary": "음악 또는 비디오 정보 및 재생 제어기를 표시합니다.",
+  "widget.title": "미디어"
+}

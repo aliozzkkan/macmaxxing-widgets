@@ -1,0 +1,17 @@
+{
+  "adapter": "الشاحن",
+  "battery": "البطارية",
+  "comfortable": "متوازن",
+  "compact": "مدمج",
+  "density": "المظهر",
+  "detailed": "مفصل",
+  "details": "تفاصيل القياس",
+  "flow": "تدفق الطاقة",
+  "incoming": "الوارد",
+  "load": "الإخراج",
+  "refreshInterval": "فترة التحديث (بالثواني)",
+  "remaining": "تقديري",
+  "subtitle": "الطاقة الحالية",
+  "widget.summary": "يعرض الواط الحالي وحالة البطارية والشحن ومخطط الطاقة.",
+  "widget.title": "مركز الطاقة"
+}

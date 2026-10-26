@@ -1,0 +1,85 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "file",
+    "url",
+    "text"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "hstack",
+    "children": [
+      {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "list",
+            "items": "state.items",
+            "id": "id",
+            "title": "name",
+            "detail": "detail",
+            "symbol": "sym",
+            "image": "icon",
+            "action": "open",
+            "menu": [
+              {
+                "title": "{{t.open}}",
+                "action": "open",
+                "symbol": "arrow.up.forward.app"
+              },
+              {
+                "title": "{{t.reveal}}",
+                "action": "reveal",
+                "symbol": "folder"
+              },
+              {
+                "title": "{{t.quickLook}}",
+                "action": "quickLook",
+                "symbol": "eye"
+              },
+              {
+                "title": "{{t.copyFile}}",
+                "action": "copyFile",
+                "symbol": "doc.on.doc"
+              },
+              {
+                "title": "{{t.copyPath}}",
+                "action": "copyPath",
+                "symbol": "link"
+              },
+              {
+                "title": "{{t.remove}}",
+                "action": "remove",
+                "symbol": "xmark.circle",
+                "confirm": {
+                  "title": "{{t.removeTitle}}",
+                  "message": "{{t.removeMessage}}",
+                  "destructiveTitle": "{{t.remove}}"
+                }
+              }
+            ],
+            "emptyText": "{{t.empty}}"
+          }
+        ],
+        "spacing": 6
+      },
+      {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "value",
+            "label": "{{t.items}}",
+            "value": "{{state.count}}"
+          },
+          {
+            "type": "text",
+            "text": "{{t.drop}}",
+            "style": "caption"
+          }
+        ],
+        "spacing": 3
+      }
+    ],
+    "spacing": 10
+  }
+}

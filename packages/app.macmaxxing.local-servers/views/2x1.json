@@ -1,0 +1,78 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isReady",
+              "then": {
+                "type": "text",
+                "text": "{{state.summary}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noServers}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isUnavailable",
+              "then": {
+                "type": "text",
+                "text": "{{t.unavailable}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isReady",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noServersBody}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isUnavailable",
+              "then": {
+                "type": "text",
+                "text": "{{t.unavailableBody}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 1
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

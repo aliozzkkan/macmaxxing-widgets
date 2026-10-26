@@ -1,0 +1,62 @@
+{
+  "type": "vstack",
+  "spacing": 0,
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "spacing": 10,
+      "children": [
+        {
+          "type": "text",
+          "text": "{{state.summary}}",
+          "style": "value"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isOk",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "positive"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isWarning",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "warning"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isCritical",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "critical"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isMeasuring",
+          "then": {
+            "type": "badge",
+            "text": "{{t.monitoring}}",
+            "tone": "neutral"
+          }
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    }
+  ]
+}

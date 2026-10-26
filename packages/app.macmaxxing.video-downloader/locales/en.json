@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Audio only (MP3)",
+  "cancel": "Cancel",
+  "cancelled": "Cancelled",
+  "compatibleMP4": "Compatible MP4",
+  "drop": "Drop video link here",
+  "failed": "Download failed",
+  "finished": "Download completed",
+  "formatTitle": "Download format",
+  "hint": "Drag a video link onto the widget or download the link on your clipboard.",
+  "original": "Original format",
+  "paste": "Download from clipboard",
+  "preparing": "Preparing",
+  "qualityNote": "When MP3 is selected, video quality is not used; only audio is recorded.",
+  "qualityTitle": "Video quality",
+  "reveal": "Show in Finder",
+  "title": "Video Downloader",
+  "widget.summary": "Saves supported video links to Downloads folder via drag-and-drop.",
+  "widget.title": "Video Downloader"
+}

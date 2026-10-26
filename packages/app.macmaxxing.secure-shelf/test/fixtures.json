@@ -1,0 +1,8 @@
+{
+  "capabilities": {
+    "secure.shelf.state": {
+      "locked": true,
+      "itemCount": 0
+    }
+  }
+}

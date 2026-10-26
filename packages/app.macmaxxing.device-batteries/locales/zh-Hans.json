@@ -1,0 +1,17 @@
+{
+  "allGood": "所有设备电量充足",
+  "chartAccessibility": "设备电量图表",
+  "chartNote": "每个柱表示一台设备当前的电量百分比",
+  "chartTitle": "电量",
+  "devicesTitle": "设备",
+  "lowBadge": "电量过低",
+  "lowest": "最低",
+  "noDevices": "未找到设备",
+  "noDevicesBody": "连接会报告电量的蓝牙设备后，其电量会显示在这里。",
+  "refreshInterval": "刷新间隔（秒）",
+  "subtitle": "已连接蓝牙设备的电量",
+  "unavailable": "无法读取设备",
+  "unavailableHint": "蓝牙数据不可用",
+  "widget.summary": "显示已连接蓝牙设备的电量。",
+  "widget.title": "设备电量"
+}

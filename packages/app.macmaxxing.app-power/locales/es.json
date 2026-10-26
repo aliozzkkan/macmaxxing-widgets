@@ -1,0 +1,14 @@
+{
+  "comfortable": "Equilibrado",
+  "compact": "Compacto",
+  "density": "Aspecto",
+  "detailed": "Detallado",
+  "estimate": "Valores estimados a partir de la carga de la CPU",
+  "heading": "Mayor consumo",
+  "rows": "Líneas máximas",
+  "subtitle": "Porcentaje estimado de la app",
+  "top": "Mayor consumo de energía",
+  "waiting": "Esperando datos de la app",
+  "widget.summary": "Muestra las apps con mayor consumo cuando se abre la tarjeta de potencia actual.",
+  "widget.title": "Potencia de apps"
+}

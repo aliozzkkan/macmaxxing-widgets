@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Rozkład priorytetów dzisiejszych zadań",
+  "chartNote": "Każdy słupek to udział zadań o danym priorytecie",
+  "chartTitle": "Rozkład zadań według pilności",
+  "deniedHint": "Zezwól na dostęp do przypomnień w Ustawieniach systemowych",
+  "grantAccess": "Zezwól na dostęp do przypomnień",
+  "itemsTitle": "Oczekujące",
+  "maximumRows": "Maksymalna liczba wierszy",
+  "needsAccess": "Wymagane uprawnienie do Przypomnień",
+  "needsAccessHint": "Zezwól na dostęp, aby zobaczyć przypomnienia",
+  "noItems": "Brak oczekujących zadań",
+  "noItemsBody": "Brak przypomnień do wykonania do dziś.",
+  "permission": "Wymagane uprawnienie",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "subtitle": "Zadania niewykonane do dziś",
+  "tasks": "Zadania",
+  "unavailable": "Nie można odczytać przypomnień",
+  "unavailableHint": "Dane przypomnień są obecnie niedostępne",
+  "widget.summary": "Pokazuje dzisiejsze zadania i status uprawnień Przypomnień.",
+  "widget.title": "Przypomnienia"
+}

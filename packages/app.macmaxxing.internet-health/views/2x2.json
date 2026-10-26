@@ -1,0 +1,117 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isTesting",
+              "then": {
+                "type": "text",
+                "text": "{{state.headline}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOnline",
+              "then": {
+                "type": "text",
+                "text": "{{state.headline}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOffline",
+              "then": {
+                "type": "text",
+                "text": "{{t.offline}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isTesting",
+              "then": {
+                "type": "text",
+                "text": "{{t.testing}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOnline",
+              "then": {
+                "type": "text",
+                "text": "{{state.statusText}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOffline",
+              "then": {
+                "type": "text",
+                "text": "{{t.offlineBody}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 2
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.canTest",
+          "then": {
+            "type": "button",
+            "title": "{{t.speedTest}}",
+            "action": "startSpeedTest",
+            "symbol": "speedometer"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "value",
+          "label": "{{t.ping}}",
+          "value": "{{state.pingText}}"
+        },
+        {
+          "type": "value",
+          "label": "{{t.loss}}",
+          "value": "{{state.lossText}}"
+        }
+      ],
+      "spacing": 10
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "value",
+          "label": "{{t.download}}",
+          "value": "{{state.downloadText}}"
+        },
+        {
+          "type": "value",
+          "label": "{{t.lastTest}}",
+          "value": "{{state.measuredText}}"
+        }
+      ],
+      "spacing": 10
+    }
+  ],
+  "spacing": 8
+}

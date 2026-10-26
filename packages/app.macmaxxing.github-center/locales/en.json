@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub quiet",
+  "calmBody": "No unread notifications",
+  "chartAccessibility": "Unread notifications by reason",
+  "chartNote": "Each bar is a reason's share of unread notifications",
+  "chartTitle": "Notification reasons",
+  "emptyList": "No unread notifications",
+  "failed": "Could not read GitHub notifications",
+  "failedBody": "GitHub notifications are unavailable right now",
+  "ghMissing": "GitHub CLI not found",
+  "ghMissingBody": "gh can be installed via Homebrew",
+  "itemsTitle": "Notifications",
+  "refreshInterval": "Refresh interval (seconds)",
+  "signedOut": "GitHub is signed out",
+  "signedOutBody": "Reviews and CI status appear here once the GitHub CLI is signed in.",
+  "subtitle": "Reviews, notifications and CI checks",
+  "unread": "Unread",
+  "widget.summary": "Shows reviews, notifications, and CI status.",
+  "widget.title": "GitHub Center"
+}

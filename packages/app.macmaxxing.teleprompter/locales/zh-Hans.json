@@ -1,0 +1,13 @@
+{
+  "edit": "编辑文本",
+  "finished": "已完成",
+  "prepare": "准备文本",
+  "restart": "重新启动",
+  "running": "运行中",
+  "start": "开始",
+  "stop": "停止",
+  "title": "提词器",
+  "widget.summary": "在刘海下方以可调速度自动滚动文本。",
+  "widget.title": "提词器",
+  "words": "字"
+}

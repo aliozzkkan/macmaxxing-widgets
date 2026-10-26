@@ -1,0 +1,14 @@
+{
+  "comfortable": "バランス",
+  "compact": "コンパクト",
+  "density": "外観",
+  "detailed": "詳細",
+  "estimate": "値はCPU負荷から推定されます",
+  "heading": "消費の多い項目",
+  "rows": "最大行数",
+  "subtitle": "推定アプリ占有率",
+  "top": "消費電力の多いアプリ",
+  "waiting": "アプリのデータを待機中",
+  "widget.summary": "現在の電力カードを開いたときに最も電力を消費しているアプリを表示します。",
+  "widget.title": "アプリの電力"
+}

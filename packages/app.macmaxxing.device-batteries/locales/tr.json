@@ -1,0 +1,17 @@
+{
+  "allGood": "Tüm cihazların pili yeterli",
+  "chartAccessibility": "Cihaz pil seviyeleri grafiği",
+  "chartNote": "Her çubuk, bir cihazın şu anki pil yüzdesidir",
+  "chartTitle": "Pil seviyeleri",
+  "devicesTitle": "Cihazlar",
+  "lowBadge": "Pil düşük",
+  "lowest": "En düşük",
+  "noDevices": "Cihaz bulunamadı",
+  "noDevicesBody": "Pil bilgisi bildiren bir Bluetooth cihazı bağlandığında seviyesi burada görünür.",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "subtitle": "Bağlı Bluetooth cihazlarının pil seviyesi",
+  "unavailable": "Cihazlar okunamadı",
+  "unavailableHint": "Bluetooth verisi kullanılamıyor",
+  "widget.summary": "Bağlı Bluetooth cihazlarının pil seviyelerini gösterir.",
+  "widget.title": "Cihaz Pilleri"
+}

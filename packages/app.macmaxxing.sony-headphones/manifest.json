@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.sony-headphones",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "presentation": {
+    "title": "Sony Kulaklık",
+    "summary": "WH-1000XM6 pilini, gürültü engellemeyi ve ortam sesini Mac üzerinden kontrol eder.",
+    "category": "media",
+    "systemImageName": "headphones",
+    "accentHex": "0A84FF",
+    "defaultSize": "3x2",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "sony.headphones",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 5,
+  "defaultSettings": {
+    "noiseControl": "noiseCancelling",
+    "ambientLevel": 15,
+    "focusOnVoice": false,
+    "equalizer": "off",
+    "speakToChat": false,
+    "pauseWhenTakenOff": false,
+    "automaticPowerOff": "never"
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "type": "vstack",
+  "spacing": 12,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 8,
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isOk",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "positive"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isWarning",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "warning"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isCritical",
+          "then": {
+            "type": "badge",
+            "text": "{{state.thermal.label}}",
+            "tone": "critical"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isMeasuring",
+          "then": {
+            "type": "badge",
+            "text": "{{t.monitoring}}",
+            "tone": "neutral"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 14,
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isOk",
+              "then": {
+                "type": "vstack",
+                "spacing": 3,
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.okTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.okDetail}}",
+                    "style": "body"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isWarning",
+              "then": {
+                "type": "vstack",
+                "spacing": 3,
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.warningTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.warningDetail}}",
+                    "style": "body"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isCritical",
+              "then": {
+                "type": "vstack",
+                "spacing": 3,
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.criticalTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.criticalDetail}}",
+                    "style": "body"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isMeasuring",
+              "then": {
+                "type": "vstack",
+                "spacing": 3,
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.measuringTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.measuringDetail}}",
+                    "style": "body"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.peak",
+          "then": {
+            "type": "value",
+            "label": "{{t.peakLoad}}",
+            "value": "{{state.peak.text}}",
+            "unit": "{{state.peak.label}}"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 18,
+      "children": [
+        {
+          "type": "vstack",
+          "spacing": 6,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.resourceUsage}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "line",
+              "series": "state.history",
+              "isLive": false
+            },
+            {
+              "type": "text",
+              "text": "{{t.scaleNote}}",
+              "style": "caption"
+            }
+          ]
+        },
+        {
+          "type": "vstack",
+          "spacing": 6,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.measurementDetails}}",
+              "style": "body"
+            },
+            {
+              "type": "rows",
+              "items": "state.rows",
+              "title": "title",
+              "value": "value"
+            },
+            {
+              "type": "spacer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

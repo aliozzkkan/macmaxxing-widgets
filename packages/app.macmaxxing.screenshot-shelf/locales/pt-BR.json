@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Acesso à pasta de capturas de tela",
+  "count": "Captura de tela",
+  "empty": "Nenhuma captura de tela",
+  "failed": "Não foi possível ler as capturas de tela",
+  "grant": "Permitir acesso",
+  "latest": "Última captura de tela",
+  "perDay": "Capturas de tela por dia",
+  "readText": "Ler texto e códigos QR",
+  "reading": "Texto reconhecido",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "reveal": "Mostrar no Finder",
+  "rows": "Linha",
+  "settings": "Ajustes",
+  "subtitle": "Empilha, abre e arrasta capturas recentes quando o shelf está ativo em Comportamento.",
+  "trash": "Mover para o Lixo",
+  "trashMessage": "O arquivo não é apagado; você pode restaurá-lo da Lixeira.",
+  "trashTitle": "Mover a captura de tela para a Lixeira?",
+  "widget.summary": "Empilha, abre e arrasta capturas recentes quando o shelf está ativo em Comportamento.",
+  "widget.title": "Prateleira de Capturas"
+}

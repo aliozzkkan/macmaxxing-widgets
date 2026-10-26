@@ -1,0 +1,150 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "symbol",
+          "name": "headphones"
+        },
+        {
+          "type": "text",
+          "text": "{{state.deviceName}}",
+          "style": "title"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isConnected",
+          "then": {
+            "type": "badge",
+            "text": "{{t.connected}}",
+            "tone": "positive"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isConnecting",
+          "then": {
+            "type": "badge",
+            "text": "{{t.connecting}}",
+            "tone": "neutral"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isOffline",
+          "then": {
+            "type": "badge",
+            "text": "{{t.offline}}",
+            "tone": "warning"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "when",
+      "condition": "state.hasBattery",
+      "then": {
+        "type": "bar",
+        "label": "{{t.battery}}",
+        "percent": "{{state.battery}}"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.hasBattery",
+      "then": {
+        "type": "text",
+        "text": "{{t.instant}}",
+        "style": "caption"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isConnected",
+      "then": {
+        "type": "picker",
+        "key": "noiseControl",
+        "options": "noiseCancelling,ambientSound,off",
+        "style": "segmented"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isConnected",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{t.ambientLevel}}",
+            "style": "caption"
+          },
+          {
+            "type": "slider",
+            "key": "ambientLevel",
+            "min": 0,
+            "max": 20,
+            "step": 1
+          }
+        ],
+        "spacing": 2
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isConnected",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{t.multipoint}}",
+            "style": "caption"
+          },
+          {
+            "type": "list",
+            "items": "state.devices",
+            "id": "id",
+            "title": "name",
+            "symbol": "symbol",
+            "action": "switch",
+            "emptyText": "{{t.noDevices}}"
+          }
+        ],
+        "spacing": 4
+      }
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isOffline",
+          "then": {
+            "type": "button",
+            "title": "{{t.reconnect}}",
+            "action": "connect",
+            "symbol": "arrow.clockwise"
+          }
+        },
+        {
+          "type": "button",
+          "title": "{{t.refresh}}",
+          "action": "refresh",
+          "symbol": "arrow.triangle.2.circlepath"
+        }
+      ],
+      "spacing": 8
+    }
+  ],
+  "spacing": 10
+}

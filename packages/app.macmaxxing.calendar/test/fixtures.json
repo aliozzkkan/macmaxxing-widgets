@@ -1,0 +1,8 @@
+{
+  "capabilities": {
+    "calendar.events.upcoming": {
+      "access": "authorized",
+      "events": []
+    }
+  }
+}

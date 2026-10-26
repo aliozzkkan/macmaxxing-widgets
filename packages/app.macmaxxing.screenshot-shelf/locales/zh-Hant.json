@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "螢幕截圖檔案夾存取權限",
+  "count": "螢幕快照",
+  "empty": "沒有螢幕快照",
+  "failed": "無法讀取螢幕截圖",
+  "grant": "允許存取",
+  "latest": "最新螢幕截圖",
+  "perDay": "每日螢幕截圖",
+  "readText": "讀取文字和 QR 碼",
+  "reading": "辨識出的文字",
+  "refreshInterval": "更新間隔（秒）",
+  "reveal": "在 Finder 中顯示",
+  "rows": "橫列",
+  "settings": "設定",
+  "subtitle": "當「行為」中的架子啟用時，堆疊顯示、開啟並拖移最近的螢幕快照。",
+  "trash": "移至垃圾桶",
+  "trashMessage": "檔案不會被刪除；你可以從垃圾桶中復原。",
+  "trashTitle": "要將螢幕截圖移到垃圾桶嗎？",
+  "widget.summary": "當「行為」中的架子啟用時，堆疊顯示、開啟並拖移最近的螢幕快照。",
+  "widget.title": "螢幕快照架"
+}

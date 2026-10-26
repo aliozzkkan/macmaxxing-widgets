@@ -1,0 +1,14 @@
+{
+  "comfortable": "Zrównoważony",
+  "compact": "Kompaktowy",
+  "density": "Wygląd",
+  "detailed": "Szczegółowy",
+  "estimate": "Wartości są szacowane na podstawie obciążenia procesora",
+  "heading": "Najwięksi konsumenci",
+  "rows": "Maksymalna liczba wierszy",
+  "subtitle": "Szacowany udział aplikacji",
+  "top": "Najwięksi konsumenci energii",
+  "waiting": "Oczekiwanie na dane aplikacji",
+  "widget.summary": "Pokazuje aplikacje zużywające najwięcej energii po otwarciu karty bieżącego zasilania.",
+  "widget.title": "Zasilanie aplikacji"
+}

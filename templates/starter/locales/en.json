@@ -1,0 +1,7 @@
+{
+  "widget.title": "Starter Template",
+  "widget.summary": "The smallest scripted widget: a button that counts up.",
+  "heading": "Counter",
+  "hint": "The value survives restarts.",
+  "increment": "Increase"
+}

@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Part des prochaines heures occupée par des événements",
+  "chartNote": "Chaque barre indique la part d’une heure occupée par des événements",
+  "chartTitle": "Déroulé de la journée",
+  "deniedHint": "Autorisez l’accès au calendrier dans Réglages Système",
+  "eventsTitle": "Événements du jour",
+  "grantAccess": "Autoriser le calendrier",
+  "maximumRows": "Nombre maximal de lignes",
+  "needsAccess": "Autorisation Calendrier requise",
+  "needsAccessHint": "Autorisez l’accès au calendrier pour voir les réunions",
+  "noEvents": "Aucun événement aujourd’hui",
+  "noEventsBody": "Votre calendrier n’affiche aucun événement horaire aujourd’hui. Les événements d’une journée entière ne sont pas listés dans cette vue.",
+  "permission": "Autorisation requise",
+  "refreshInterval": "Intervalle d’actualisation (secondes)",
+  "subtitle": "Événements du jour",
+  "today": "Aujourd’hui",
+  "widget.summary": "Affiche les prochains événements d’aujourd’hui et l’état des autorisations.",
+  "widget.title": "Calendrier"
+}

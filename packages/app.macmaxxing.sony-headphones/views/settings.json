@@ -1,0 +1,66 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.noise}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "noiseControl",
+      "options": "noiseCancelling,ambientSound,off",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.ambientLevel}}",
+      "style": "caption"
+    },
+    {
+      "type": "slider",
+      "key": "ambientLevel",
+      "min": 0,
+      "max": 20,
+      "step": 1
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.focus}}",
+      "key": "focusOnVoice"
+    },
+    {
+      "type": "text",
+      "text": "{{t.equalizer}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "equalizer",
+      "options": "off,heavy,clear,hard,soft,custom",
+      "style": "menu"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.speak}}",
+      "key": "speakToChat"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.pause}}",
+      "key": "pauseWhenTakenOff"
+    },
+    {
+      "type": "text",
+      "text": "{{t.autoOff}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "automaticPowerOff",
+      "options": "whenTakenOff,never",
+      "style": "segmented"
+    }
+  ],
+  "spacing": 10
+}

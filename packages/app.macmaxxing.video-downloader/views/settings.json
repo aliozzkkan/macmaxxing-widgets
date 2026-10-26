@@ -1,0 +1,33 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.formatTitle}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "videoFormat",
+      "options": "compatibleMP4,original,audioMP3",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.qualityTitle}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "maximumVideoHeight",
+      "options": "720,1080,1440,2160",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.qualityNote}}",
+      "style": "caption"
+    }
+  ],
+  "spacing": 10
+}

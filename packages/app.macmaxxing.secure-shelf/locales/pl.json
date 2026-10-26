@@ -1,0 +1,23 @@
+{
+  "add": "Dodaj pliki",
+  "autoLock": "Blokuje się po 2 minutach bezczynności i po zablokowaniu Maca.",
+  "copy": "Skopiuj tekst; schowek zostanie wyczyszczony po zablokowaniu sejfu",
+  "drop": "Upuść plik, tekst lub łącze.",
+  "export": "Eksportuj",
+  "lock": "Zablokuj",
+  "locked": "Zablokowane",
+  "lockedHint": "Najpierw odblokuj Bezpieczną półkę, a następnie ponownie upuść elementy.",
+  "lockedMessage": "Zawartość jest zaszyfrowana na tym Macu. Odblokuj ją za pomocą Touch ID lub hasła logowania do Maca.",
+  "lockedTitle": "Zawartość zablokowana",
+  "newNote": "Nowa notatka",
+  "open": "Wł.",
+  "remove": "Usuń",
+  "removeMessage": "Tej czynności nie można cofnąć. Plik źródłowy poza sejfem nie zostanie usunięty.",
+  "removeTitle": "Usunąć ten zaszyfrowany element?",
+  "search": "Szukaj na Bezpiecznej półce",
+  "shelf": "Półka",
+  "title": "Bezpieczna półka",
+  "unlock": "Odblokuj",
+  "widget.summary": "Twoje pliki i notatki pozostają prywatne.",
+  "widget.title": "Bezpieczna półka"
+}

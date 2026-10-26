@@ -1,0 +1,10 @@
+{
+  "density": "Aspetto",
+  "idle": "Nessuna riproduzione in corso",
+  "openSource": "Apri sorgente",
+  "queue": "In programma",
+  "queueEmpty": "La coda è vuota",
+  "subtitle": "Mostra le informazioni su musica o video e i controlli di riproduzione.",
+  "widget.summary": "Mostra le informazioni su musica o video e i controlli di riproduzione.",
+  "widget.title": "File multimediali"
+}

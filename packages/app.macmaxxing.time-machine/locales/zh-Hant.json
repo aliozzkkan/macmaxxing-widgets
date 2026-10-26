@@ -1,0 +1,16 @@
+{
+  "destination": "備份位置",
+  "lastBackup": "最近備份",
+  "nextBackup": "下次備份",
+  "noBackup": "找不到備份",
+  "noBackupBody": "如果未連接 Time Machine 磁碟或從未備份過，則無法讀取最近一次備份。",
+  "openSettings": "打開 Time Machine 設定",
+  "refreshInterval": "更新間隔（秒）",
+  "running": "正在執行",
+  "runningBody": "Time Machine 正在備份。完成後備份時間會重置。",
+  "status": "狀態",
+  "subtitle": "最近備份的時間和狀態",
+  "upToDate": "備份是最新的",
+  "widget.summary": "顯示上次備份時間和進行中的備份。",
+  "widget.title": "Time Machine 健康度"
+}

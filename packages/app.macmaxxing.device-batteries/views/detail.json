@@ -1,0 +1,162 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasLow",
+          "then": {
+            "type": "badge",
+            "text": "{{t.lowBadge}}",
+            "tone": "warning"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isReady",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.summary}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.lowText}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.noDevices}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.noDevicesBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isUnavailable",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.unavailable}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.unavailableHint}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.lowest",
+          "then": {
+            "type": "value",
+            "label": "{{t.lowest}}",
+            "value": "{{state.lowest.valueText}}",
+            "unit": "{{state.lowest.name}}"
+          }
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.chart",
+              "isLive": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.devicesTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "rows",
+              "items": "state.rows",
+              "title": "title",
+              "value": "value"
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 12
+}

@@ -1,0 +1,17 @@
+{
+  "adapter": "Cargador",
+  "battery": "Batería",
+  "comfortable": "Equilibrado",
+  "compact": "Compacto",
+  "density": "Aspecto",
+  "detailed": "Detallado",
+  "details": "Detalles de medición",
+  "flow": "FLUJO DE ENERGÍA",
+  "incoming": "Entrada",
+  "load": "Salida",
+  "refreshInterval": "Intervalo de actualización (segundos)",
+  "remaining": "Estimado",
+  "subtitle": "Potencia actual",
+  "widget.summary": "Muestra vatios actuales, batería, estado de carga y gráfico de potencia.",
+  "widget.title": "Centro de energía"
+}

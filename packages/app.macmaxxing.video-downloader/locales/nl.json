@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Alleen audio (MP3)",
+  "cancel": "Annuleren",
+  "cancelled": "Geannuleerd",
+  "compatibleMP4": "Compatibele MP4",
+  "drop": "Sleep videolink hiernaartoe",
+  "failed": "Downloaden mislukt",
+  "finished": "Download voltooid",
+  "formatTitle": "Downloadstructuur",
+  "hint": "Sleep een videolink naar de widget of download de link op het klembord.",
+  "original": "Originele structuur",
+  "paste": "Downloaden van klembord",
+  "preparing": "Voorbereiden",
+  "qualityNote": "Bij keuze voor MP3 wordt videokwaliteit niet gebruikt; alleen audio wordt opgeslagen.",
+  "qualityTitle": "Videokwaliteit",
+  "reveal": "Toon in Finder",
+  "title": "Videodownloader",
+  "widget.summary": "Slaat ondersteunde videolinks op in de map Downloads via slepen en neerzetten.",
+  "widget.title": "Videodownloader"
+}

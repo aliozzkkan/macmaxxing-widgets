@@ -1,0 +1,20 @@
+{
+  "calm": "GitHubは静かです",
+  "calmBody": "未読の通知はありません",
+  "chartAccessibility": "理由別の未読通知",
+  "chartNote": "各バーは、未読通知のうちその理由が占める割合です",
+  "chartTitle": "通知の理由",
+  "emptyList": "未読の通知はありません",
+  "failed": "GitHubの通知を読み込めませんでした",
+  "failedBody": "現在GitHubの通知を取得できません",
+  "ghMissing": "GitHub CLIが見つかりません",
+  "ghMissingBody": "ghはHomebrew経由でインストールできます",
+  "itemsTitle": "通知",
+  "refreshInterval": "更新間隔（秒）",
+  "signedOut": "GitHubにサインインしていません",
+  "signedOutBody": "GitHub CLIにサインインすると、レビューとCIの状況がここに表示されます。",
+  "subtitle": "レビュー、通知、CIチェック",
+  "unread": "未読",
+  "widget.summary": "レビュー、通知、CI状態を表示します。",
+  "widget.title": "GitHubセンター"
+}

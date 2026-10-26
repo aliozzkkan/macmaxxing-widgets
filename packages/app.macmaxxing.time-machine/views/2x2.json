@@ -1,0 +1,90 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.summary}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 2
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isRunning",
+              "then": {
+                "type": "badge",
+                "text": "{{t.running}}",
+                "tone": "accent"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOk",
+              "then": {
+                "type": "badge",
+                "text": "{{t.upToDate}}",
+                "tone": "positive"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isNone",
+              "then": {
+                "type": "badge",
+                "text": "{{t.noBackup}}",
+                "tone": "warning"
+              }
+            }
+          ],
+          "spacing": 0
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "when",
+      "condition": "state.hasProgress",
+      "then": {
+        "type": "progress",
+        "value": "state.progress",
+        "label": "{{t.running}}"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.hasLast",
+      "then": {
+        "type": "value",
+        "label": "{{t.lastBackup}}",
+        "value": "{{state.lastBackupText}}"
+      }
+    }
+  ],
+  "spacing": 8
+}

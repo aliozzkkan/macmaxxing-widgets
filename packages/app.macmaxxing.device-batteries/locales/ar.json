@@ -1,0 +1,17 @@
+{
+  "allGood": "بطارية جميع الأجهزة كافية",
+  "chartAccessibility": "مخطط مستويات بطارية الأجهزة",
+  "chartNote": "يمثل كل شريط النسبة الحالية لبطارية جهاز",
+  "chartTitle": "مستويات البطارية",
+  "devicesTitle": "الأجهزة",
+  "lowBadge": "البطارية منخفضة",
+  "lowest": "الأدنى",
+  "noDevices": "لم يتم العثور على الجهاز",
+  "noDevicesBody": "عند توصيل جهاز Bluetooth يُبلغ عن معلومات البطارية، يظهر مستواه هنا.",
+  "refreshInterval": "فترة التحديث (بالثواني)",
+  "subtitle": "مستوى بطارية أجهزة Bluetooth المتصلة",
+  "unavailable": "تعذرت قراءة الأجهزة",
+  "unavailableHint": "بيانات Bluetooth غير متوفرة",
+  "widget.summary": "يعرض مستويات بطارية أجهزة Bluetooth المتصلة.",
+  "widget.title": "بطاريات الأجهزة"
+}

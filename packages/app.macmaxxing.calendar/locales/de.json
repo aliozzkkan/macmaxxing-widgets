@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Anteil der kommenden Stunden, die mit Terminen belegt sind",
+  "chartNote": "Jeder Balken zeigt den Anteil einer Stunde, der mit Terminen belegt ist",
+  "chartTitle": "Tagesverlauf",
+  "deniedHint": "Erlauben Sie den Kalenderzugriff in den Systemeinstellungen",
+  "eventsTitle": "Heutige Termine",
+  "grantAccess": "Kalenderzugriff erlauben",
+  "maximumRows": "Maximale Zeilenanzahl",
+  "needsAccess": "Kalenderberechtigung erforderlich",
+  "needsAccessHint": "Kalenderzugriff erlauben, um Meetings anzuzeigen",
+  "noEvents": "Heute keine Termine",
+  "noEventsBody": "Ihr Kalender zeigt für heute keine Termine mit Uhrzeit. Ganztägige Termine werden in dieser Ansicht nicht aufgeführt.",
+  "permission": "Berechtigung erforderlich",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "subtitle": "Heutige Termine",
+  "today": "Heute",
+  "widget.summary": "Zeigt heutige anstehende Ereignisse und den Berechtigungsstatus an.",
+  "widget.title": "Kalender"
+}

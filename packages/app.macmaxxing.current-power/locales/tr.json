@@ -1,0 +1,17 @@
+{
+  "adapter": "Şarj aleti",
+  "battery": "Pil",
+  "comfortable": "Dengeli",
+  "compact": "Kompakt",
+  "density": "Görünüm",
+  "detailed": "Detaylı",
+  "details": "Ölçüm ayrıntıları",
+  "flow": "GÜÇ AKIŞI",
+  "incoming": "Giren",
+  "load": "Çıkan",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "remaining": "Tahmini",
+  "subtitle": "Anlık Güç",
+  "widget.summary": "Anlık watt, pil, şarj durumu ve güç grafiğini gösterir.",
+  "widget.title": "Güç Merkezi"
+}

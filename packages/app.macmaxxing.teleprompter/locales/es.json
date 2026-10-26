@@ -1,0 +1,13 @@
+{
+  "edit": "Editar texto",
+  "finished": "Completado",
+  "prepare": "Preparar texto",
+  "restart": "Reiniciar",
+  "running": "En ejecución",
+  "start": "Iniciar",
+  "stop": "Detener",
+  "title": "Teleprónter",
+  "widget.summary": "Desplaza automáticamente el texto bajo el notch con velocidad ajustable.",
+  "widget.title": "Teleprónter",
+  "words": "palabras"
+}

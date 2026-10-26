@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Accès au dossier des captures d’écran",
+  "count": "Capture d’écran",
+  "empty": "Aucune capture d’écran",
+  "failed": "Impossible de lire les captures d'écran",
+  "grant": "Autoriser l’accès",
+  "latest": "Dernière capture d'écran",
+  "perDay": "Captures d'écran par jour",
+  "readText": "Lire le texte et le QR",
+  "reading": "Texte reconnu",
+  "refreshInterval": "Intervalle d’actualisation (secondes)",
+  "reveal": "Afficher dans le Finder",
+  "rows": "Ligne",
+  "settings": "Réglages",
+  "subtitle": "Empile, ouvre et fait glisser les captures d’écran récentes lorsque l’étagère est activée dans Comportement.",
+  "trash": "Déplacer vers la corbeille",
+  "trashMessage": "Le fichier n'est pas supprimé ; vous pouvez le restaurer depuis la Corbeille.",
+  "trashTitle": "Placer la capture d'écran dans la Corbeille ?",
+  "widget.summary": "Empile, ouvre et fait glisser les captures d’écran récentes lorsque l’étagère est activée dans Comportement.",
+  "widget.title": "Étagère de captures d’écran"
+}

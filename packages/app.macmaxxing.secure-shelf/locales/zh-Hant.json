@@ -1,0 +1,23 @@
+{
+  "add": "加入檔案",
+  "autoLock": "閒置 2 分鐘後或 Mac 鎖定時會重新鎖定。",
+  "copy": "拷貝文字；保險庫鎖定時會清空剪貼板",
+  "drop": "拖放檔案、文字或連結。",
+  "export": "輸出",
+  "lock": "鎖定",
+  "locked": "已鎖定",
+  "lockedHint": "請先解鎖安全架，然後重新拖放項目。",
+  "lockedMessage": "內容在此 Mac 上加密保存。請使用 Touch ID 或 Mac 登入密碼解鎖。",
+  "lockedTitle": "內容已鎖定",
+  "newNote": "新增筆記",
+  "open": "開啟",
+  "remove": "刪除",
+  "removeMessage": "此操作無法復原。保險庫外的原始檔案不會被刪除。",
+  "removeTitle": "刪除此加密項目？",
+  "search": "搜尋安全架",
+  "shelf": "架子",
+  "title": "安全架",
+  "unlock": "解鎖",
+  "widget.summary": "私密保存你的檔案和筆記。",
+  "widget.title": "安全架"
+}

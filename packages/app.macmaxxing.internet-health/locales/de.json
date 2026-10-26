@@ -1,0 +1,20 @@
+{
+  "cancel": "Abbrechen",
+  "chartAccessibility": "Ping-Zeit in den letzten Messungen",
+  "chartNote": "Zeiten sind die Momentwerte der letzten Aktualisierung",
+  "chartTitle": "Ping-Verlauf",
+  "details": "Messdetails",
+  "download": "Laden",
+  "lastTest": "Letzter Geschwindigkeitstest",
+  "loss": "Paketverlust",
+  "offline": "Kein Internet",
+  "offlineBody": "Testadresse konnte nicht erreicht werden",
+  "ping": "Ping",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "speedTest": "Geschwindigkeitstest",
+  "startTest": "Geschwindigkeitstest starten",
+  "subtitle": "Letzte Messungen und Verbindungsqualität",
+  "testing": "Geschwindigkeit wird gemessen …",
+  "widget.summary": "Zeigt Ping, Paketverlust und Verbindungsqualität an.",
+  "widget.title": "Internet Health"
+}

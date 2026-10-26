@@ -1,0 +1,23 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.providersTitle}}",
+      "style": "caption"
+    },
+    {
+      "type": "checklist",
+      "key": "providers",
+      "options": "state.providerOptions",
+      "minimum": 1,
+      "maximum": 4
+    },
+    {
+      "type": "text",
+      "text": "{{t.providersNote}}",
+      "style": "caption"
+    }
+  ],
+  "spacing": 10
+}

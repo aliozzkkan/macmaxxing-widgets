@@ -1,0 +1,131 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasTrack",
+          "then": {
+            "type": "badge",
+            "text": "{{state.appName}}",
+            "tone": "accent"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "when",
+      "condition": "state.hasTrack",
+      "then": {
+        "type": "hstack",
+        "children": [
+          {
+            "type": "image",
+            "handle": "{{state.artwork}}",
+            "fallbackSymbol": "music.note",
+            "shape": "rounded"
+          },
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "text",
+                "text": "{{state.title}}",
+                "style": "title"
+              },
+              {
+                "type": "text",
+                "text": "{{state.artist}}",
+                "style": "body"
+              },
+              {
+                "type": "text",
+                "text": "{{state.album}}",
+                "style": "caption"
+              }
+            ],
+            "spacing": 3
+          }
+        ],
+        "spacing": 14
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "text",
+        "text": "{{t.idle}}",
+        "style": "title"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.canSeek",
+      "then": {
+        "type": "scrubber",
+        "elapsed": "state.elapsed",
+        "duration": "state.duration",
+        "rate": "state.rate",
+        "at": "state.at",
+        "action": "seek"
+      }
+    },
+    {
+      "type": "mediaTransport",
+      "state": "state.playing",
+      "actions": {
+        "playPause": "playPause",
+        "next": "next",
+        "previous": "previous",
+        "skipBack": "skipBack",
+        "skipForward": "skipForward"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.hasSource",
+      "then": {
+        "type": "button",
+        "title": "{{t.openSource}}",
+        "action": "openSource",
+        "symbol": "arrow.up.forward.app"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.hasQueue",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{t.queue}}",
+            "style": "caption"
+          },
+          {
+            "type": "list",
+            "items": "state.queue",
+            "id": "id",
+            "title": "title",
+            "detail": "detail",
+            "emptyText": "{{t.queueEmpty}}"
+          }
+        ],
+        "spacing": 4
+      }
+    }
+  ],
+  "spacing": 10
+}

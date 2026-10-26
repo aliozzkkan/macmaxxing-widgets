@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Audio uniquement (MP3)",
+  "cancel": "Annuler",
+  "cancelled": "Annulé",
+  "compatibleMP4": "MP4 compatible",
+  "drop": "Déposer le lien de la vidéo ici",
+  "failed": "Échec du téléchargement",
+  "finished": "Téléchargement terminé",
+  "formatTitle": "Format de téléchargement",
+  "hint": "Faites glisser un lien vidéo sur le widget ou téléchargez le lien du presse-papiers.",
+  "original": "Format d’origine",
+  "paste": "Télécharger depuis le presse-papiers",
+  "preparing": "Préparation en cours",
+  "qualityNote": "Lorsque MP3 est sélectionné, la qualité vidéo n’est pas utilisée ; seul l’audio est enregistré.",
+  "qualityTitle": "Qualité vidéo",
+  "reveal": "Afficher dans le Finder",
+  "title": "Téléchargeur vidéo",
+  "widget.summary": "Enregistre les liens vidéo pris en charge dans le dossier Téléchargements par glisser-déposer.",
+  "widget.title": "Téléchargeur vidéo"
+}

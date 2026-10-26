@@ -1,0 +1,27 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.heading}}",
+      "style": "title"
+    },
+    {
+      "type": "text",
+      "text": "{{state.count}}",
+      "style": "value"
+    },
+    {
+      "type": "text",
+      "text": "{{t.hint}}",
+      "style": "caption"
+    },
+    {
+      "type": "button",
+      "title": "{{t.increment}}",
+      "symbol": "plus",
+      "action": "increment"
+    }
+  ]
+}

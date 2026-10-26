@@ -1,0 +1,29 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "symbol",
+      "name": "lock.shield"
+    },
+    {
+      "type": "text",
+      "text": "{{t.title}}",
+      "style": "title"
+    },
+    {
+      "type": "text",
+      "text": "{{t.caption}}",
+      "style": "caption"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "button",
+      "title": "{{t.title}}",
+      "symbol": "lock.shield",
+      "action": "run"
+    }
+  ]
+}

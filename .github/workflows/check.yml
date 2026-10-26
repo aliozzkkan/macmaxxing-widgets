@@ -1,0 +1,98 @@
+name: check
+
+# Runs on untrusted pull requests: read-only token, no repository variables or credentials of any
+# kind. The result is shown in the job summary; automerge.yml reacts to this workflow finishing.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
+  CATALOG_BASE_URL: https://aliozzkkan.github.io/macmaxxing-widgets
+
+jobs:
+  validate:
+    runs-on: macos-15
+    steps:
+      - name: Check out the pull request
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+
+      - name: Read the pinned validator commit
+        id: pin
+        run: echo "sha=$(tr -d '[:space:]' < validator-ref)" >> "$GITHUB_OUTPUT"
+
+      - name: Check out the pinned validator
+        uses: actions/checkout@v7
+        with:
+          repository: aliozzkkan/MacMaxxing
+          ref: ${{ steps.pin.outputs.sha }}
+          path: validator
+          persist-credentials: false
+
+      - name: Cache the validator build
+        uses: actions/cache@v5
+        with:
+          path: validator/.build
+          key: mxwidget-${{ runner.os }}-${{ steps.pin.outputs.sha }}
+
+      - name: Build mxwidget
+        working-directory: validator
+        run: swift build -c release --product mxwidget
+
+      - name: Fetch the published index
+        run: |
+          if curl -fsS "$CATALOG_BASE_URL/index.json" -o published-index.json; then
+            echo "Published index fetched."
+          else
+            rm -f published-index.json
+            echo "No published index yet; validating without a published baseline."
+          fi
+
+      - name: Validate changed packages
+        env:
+          SUBMITTER: ${{ github.event.pull_request.user.login }}
+        run: |
+          set -u
+          mkdir -p out
+          # HEAD is the merge of the pull request into the base branch; its first parent is the base.
+          changed=$(git diff --name-only HEAD^1 HEAD -- packages | cut -d/ -f2 | sort -u)
+          if [[ -z "$changed" ]]; then
+            echo "No package changed." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          published=()
+          if [[ -f published-index.json ]]; then published=(--published published-index.json); fi
+          status=0
+          for id in $changed; do
+            [[ -d "packages/$id" ]] || { echo "$id was removed." >> "$GITHUB_STEP_SUMMARY"; continue; }
+            mkdir -p "out/$id"
+            if ! validator/.build/release/mxwidget validate "packages/$id" \
+                 --submitter "$SUBMITTER" --registry registry/packages.json \
+                 ${published[@]+"${published[@]}"} --screenshots "out/$id" --json > "out/$id/report.json"; then
+              status=1
+            fi
+            {
+              echo "### $id"
+              echo '```json'
+              cat "out/$id/report.json"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          done
+          exit $status
+
+      - name: Upload screenshots and reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: validation-output
+          path: out/
+          if-no-files-found: ignore

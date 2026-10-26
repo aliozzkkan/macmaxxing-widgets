@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Nur Audio (MP3)",
+  "cancel": "Abbrechen",
+  "cancelled": "Abgebrochen",
+  "compatibleMP4": "Kompatibles MP4",
+  "drop": "Videolink hier ablegen",
+  "failed": "Download fehlgeschlagen",
+  "finished": "Download abgeschlossen",
+  "formatTitle": "Download-Format",
+  "hint": "Ziehe einen Videolink auf das Widget oder lade den Link aus der Zwischenablage.",
+  "original": "Originalformat",
+  "paste": "Aus Zwischenablage laden",
+  "preparing": "Wird vorbereitet",
+  "qualityNote": "Bei Auswahl von MP3 wird die Videoqualität ignoriert; es wird nur Audio aufgenommen.",
+  "qualityTitle": "Videoqualität",
+  "reveal": "Im Finder anzeigen",
+  "title": "Video-Downloader",
+  "widget.summary": "Sichert unterstützte Videolinks per Drag-and-Drop im Downloads-Ordner.",
+  "widget.title": "Video-Downloader"
+}

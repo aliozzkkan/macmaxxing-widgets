@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "今後の時間帯のうち予定で埋まっている割合",
+  "chartNote": "各バーは、その1時間のうち予定で埋まっている割合です",
+  "chartTitle": "一日の流れ",
+  "deniedHint": "システム設定でカレンダーへのアクセスを許可してください",
+  "eventsTitle": "今日の予定",
+  "grantAccess": "カレンダーを許可",
+  "maximumRows": "最大行数",
+  "needsAccess": "カレンダーのアクセス権が必要です",
+  "needsAccessHint": "ミーティングを表示するにはカレンダーへのアクセスを許可してください",
+  "noEvents": "今日の予定はありません",
+  "noEventsBody": "今日は時刻指定の予定がありません。終日の予定はこの表示には含まれません。",
+  "permission": "アクセス権が必要です",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "今日の予定",
+  "today": "今日",
+  "widget.summary": "今日の今後の予定とアクセス権の状態を表示します。",
+  "widget.title": "カレンダー"
+}

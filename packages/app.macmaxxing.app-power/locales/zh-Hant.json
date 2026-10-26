@@ -1,0 +1,14 @@
+{
+  "comfortable": "平衡",
+  "compact": "精簡",
+  "density": "外觀",
+  "detailed": "詳細",
+  "estimate": "數值根據 CPU 負載預估",
+  "heading": "最耗電項目",
+  "rows": "最多行數",
+  "subtitle": "預估應用程式佔比",
+  "top": "最耗電項目",
+  "waiting": "正在等待應用程式資料",
+  "widget.summary": "開啟即時功率卡片時，顯示最耗電的應用程式。",
+  "widget.title": "應用程式功耗"
+}

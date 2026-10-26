@@ -1,0 +1,16 @@
+{
+  "destination": "Destinazione del backup",
+  "lastBackup": "Ultimo backup",
+  "nextBackup": "Prossimo backup",
+  "noBackup": "Nessun backup trovato",
+  "noBackupBody": "L’ultimo backup non è leggibile se il disco di Time Machine non è collegato o non è mai stato eseguito un backup.",
+  "openSettings": "Apri impostazioni di Time Machine",
+  "refreshInterval": "Intervallo di aggiornamento (secondi)",
+  "running": "In esecuzione",
+  "runningBody": "Time Machine sta eseguendo un backup. L’età si azzera al termine.",
+  "status": "Stato",
+  "subtitle": "Ora e stato dell’ultimo backup",
+  "upToDate": "I backup sono aggiornati",
+  "widget.summary": "Mostra l'ora dell'ultimo backup e i backup in corso.",
+  "widget.title": "Stato di Time Machine"
+}

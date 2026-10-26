@@ -1,0 +1,51 @@
+name: Report a widget package
+description: Report a package that is unsafe, misleading, broken or violates the catalog rules.
+title: "Report: "
+labels: [report]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting. This form is public: do not include personal data, tokens or screenshots of private content.
+        The widget library opens this form with the package id and version already filled in.
+  - type: input
+    id: package
+    attributes:
+      label: Package id
+      description: For example `com.example.my-widget`.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      description: For example `1.0.0`.
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What is wrong?
+      options:
+        - Malicious or unsafe behavior
+        - Collects or sends data it should not
+        - Misleading title, description or permissions
+        - Impersonates another person or product
+        - Broken or crashes the host
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What did you see, and how can the maintainers reproduce it?
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I did not include personal data, secrets or private content.
+          required: true

@@ -1,0 +1,12 @@
+{
+  "grant": "Autoriser",
+  "needed": "Autorisation pour la caméra requise",
+  "openStudio": "Ouvrir le Studio",
+  "ready": "Caméra prête",
+  "record": "Démarrer l’enregistrement",
+  "recording": "Enregistrement",
+  "studio": "Studio Caméra",
+  "waiting": "Caméra en veille",
+  "widget.summary": "Donne un accès rapide à l’aperçu de la caméra et à l’état des autorisations.",
+  "widget.title": "Caméra"
+}

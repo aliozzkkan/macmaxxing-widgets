@@ -1,0 +1,13 @@
+{
+  "edit": "Edytuj tekst",
+  "finished": "Ukończono",
+  "prepare": "Przygotuj tekst",
+  "restart": "Uruchom ponownie",
+  "running": "Działa",
+  "start": "Start",
+  "stop": "Zatrzymaj",
+  "title": "Teleprompter",
+  "widget.summary": "Automatycznie przewija tekst pod wcięciem z regulowaną prędkością.",
+  "widget.title": "Teleprompter",
+  "words": "słowa"
+}

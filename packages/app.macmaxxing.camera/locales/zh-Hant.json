@@ -1,0 +1,12 @@
+{
+  "grant": "允許",
+  "needed": "需要攝影機權限",
+  "openStudio": "開啟工作室",
+  "ready": "攝影機就緒",
+  "record": "開始錄製",
+  "recording": "正在錄製",
+  "studio": "攝影機工作室",
+  "waiting": "攝影機待命",
+  "widget.summary": "將攝影機預覽與權限狀態帶至快速存取中。",
+  "widget.title": "攝影機"
+}

@@ -1,0 +1,124 @@
+name: publish
+
+# Builds every package, signs the index and the revocation list, and pushes the static site to the
+# gh-pages branch. Only runs for commits that landed on main.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-publish
+  cancel-in-progress: false
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
+  CATALOG_BASE_URL: https://aliozzkkan.github.io/macmaxxing-widgets/
+
+jobs:
+  publish:
+    runs-on: macos-15
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Read the pinned validator commit
+        id: pin
+        run: echo "sha=$(tr -d '[:space:]' < validator-ref)" >> "$GITHUB_OUTPUT"
+
+      - name: Check out the pinned validator
+        uses: actions/checkout@v7
+        with:
+          repository: aliozzkkan/MacMaxxing
+          ref: ${{ steps.pin.outputs.sha }}
+          path: validator
+          persist-credentials: false
+
+      - name: Cache the validator build
+        uses: actions/cache@v5
+        with:
+          path: validator/.build
+          key: mxwidget-${{ runner.os }}-${{ steps.pin.outputs.sha }}
+
+      - name: Build mxwidget
+        working-directory: validator
+        run: swift build -c release --product mxwidget
+
+      - name: Check out the live site
+        id: live
+        run: |
+          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" gh-pages > /dev/null; then
+            git clone --depth 1 --branch gh-pages "https://github.com/${GITHUB_REPOSITORY}.git" site-live
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate every package
+        env:
+          LIVE_EXISTS: ${{ steps.live.outputs.exists }}
+        run: |
+          set -euo pipefail
+          published=()
+          if [[ "$LIVE_EXISTS" == "true" && -f site-live/index.json ]]; then
+            published=(--published site-live/index.json)
+          fi
+          status=0
+          for dir in packages/*/; do
+            id=$(basename "$dir")
+            # On main the submitter is the registry owner of the package.
+            owner=$(jq -r --arg id "$id" '.[$id].owner // empty' registry/packages.json)
+            if [[ -z "$owner" ]]; then
+              echo "::error::$id has no owner in registry/packages.json"
+              status=1
+              continue
+            fi
+            if ! validator/.build/release/mxwidget validate "packages/$id" \
+                 --submitter "$owner" --registry registry/packages.json \
+                 ${published[@]+"${published[@]}"}; then
+              echo "::error::$id failed validation"
+              status=1
+            fi
+          done
+          exit $status
+
+      - name: Build and sign the site
+        env:
+          CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
+          LIVE_EXISTS: ${{ steps.live.outputs.exists }}
+        run: |
+          set -euo pipefail
+          previous=()
+          if [[ "$LIVE_EXISTS" == "true" ]]; then previous=(--previous site-live); fi
+          validator/.build/release/mxwidget site --packages packages --registry registry/packages.json \
+            ${previous[@]+"${previous[@]}"} --base-url "$CATALOG_BASE_URL" --key-env CATALOG_SIGNING_KEY --out out/site
+          validator/.build/release/mxwidget revocations --source revocations/revoked.source.json \
+            --key-env CATALOG_SIGNING_KEY --out out/site
+
+      - name: Push to gh-pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          touch out/site/.nojekyll
+          if [[ -d site-live/.git ]]; then
+            mv site-live/.git out/site/.git
+          else
+            git -C out/site init --initial-branch=gh-pages
+          fi
+          cd out/site
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git remote remove origin 2> /dev/null || true
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "Site is unchanged."
+          else
+            git commit -m "Publish catalog from ${GITHUB_SHA}"
+            git push origin HEAD:gh-pages
+          fi

@@ -1,0 +1,10 @@
+{
+  "density": "Wygląd",
+  "idle": "Nic nie jest odtwarzane",
+  "openSource": "Otwórz źródło",
+  "queue": "Nadchodzące",
+  "queueEmpty": "Kolejka jest pusta",
+  "subtitle": "Pokazuje informacje o muzyce lub wideo oraz elementy sterujące odtwarzaniem.",
+  "widget.summary": "Pokazuje informacje o muzyce lub wideo oraz elementy sterujące odtwarzaniem.",
+  "widget.title": "Media"
+}

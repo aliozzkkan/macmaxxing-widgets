@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "プロバイダーの上限と使用率",
+  "chartNote": "各バーはプロバイダーの最も高い使用率です",
+  "chartTitle": "使用状況",
+  "heroTitle": "どの制限が先にリセットされますか？",
+  "left": "残り",
+  "noSession": "AIセッションが見つかりません",
+  "noSessionBody": "サポートされているAIツールにアカウントでログインしてください",
+  "providersNote": "4×4ウィジェットには一度に最大4つのツールが表示されます",
+  "providersTitle": "表示するAIツール",
+  "remaining": "残り",
+  "resetsIn": "リセットまで",
+  "subtitle": "プロバイダーの上限とリセット時刻",
+  "usage": "使用状況",
+  "widget.summary": "AIのクォータ、更新時間、残高を表示します。",
+  "widget.title": "AI使用状況センター"
+}

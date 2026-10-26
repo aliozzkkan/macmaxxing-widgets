@@ -1,0 +1,10 @@
+{
+  "density": "Aparência",
+  "idle": "Nada está tocando",
+  "openSource": "Abrir origem",
+  "queue": "Próximo",
+  "queueEmpty": "A fila está vazia",
+  "subtitle": "Mostra informações de música ou vídeo e controles de reprodução.",
+  "widget.summary": "Mostra informações de música ou vídeo e controles de reprodução.",
+  "widget.title": "Mídia"
+}

@@ -1,0 +1,23 @@
+{
+  "add": "Dosya ekle",
+  "autoLock": "2 dakika işlem yapılmadığında ve Mac kilitlendiğinde yeniden kilitlenir.",
+  "copy": "Metni kopyala; kilitlenince pano temizlenir",
+  "drop": "Dosya, metin veya bağlantı bırak.",
+  "export": "Dışa aktar",
+  "lock": "Kilitle",
+  "locked": "Kilitli",
+  "lockedHint": "Eklemek için önce Güvenli Raf'ın kilidini açın, ardından tekrar bırakın.",
+  "lockedMessage": "İçerikler bu Mac'te şifreli saklanır. Açmak için Touch ID veya Mac giriş parolanı kullan.",
+  "lockedTitle": "İçerikler kilitli",
+  "newNote": "Yeni not",
+  "open": "Açık",
+  "remove": "Sil",
+  "removeMessage": "Bu işlem geri alınamaz. Dışarıdaki kaynak dosya silinmez.",
+  "removeTitle": "Şifreli öğe silinsin mi?",
+  "search": "Güvenli Raf'ta ara",
+  "shelf": "Raf",
+  "title": "Güvenli Raf",
+  "unlock": "Kilidi aç",
+  "widget.summary": "Dosyaların ve notların sana özel.",
+  "widget.title": "Güvenli Raf"
+}

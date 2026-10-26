@@ -1,0 +1,14 @@
+{
+  "capabilities": {
+    "files.shelf.list": {
+      "items": [
+        {
+          "id": "f1",
+          "name": "a.txt",
+          "kind": "file",
+          "size": 2048
+        }
+      ]
+    }
+  }
+}

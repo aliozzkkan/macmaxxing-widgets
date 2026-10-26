@@ -1,0 +1,14 @@
+{
+  "type": "hstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{state.primary}}",
+      "style": "value"
+    },
+    {
+      "type": "spacer"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "edit": "텍스트 편집",
+  "finished": "완료됨",
+  "prepare": "텍스트 준비",
+  "restart": "재시동",
+  "running": "실행 중",
+  "start": "시작",
+  "stop": "중지",
+  "title": "텔레프롬프터",
+  "widget.summary": "노치 아래에서 조절 가능한 속도로 텍스트를 자동으로 스크롤합니다.",
+  "widget.title": "텔레프롬프터",
+  "words": "단어"
+}

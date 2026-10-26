@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Yalnızca ses (MP3)",
+  "cancel": "İptal et",
+  "cancelled": "İptal edildi",
+  "compatibleMP4": "Uyumlu MP4",
+  "drop": "Video bağlantısını buraya bırak",
+  "failed": "İndirme başarısız",
+  "finished": "İndirme tamamlandı",
+  "formatTitle": "İndirme biçimi",
+  "hint": "Bir video bağlantısını widgeta sürükleyin ya da panodaki bağlantıyı indirin.",
+  "original": "Orijinal biçim",
+  "paste": "Panodakini indir",
+  "preparing": "Hazırlanıyor",
+  "qualityNote": "MP3 seçildiğinde video kalitesi kullanılmaz; yalnızca ses kaydedilir.",
+  "qualityTitle": "Video kalitesi",
+  "reveal": "Finder’da göster",
+  "title": "Video İndirici",
+  "widget.summary": "Desteklenen video bağlantılarını sürükleyip bırakarak İndirilenler klasörüne kaydeder.",
+  "widget.title": "Video İndirici"
+}

@@ -1,0 +1,17 @@
+{
+  "adapter": "Alimentatore",
+  "battery": "Batteria",
+  "comfortable": "Bilanciato",
+  "compact": "Compatto",
+  "density": "Aspetto",
+  "detailed": "Dettagliato",
+  "details": "Dettagli misurazione",
+  "flow": "FLUSSO DI ENERGIA",
+  "incoming": "In ingresso",
+  "load": "In uscita",
+  "refreshInterval": "Intervallo di aggiornamento (secondi)",
+  "remaining": "Stimato",
+  "subtitle": "Potenza attuale",
+  "widget.summary": "Mostra potenza attuale in watt, batteria, stato di ricarica e grafico di alimentazione.",
+  "widget.title": "Centro consumi"
+}

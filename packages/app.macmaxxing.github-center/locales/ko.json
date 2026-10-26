@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub 이상 없음",
+  "calmBody": "읽지 않은 알림이 없습니다",
+  "chartAccessibility": "사유별 읽지 않은 알림",
+  "chartNote": "각 막대는 읽지 않은 알림 중 해당 사유가 차지하는 비율입니다",
+  "chartTitle": "알림 사유",
+  "emptyList": "읽지 않은 알림이 없습니다",
+  "failed": "GitHub 알림을 읽을 수 없습니다",
+  "failedBody": "현재 GitHub 알림을 가져올 수 없습니다",
+  "ghMissing": "GitHub CLI를 찾을 수 없음",
+  "ghMissingBody": "Homebrew를 통해 gh를 설치할 수 있습니다",
+  "itemsTitle": "알림",
+  "refreshInterval": "새로고침 간격(초)",
+  "signedOut": "GitHub에 로그인되어 있지 않습니다",
+  "signedOutBody": "GitHub CLI에 로그인하면 리뷰와 CI 상태가 여기에 표시됩니다.",
+  "subtitle": "리뷰, 알림, CI 검사",
+  "unread": "읽지 않음",
+  "widget.summary": "검토, 알림 및 CI 상태를 표시합니다.",
+  "widget.title": "GitHub 센터"
+}

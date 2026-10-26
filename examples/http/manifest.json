@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "community.example.http",
+  "version": "1.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Example Author",
+    "url": "https://example.com"
+  },
+  "presentation": {
+    "title": "Hava Sıcaklığı",
+    "summary": "İstanbul'un anlık sıcaklığını açık bir HTTP API'den okur.",
+    "category": "tools",
+    "systemImageName": "thermometer.medium",
+    "defaultSize": "2x3",
+    "allowedSizes": [
+      "2x3",
+      "2x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [],
+  "allowedNetworkHosts": [
+    "api.open-meteo.com"
+  ],
+  "refreshIntervalSeconds": 600,
+  "defaultSettings": {
+    "refreshIntervalSeconds": 600
+  }
+}

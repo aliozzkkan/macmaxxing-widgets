@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub sakin",
+  "calmBody": "Okunmamış bildirim yok",
+  "chartAccessibility": "Okunmamış bildirimlerin nedene göre dağılımı",
+  "chartNote": "Her çubuk, bir nedenin okunmamış bildirimler içindeki payıdır",
+  "chartTitle": "Bildirim nedenleri",
+  "emptyList": "Okunmamış bildirim yok",
+  "failed": "GitHub bildirimleri okunamadı",
+  "failedBody": "GitHub bildirimleri şu anda alınamıyor",
+  "ghMissing": "GitHub CLI bulunamadı",
+  "ghMissingBody": "Homebrew ile gh kurulabilir",
+  "itemsTitle": "Bildirimler",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "signedOut": "GitHub oturumu kapalı",
+  "signedOutBody": "GitHub CLI oturumu açıldığında incelemeler ve CI durumu burada görünür.",
+  "subtitle": "İncelemeler, bildirimler ve CI kontrolleri",
+  "unread": "Okunmamış",
+  "widget.summary": "İncelemeleri, bildirimleri ve CI durumunu gösterir.",
+  "widget.title": "GitHub Merkezi"
+}

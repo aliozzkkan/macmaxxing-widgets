@@ -1,0 +1,17 @@
+{
+  "allGood": "Tous les appareils ont assez de batterie",
+  "chartAccessibility": "Graphique des niveaux de batterie des appareils",
+  "chartNote": "Chaque barre indique le pourcentage de batterie actuel d’un appareil",
+  "chartTitle": "Niveaux de batterie",
+  "devicesTitle": "Appareils",
+  "lowBadge": "Batterie faible",
+  "lowest": "Le plus bas",
+  "noDevices": "Appareil introuvable",
+  "noDevicesBody": "Lorsqu’un appareil Bluetooth indiquant sa batterie est connecté, son niveau apparaît ici.",
+  "refreshInterval": "Intervalle d’actualisation (secondes)",
+  "subtitle": "Niveau de batterie des appareils Bluetooth connectés",
+  "unavailable": "Impossible de lire les appareils",
+  "unavailableHint": "Données Bluetooth indisponibles",
+  "widget.summary": "Affiche le niveau de batterie des appareils Bluetooth connectés.",
+  "widget.title": "Batteries des appareils"
+}

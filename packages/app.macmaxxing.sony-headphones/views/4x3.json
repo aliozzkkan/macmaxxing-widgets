@@ -1,0 +1,120 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "symbol",
+          "name": "headphones"
+        },
+        {
+          "type": "text",
+          "text": "{{state.deviceName}}",
+          "style": "title"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isCharging",
+          "then": {
+            "type": "badge",
+            "text": "{{t.battery}}",
+            "tone": "positive"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isConnected",
+          "then": {
+            "type": "text",
+            "text": "{{t.connected}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isConnecting",
+          "then": {
+            "type": "text",
+            "text": "{{t.connecting}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isOffline",
+          "then": {
+            "type": "text",
+            "text": "{{t.offline}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 0
+    },
+    {
+      "type": "when",
+      "condition": "state.hasBattery",
+      "then": {
+        "type": "bar",
+        "label": "{{t.battery}}",
+        "percent": "{{state.battery}}"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isConnected",
+      "then": {
+        "type": "picker",
+        "key": "noiseControl",
+        "options": "noiseCancelling,ambientSound,off",
+        "style": "segmented"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isConnected",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{t.ambientLevel}}",
+            "style": "caption"
+          },
+          {
+            "type": "slider",
+            "key": "ambientLevel",
+            "min": 0,
+            "max": 20,
+            "step": 1
+          }
+        ],
+        "spacing": 2
+      }
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.isOffline",
+      "then": {
+        "type": "button",
+        "title": "{{t.reconnect}}",
+        "action": "connect",
+        "symbol": "arrow.clockwise"
+      }
+    }
+  ],
+  "spacing": 8
+}

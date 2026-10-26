@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "截屏文件夹访问权限",
+  "count": "屏幕截图",
+  "empty": "无屏幕截图",
+  "failed": "无法读取屏幕截图",
+  "grant": "允许访问",
+  "latest": "最新屏幕截图",
+  "perDay": "每日屏幕截图",
+  "readText": "读取文本和二维码",
+  "reading": "识别出的文本",
+  "refreshInterval": "刷新间隔（秒）",
+  "reveal": "在访达中显示",
+  "rows": "行",
+  "settings": "设置",
+  "subtitle": "当在“行为”中启用暂存架时，层叠显示、打开并拖动最近的屏幕截图。",
+  "trash": "移到废纸篓",
+  "trashMessage": "文件不会被删除；你可以从废纸篓中恢复。",
+  "trashTitle": "要将屏幕截图移到废纸篓吗？",
+  "widget.summary": "当在“行为”中启用暂存架时，层叠显示、打开并拖动最近的屏幕截图。",
+  "widget.title": "屏幕截图暂存架"
+}

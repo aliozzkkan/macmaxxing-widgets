@@ -1,0 +1,8 @@
+{
+  "capabilities": {
+    "camera.studio.status": {
+      "permission": "authorized",
+      "recording": false
+    }
+  }
+}

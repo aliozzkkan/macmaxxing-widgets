@@ -1,0 +1,15 @@
+{
+  "capabilities": {
+    "clipboard.history.list": {
+      "items": [
+        {
+          "id": "c1",
+          "title": "hello",
+          "kind": "text",
+          "detail": "",
+          "pinned": false
+        }
+      ]
+    }
+  }
+}

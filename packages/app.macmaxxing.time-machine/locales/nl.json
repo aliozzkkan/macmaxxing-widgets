@@ -1,0 +1,16 @@
+{
+  "destination": "Back-uplocatie",
+  "lastBackup": "Laatste back-up",
+  "nextBackup": "Volgende back-up",
+  "noBackup": "Geen back-ups gevonden",
+  "noBackupBody": "De laatste back-up kan niet worden gelezen als de Time Machine-schijf niet is verbonden of er nooit een back-up is gemaakt.",
+  "openSettings": "Time Machine-instellingen openen",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "running": "Actief",
+  "runningBody": "Time Machine maakt nu een back-up. De leeftijd wordt gereset zodra het klaar is.",
+  "status": "Status",
+  "subtitle": "Tijd en status van de laatste back-up",
+  "upToDate": "Back-ups zijn up-to-date",
+  "widget.summary": "Toont de laatste reservekopietijd en lopende reservekopieën.",
+  "widget.title": "Time Machine-status"
+}

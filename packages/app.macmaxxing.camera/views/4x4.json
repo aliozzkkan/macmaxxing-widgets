@@ -1,0 +1,115 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "symbol",
+          "name": "camera.fill"
+        },
+        {
+          "type": "text",
+          "text": "{{t.studio}}",
+          "style": "title"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isRecording",
+          "then": {
+            "type": "badge",
+            "text": "{{t.recording}}",
+            "tone": "critical"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isAuthorized",
+          "then": {
+            "type": "text",
+            "text": "{{t.ready}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isUndecided",
+          "then": {
+            "type": "text",
+            "text": "{{t.waiting}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isDenied",
+          "then": {
+            "type": "text",
+            "text": "{{t.needed}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 4
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.canRecord",
+      "then": {
+        "type": "button",
+        "title": "{{t.record}}",
+        "action": "record",
+        "symbol": "record.circle"
+      }
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isUndecided",
+          "then": {
+            "type": "button",
+            "title": "{{t.grant}}",
+            "action": "primary",
+            "symbol": "camera.fill"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isAuthorized",
+          "then": {
+            "type": "button",
+            "title": "{{t.openStudio}}",
+            "action": "primary",
+            "symbol": "camera.fill"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isDenied",
+          "then": {
+            "type": "button",
+            "title": "{{t.openStudio}}",
+            "action": "primary",
+            "symbol": "camera.fill"
+          }
+        }
+      ],
+      "spacing": 0
+    }
+  ],
+  "spacing": 8
+}

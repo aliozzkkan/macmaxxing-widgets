@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Cotas dos provedores e taxas de uso",
+  "chartNote": "Cada barra é a maior taxa de uso de um provedor",
+  "chartTitle": "Uso",
+  "heroTitle": "Qual limite será redefinido primeiro?",
+  "left": "restante",
+  "noSession": "Nenhuma sessão de IA encontrada",
+  "noSessionBody": "Inicie sessão com sua conta em uma ferramenta de IA suportada",
+  "providersNote": "Até quatro ferramentas são exibidas simultaneamente no widget 4×4",
+  "providersTitle": "Ferramentas de IA a exibir",
+  "remaining": "Restante",
+  "resetsIn": "Redefine em",
+  "subtitle": "Cotas dos provedores e horários de redefinição",
+  "usage": "Uso",
+  "widget.summary": "Mostra cotas de IA, tempos de renovação e saldos.",
+  "widget.title": "Central de Uso de IA"
+}

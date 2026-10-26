@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "今日任务的优先级分布",
+  "chartNote": "每个柱表示某一优先级任务所占的比例",
+  "chartTitle": "任务紧急程度分布",
+  "deniedHint": "请在“系统设置”中允许访问提醒事项",
+  "grantAccess": "允许访问提醒事项",
+  "itemsTitle": "待处理事项",
+  "maximumRows": "最多行数",
+  "needsAccess": "需要提醒事项权限",
+  "needsAccessHint": "允许访问以查看提醒事项",
+  "noItems": "没有待办任务",
+  "noItemsBody": "今天及之前没有到期的提醒事项。",
+  "permission": "需要权限",
+  "refreshInterval": "刷新间隔（秒）",
+  "subtitle": "截至今天尚未完成的任务",
+  "tasks": "任务",
+  "unavailable": "无法读取提醒事项",
+  "unavailableHint": "目前无法获取提醒事项数据",
+  "widget.summary": "显示今天的任务和提醒事项权限状态。",
+  "widget.title": "提醒事项"
+}

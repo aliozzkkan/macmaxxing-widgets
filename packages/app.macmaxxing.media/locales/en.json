@@ -1,0 +1,10 @@
+{
+  "density": "Appearance",
+  "idle": "Nothing is playing",
+  "openSource": "Open source",
+  "queue": "Upcoming",
+  "queueEmpty": "The queue is empty",
+  "subtitle": "Shows music or video info and playback controls.",
+  "widget.summary": "Shows music or video info and playback controls.",
+  "widget.title": "Media"
+}

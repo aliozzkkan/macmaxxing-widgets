@@ -1,0 +1,20 @@
+{
+  "cancel": "Anuluj",
+  "chartAccessibility": "Czas pingu w ostatnich pomiarach",
+  "chartNote": "Czasy to wartości chwilowe z ostatniego odświeżenia",
+  "chartTitle": "Historia pingu",
+  "details": "Szczegóły pomiaru",
+  "download": "Pobieranie",
+  "lastTest": "Ostatni test prędkości",
+  "loss": "Utrata pakietów",
+  "offline": "Brak internetu",
+  "offlineBody": "Nie udało się połączyć z adresem testowym",
+  "ping": "Ping",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "speedTest": "Test prędkości",
+  "startTest": "Rozpocznij test prędkości",
+  "subtitle": "Ostatnie pomiary i jakość połączenia",
+  "testing": "Pomiar prędkości…",
+  "widget.summary": "Pokazuje ping, utratę pakietów i jakość połączenia.",
+  "widget.title": "Kondycja internetu"
+}

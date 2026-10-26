@@ -1,0 +1,20 @@
+{
+  "cancel": "キャンセル",
+  "chartAccessibility": "最新の測定でのPing時間",
+  "chartNote": "時間は直近の更新時点の瞬間値です",
+  "chartTitle": "Pingの履歴",
+  "details": "測定の詳細",
+  "download": "ダウンロード",
+  "lastTest": "前回のスピードテスト",
+  "loss": "パケット損失",
+  "offline": "インターネット接続なし",
+  "offlineBody": "テストアドレスに接続できませんでした",
+  "ping": "Ping",
+  "refreshInterval": "更新間隔（秒）",
+  "speedTest": "スピードテスト",
+  "startTest": "速度テストを開始",
+  "subtitle": "最新の測定結果と接続品質",
+  "testing": "速度を測定中…",
+  "widget.summary": "ping、パケット損失、接続品質を表示します。",
+  "widget.title": "インターネット状態"
+}

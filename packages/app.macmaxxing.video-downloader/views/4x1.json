@@ -1,0 +1,116 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "url",
+    "text"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "hstack",
+    "children": [
+      {
+        "type": "symbol",
+        "name": "arrow.down.circle.fill"
+      },
+      {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "when",
+                "condition": "state.isIdle",
+                "then": {
+                  "type": "text",
+                  "text": "{{t.drop}}",
+                  "style": "body"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isPreparing",
+                "then": {
+                  "type": "text",
+                  "text": "{{t.preparing}}",
+                  "style": "body"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isDownloading",
+                "then": {
+                  "type": "text",
+                  "text": "{{state.message}}",
+                  "style": "body"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isFinished",
+                "then": {
+                  "type": "text",
+                  "text": "{{t.finished}}",
+                  "style": "body"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isFailed",
+                "then": {
+                  "type": "text",
+                  "text": "{{t.failed}}",
+                  "style": "body"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isCancelled",
+                "then": {
+                  "type": "text",
+                  "text": "{{t.cancelled}}",
+                  "style": "body"
+                }
+              }
+            ],
+            "spacing": 0
+          },
+          {
+            "type": "when",
+            "condition": "state.isDownloading",
+            "then": {
+              "type": "progress",
+              "value": "state.progress",
+              "label": "{{state.progress}}%"
+            }
+          }
+        ],
+        "spacing": 2
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "when",
+        "condition": "state.isBusy",
+        "then": {
+          "type": "button",
+          "title": "{{t.cancel}}",
+          "action": "cancel",
+          "symbol": "xmark.circle"
+        }
+      },
+      {
+        "type": "when",
+        "condition": "state.canStart",
+        "then": {
+          "type": "button",
+          "title": "{{t.paste}}",
+          "action": "paste",
+          "symbol": "doc.on.clipboard"
+        }
+      }
+    ],
+    "spacing": 8
+  }
+}

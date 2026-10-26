@@ -1,0 +1,85 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.refreshInterval}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "refreshIntervalSeconds",
+      "options": "2,5,10,30",
+      "style": "segmented"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.showSearch}}",
+      "key": "showSearch"
+    },
+    {
+      "type": "text",
+      "text": "{{t.rows}}",
+      "style": "caption"
+    },
+    {
+      "type": "stepper",
+      "key": "maximumRows",
+      "min": 5,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.captureText}}",
+      "key": "captureText"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.captureFiles}}",
+      "key": "captureFiles"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.captureImages}}",
+      "key": "captureImages"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.ignoreConcealed}}",
+      "key": "ignoreConcealed"
+    },
+    {
+      "type": "text",
+      "text": "{{t.retention}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "clipboardRetentionHours",
+      "options": "0,1,24,168",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.autoClear}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "clipboardAutoClearMinutes",
+      "options": "0,1,5,15",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.ignoredApps}}",
+      "style": "caption"
+    },
+    {
+      "type": "appPicker",
+      "key": "ignoredClipboardApps"
+    }
+  ],
+  "spacing": 10
+}

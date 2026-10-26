@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.keep-awake",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "componentKitVersion": 2,
+  "allowedNetworkHosts": [],
+  "presentation": {
+    "title": "Uyanık Tut",
+    "summary": "Mac'in uykuya geçmesini süreli veya süresiz engeller.",
+    "category": "tools",
+    "systemImageName": "cup.and.saucer.fill",
+    "accentHex": "FF9F0A",
+    "defaultSize": "3x1",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "capabilities": [
+    {
+      "name": "system.awake",
+      "version": 1
+    }
+  ],
+  "refreshIntervalSeconds": 30,
+  "defaultSettings": {
+    "allowsDisplaySleep": false,
+    "keepsAwakeWithLidClosed": false,
+    "lowBatteryProtection": true,
+    "notificationsEnabled": true,
+    "lowBatteryThreshold": 20,
+    "automaticAwakePower": false,
+    "automaticAwakeDisplay": false,
+    "automaticAwakeApps": []
+  }
+}

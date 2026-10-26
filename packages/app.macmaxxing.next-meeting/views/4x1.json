@@ -1,0 +1,118 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isUpcoming",
+              "then": {
+                "type": "countdown",
+                "until": "state.startEpoch",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isLive",
+              "then": {
+                "type": "text",
+                "text": "{{t.inProgress}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isNone",
+              "then": {
+                "type": "text",
+                "text": "{{t.noMeetings}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.needsAccess",
+              "then": {
+                "type": "text",
+                "text": "{{t.needsAccess}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isDenied",
+              "then": {
+                "type": "text",
+                "text": "{{t.needsAccess}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasMeeting",
+              "then": {
+                "type": "text",
+                "text": "{{state.title}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isNone",
+              "then": {
+                "type": "text",
+                "text": "{{t.noMeetingsHint}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.needsAccess",
+              "then": {
+                "type": "text",
+                "text": "{{t.needsAccessHint}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isDenied",
+              "then": {
+                "type": "text",
+                "text": "{{t.deniedHint}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 1
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.canJoin",
+          "then": {
+            "type": "button",
+            "title": "{{t.join}}",
+            "action": "join",
+            "symbol": "video.fill"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

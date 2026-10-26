@@ -1,0 +1,8 @@
+{
+  "fetch": {
+    "https://api.open-meteo.com/v1/forecast?latitude=41.01&longitude=28.98&current=temperature_2m": {
+      "status": 200,
+      "body": "{\"current\":{\"temperature_2m\":18.4}}"
+    }
+  }
+}

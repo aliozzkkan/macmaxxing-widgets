@@ -1,0 +1,20 @@
+{
+  "cancel": "Annuleer",
+  "chartAccessibility": "Pingtijd in de laatste metingen",
+  "chartNote": "Tijden zijn de momentwaarden van de laatste vernieuwing",
+  "chartTitle": "Pinggeschiedenis",
+  "details": "Meetdetails",
+  "download": "Downloaden",
+  "lastTest": "Laatste snelheidstest",
+  "loss": "Pakketverlies",
+  "offline": "Geen internet",
+  "offlineBody": "Testadres kon niet worden bereikt",
+  "ping": "Ping",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "speedTest": "Snelheidstest",
+  "startTest": "Snelheidstest starten",
+  "subtitle": "Laatste metingen en verbindingskwaliteit",
+  "testing": "Snelheid meten…",
+  "widget.summary": "Toont ping, pakketverlies en verbindingskwaliteit.",
+  "widget.title": "Internetgezondheid"
+}

@@ -1,0 +1,20 @@
+{
+  "cancel": "取消",
+  "chartAccessibility": "最近測量中的 Ping 時間",
+  "chartNote": "時間為上次重新整理時的瞬時值",
+  "chartTitle": "Ping 記錄",
+  "details": "測量詳細資訊",
+  "download": "下載",
+  "lastTest": "上次測速",
+  "loss": "封包遺失",
+  "offline": "沒有網際網路連線",
+  "offlineBody": "無法連線至測試位址",
+  "ping": "Ping",
+  "refreshInterval": "更新間隔（秒）",
+  "speedTest": "測速",
+  "startTest": "開始速度測試",
+  "subtitle": "最近的測量結果與連線品質",
+  "testing": "正在測量速度…",
+  "widget.summary": "顯示 Ping、封包遺失與連線品質。",
+  "widget.title": "網路健康度"
+}

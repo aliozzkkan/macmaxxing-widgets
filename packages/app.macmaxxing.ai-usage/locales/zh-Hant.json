@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "供應商額度與使用率",
+  "chartNote": "每個長條表示供應商的最高使用率",
+  "chartTitle": "用量",
+  "heroTitle": "哪項額度會最先重設？",
+  "left": "剩餘",
+  "noSession": "找不到 AI 工作階段",
+  "noSessionBody": "在支援的 AI 工具中登入您的帳號",
+  "providersNote": "4×4 小工具中最多可同時顯示四個工具",
+  "providersTitle": "要顯示的 AI 工具",
+  "remaining": "剩餘",
+  "resetsIn": "距重置",
+  "subtitle": "供應商額度與重置時間",
+  "usage": "用量",
+  "widget.summary": "顯示 AI 配額、重設時間與餘額。",
+  "widget.title": "AI 用量中心"
+}

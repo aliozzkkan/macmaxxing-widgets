@@ -1,0 +1,12 @@
+{
+  "grant": "Toestaan",
+  "needed": "Cameratoegang vereist",
+  "openStudio": "Open studio",
+  "ready": "Camera gereed",
+  "record": "Start opname",
+  "recording": "Opnemen",
+  "studio": "Camera Studio",
+  "waiting": "Camera stand-by",
+  "widget.summary": "Biedt snelle toegang tot cameravoorvertoning en machtigingsstatus.",
+  "widget.title": "Camera"
+}

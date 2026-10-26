@@ -1,0 +1,23 @@
+{
+  "add": "Bestanden toevoegen",
+  "autoLock": "Vergrendelt na 2 minuten inactiviteit en wanneer je Mac wordt vergrendeld.",
+  "copy": "Tekst kopiëren; bij vergrendeling wordt het klembord gewist",
+  "drop": "Sleep een bestand, tekst of koppeling.",
+  "export": "Exporteren",
+  "lock": "Vergrendelen",
+  "locked": "Vergrendeld",
+  "lockedHint": "Ontgrendel eerst de beveiligde plank en sleep je items opnieuw.",
+  "lockedMessage": "Je inhoud wordt versleuteld opgeslagen op deze Mac. Gebruik Touch ID of je Mac-inlogwachtwoord om deze te ontgrendelen.",
+  "lockedTitle": "Inhoud vergrendeld",
+  "newNote": "Nieuwe notitie",
+  "open": "Aan",
+  "remove": "Verwijder",
+  "removeMessage": "Dit kan niet ongedaan worden gemaakt. Het originele bestand buiten de beveiligde plank wordt niet verwijderd.",
+  "removeTitle": "Dit versleutelde item verwijderen?",
+  "search": "Zoeken op de beveiligde plank",
+  "shelf": "Plank",
+  "title": "Beveiligde plank",
+  "unlock": "Ontgrendelen",
+  "widget.summary": "Je bestanden en notities blijven privé.",
+  "widget.title": "Beveiligde plank"
+}

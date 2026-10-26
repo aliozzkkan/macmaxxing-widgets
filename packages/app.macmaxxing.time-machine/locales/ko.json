@@ -1,0 +1,16 @@
+{
+  "destination": "백업 위치",
+  "lastBackup": "마지막 백업",
+  "nextBackup": "다음 백업",
+  "noBackup": "백업을 찾을 수 없음",
+  "noBackupBody": "Time Machine 디스크가 연결되어 있지 않거나 백업한 적이 없으면 마지막 백업을 읽을 수 없습니다.",
+  "openSettings": "Time Machine 설정 열기",
+  "refreshInterval": "새로고침 간격(초)",
+  "running": "실행 중",
+  "runningBody": "Time Machine이 지금 백업 중입니다. 완료되면 경과 시간이 초기화됩니다.",
+  "status": "상태",
+  "subtitle": "마지막 백업 시간과 상태",
+  "upToDate": "백업이 최신 상태입니다",
+  "widget.summary": "마지막 백업 시간 및 진행 중인 백업을 표시합니다.",
+  "widget.title": "Time Machine 상태"
+}

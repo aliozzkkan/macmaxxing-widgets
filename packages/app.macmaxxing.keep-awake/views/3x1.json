@@ -1,0 +1,71 @@
+{
+  "type": "hstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "vstack",
+      "spacing": 2,
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isActive",
+          "then": {
+            "type": "text",
+            "text": "{{t.awake}}",
+            "style": "title"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isIdle",
+          "then": {
+            "type": "text",
+            "text": "{{t.off}}",
+            "style": "title"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isTimed",
+          "then": {
+            "type": "countdown",
+            "until": "state.endsAt",
+            "style": "value"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isIndefinite",
+          "then": {
+            "type": "text",
+            "text": "{{t.indef}}",
+            "style": "value"
+          }
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "button",
+        "title": "{{t.start}}",
+        "action": "start15",
+        "symbol": "play.fill"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isActive",
+      "then": {
+        "type": "button",
+        "title": "{{t.stop}}",
+        "action": "stop",
+        "symbol": "stop.fill"
+      }
+    }
+  ]
+}

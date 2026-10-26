@@ -1,0 +1,17 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.density}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "density",
+      "options": "compact,comfortable,detailed",
+      "style": "segmented"
+    }
+  ],
+  "spacing": 10
+}

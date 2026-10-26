@@ -1,0 +1,63 @@
+{
+  "type": "vstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.protection}}",
+      "style": "caption"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.display}}",
+      "key": "allowsDisplaySleep"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.lid}}",
+      "key": "keepsAwakeWithLidClosed"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.notifications}}",
+      "key": "notificationsEnabled"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.lowBattery}}",
+      "key": "lowBatteryProtection"
+    },
+    {
+      "type": "stepper",
+      "key": "lowBatteryThreshold",
+      "min": 5,
+      "max": 50,
+      "step": 5,
+      "unit": "%"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.rulePower}}",
+      "key": "automaticAwakePower"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.ruleDisplay}}",
+      "key": "automaticAwakeDisplay"
+    },
+    {
+      "type": "text",
+      "text": "{{t.ruleApps}}",
+      "style": "caption"
+    },
+    {
+      "type": "appPicker",
+      "key": "automaticAwakeApps"
+    },
+    {
+      "type": "text",
+      "text": "{{t.ruleNote}}",
+      "style": "caption"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.summary}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 1
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

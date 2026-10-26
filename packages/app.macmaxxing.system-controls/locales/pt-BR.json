@@ -1,0 +1,12 @@
+{
+  "down": "Diminuir volume",
+  "mute": "Silenciar",
+  "muted": "Silencioso",
+  "sleep": "Colocar tela em repouso",
+  "sound": "Abrir Ajustes de Som",
+  "unmute": "Ativar som",
+  "up": "Aumentar volume",
+  "volume": "Som",
+  "widget.summary": "Mostra controles rápidos como volume, mudo e repouso de tela.",
+  "widget.title": "Controles do Sistema"
+}

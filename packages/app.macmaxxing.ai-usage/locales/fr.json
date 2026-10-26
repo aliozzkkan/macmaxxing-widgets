@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Quotas des fournisseurs et taux d’utilisation",
+  "chartNote": "Chaque barre indique le taux d’utilisation le plus élevé d’un fournisseur",
+  "chartTitle": "Utilisation",
+  "heroTitle": "Quelle limite se réinitialisera en premier ?",
+  "left": "restant",
+  "noSession": "Aucune session d’IA trouvée",
+  "noSessionBody": "Connectez-vous avec votre compte dans un outil d’IA compatible",
+  "providersNote": "Jusqu’à quatre outils sont affichés simultanément dans le widget 4×4",
+  "providersTitle": "Outils d’IA à afficher",
+  "remaining": "Restant",
+  "resetsIn": "Réinitialisation dans",
+  "subtitle": "Quotas des fournisseurs et heures de réinitialisation",
+  "usage": "Utilisation",
+  "widget.summary": "Affiche les quotas d’IA, les délais de renouvellement et les soldes.",
+  "widget.title": "Centre d’utilisation de l’IA"
+}

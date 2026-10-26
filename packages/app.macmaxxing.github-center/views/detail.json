@@ -1,0 +1,196 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasUnread",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.firstTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.firstRepo}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isCalm",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.calm}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.calmBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isMissing",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.ghMissing}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.ghMissingBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isSignedOut",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.signedOut}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.signedOutBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isFailed",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.failed}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.failedBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasUnread",
+          "then": {
+            "type": "value",
+            "label": "{{t.unread}}",
+            "value": "{{state.unread}}"
+          }
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.chart",
+              "isLive": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.itemsTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "list",
+              "items": "state.items",
+              "id": "id",
+              "title": "title",
+              "detail": "detail",
+              "symbol": "symbol",
+              "action": "open",
+              "emptyText": "{{t.emptyList}}"
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 12
+}

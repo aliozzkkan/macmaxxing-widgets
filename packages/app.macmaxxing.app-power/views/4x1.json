@@ -1,0 +1,25 @@
+{
+  "type": "hstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "image",
+      "handle": "{{state.topIcon}}",
+      "fallbackSymbol": "app",
+      "shape": "rounded"
+    },
+    {
+      "type": "text",
+      "text": "{{state.topName}}",
+      "style": "title"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "text",
+      "text": "{{state.topWatts}}",
+      "style": "value"
+    }
+  ]
+}

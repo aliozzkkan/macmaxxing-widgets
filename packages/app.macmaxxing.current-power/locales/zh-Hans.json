@@ -1,0 +1,17 @@
+{
+  "adapter": "充电器",
+  "battery": "电池",
+  "comfortable": "均衡",
+  "compact": "紧凑",
+  "density": "外观",
+  "detailed": "详细",
+  "details": "测量详情",
+  "flow": "能量流向",
+  "incoming": "流入",
+  "load": "流出",
+  "refreshInterval": "刷新间隔（秒）",
+  "remaining": "预估",
+  "subtitle": "当前功耗",
+  "widget.summary": "显示当前瓦数、电池、充电状态和功耗图表。",
+  "widget.title": "电源中心"
+}

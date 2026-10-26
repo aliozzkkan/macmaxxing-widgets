@@ -1,0 +1,20 @@
+{
+  "audioMP3": "僅音訊（MP3）",
+  "cancel": "取消",
+  "cancelled": "已取消",
+  "compatibleMP4": "相容 MP4",
+  "drop": "將影片連結拖放至此",
+  "failed": "下載失敗",
+  "finished": "下載完成",
+  "formatTitle": "下載格式",
+  "hint": "將影片連結拖到小工具上，或下載剪貼簿中的連結。",
+  "original": "原始格式",
+  "paste": "從剪貼簿下載",
+  "preparing": "正在準備",
+  "qualityNote": "選擇 MP3 時不會使用影片畫質設定；僅會錄製音訊。",
+  "qualityTitle": "影片畫質",
+  "reveal": "在 Finder 中顯示",
+  "title": "影片下載器",
+  "widget.summary": "透過拖放將支援的影片連結儲存至「下載項目」檔案夾。",
+  "widget.title": "影片下載器"
+}

@@ -1,0 +1,23 @@
+{
+  "add": "Add files",
+  "autoLock": "Locks after 2 minutes of inactivity and when your Mac locks.",
+  "copy": "Copy text; the clipboard is cleared when the vault locks",
+  "drop": "Drop a file, text or link.",
+  "export": "Export",
+  "lock": "Lock",
+  "locked": "Locked",
+  "lockedHint": "Unlock Secure Shelf first, then drop your items again.",
+  "lockedMessage": "Your content is encrypted on this Mac. Use Touch ID or your Mac login password to unlock it.",
+  "lockedTitle": "Content is locked",
+  "newNote": "New note",
+  "open": "On",
+  "remove": "Delete",
+  "removeMessage": "This cannot be undone. The original file outside the vault is not deleted.",
+  "removeTitle": "Delete this encrypted item?",
+  "search": "Search Secure Shelf",
+  "shelf": "Shelf",
+  "title": "Secure Shelf",
+  "unlock": "Unlock",
+  "widget.summary": "Your files and notes, kept private.",
+  "widget.title": "Secure Shelf"
+}

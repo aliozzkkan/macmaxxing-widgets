@@ -1,0 +1,84 @@
+{
+  "type": "vstack",
+  "spacing": 12,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 8,
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "badge",
+          "text": "{{state.countText}}",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 14,
+      "children": [
+        {
+          "type": "donut",
+          "items": "state.shares",
+          "label": "label",
+          "value": "value",
+          "unit": "W"
+        },
+        {
+          "type": "vstack",
+          "spacing": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.top}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{state.topName}}",
+              "style": "title"
+            },
+            {
+              "type": "text",
+              "text": "{{state.topWatts}}",
+              "style": "value"
+            },
+            {
+              "type": "text",
+              "text": "{{state.topShare}}",
+              "style": "caption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "{{t.heading}}",
+      "style": "caption"
+    },
+    {
+      "type": "list",
+      "items": "state.items",
+      "id": "id",
+      "title": "name",
+      "detail": "detail",
+      "symbol": "app",
+      "image": "icon",
+      "emptyText": "{{t.waiting}}"
+    },
+    {
+      "type": "text",
+      "text": "{{t.estimate}}",
+      "style": "caption"
+    }
+  ]
+}

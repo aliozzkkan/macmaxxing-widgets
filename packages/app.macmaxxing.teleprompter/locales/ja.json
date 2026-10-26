@@ -1,0 +1,13 @@
+{
+  "edit": "テキストを編集",
+  "finished": "完了",
+  "prepare": "テキストを準備",
+  "restart": "再起動",
+  "running": "動作中",
+  "start": "開始",
+  "stop": "停止",
+  "title": "テレプロンプター",
+  "widget.summary": "ノッチの下で調整可能な速度によりテキストを自動スクロールします。",
+  "widget.title": "テレプロンプター",
+  "words": "単語"
+}

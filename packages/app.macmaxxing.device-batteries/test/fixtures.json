@@ -1,0 +1,7 @@
+{
+  "capabilities": {
+    "devices.batteries.snapshot": {
+      "devices": []
+    }
+  }
+}

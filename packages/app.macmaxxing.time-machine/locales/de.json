@@ -1,0 +1,16 @@
+{
+  "destination": "Backup-Ziel",
+  "lastBackup": "Letztes Backup",
+  "nextBackup": "Nächstes Backup",
+  "noBackup": "Keine Backups gefunden",
+  "noBackupBody": "Das letzte Backup kann nicht gelesen werden, wenn die Time-Machine-Festplatte nicht verbunden ist oder noch nie gesichert wurde.",
+  "openSettings": "Time-Machine-Einstellungen öffnen",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "running": "Wird ausgeführt",
+  "runningBody": "Time Machine sichert gerade. Das Alter wird nach Abschluss zurückgesetzt.",
+  "status": "Status",
+  "subtitle": "Zeitpunkt und Status des letzten Backups",
+  "upToDate": "Backups sind aktuell",
+  "widget.summary": "Zeigt den letzten Backup-Zeitpunkt und laufende Backups an.",
+  "widget.title": "Time Machine-Status"
+}

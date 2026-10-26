@@ -1,0 +1,13 @@
+{
+  "edit": "Modifier le texte",
+  "finished": "Terminé",
+  "prepare": "Préparer le texte",
+  "restart": "Redémarrer",
+  "running": "En cours d’exécution",
+  "start": "Démarrer",
+  "stop": "Arrêter",
+  "title": "Téléprompteur",
+  "widget.summary": "Fait défiler le texte sous l’encoche à une vitesse réglable.",
+  "widget.title": "Téléprompteur",
+  "words": "mots"
+}

@@ -1,0 +1,17 @@
+{
+  "allGood": "すべてのデバイスのバッテリー残量は十分です",
+  "chartAccessibility": "デバイスのバッテリー残量グラフ",
+  "chartNote": "各バーはデバイスの現在のバッテリー残量の割合です",
+  "chartTitle": "バッテリー残量",
+  "devicesTitle": "デバイス",
+  "lowBadge": "バッテリー残量低下",
+  "lowest": "最低",
+  "noDevices": "デバイスが見つかりません",
+  "noDevicesBody": "バッテリー情報を報告するBluetoothデバイスを接続すると、残量がここに表示されます。",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "接続中のBluetoothデバイスのバッテリー残量",
+  "unavailable": "デバイスを読み取れませんでした",
+  "unavailableHint": "Bluetoothデータを利用できません",
+  "widget.summary": "接続されているBluetoothデバイスのバッテリー残量を表示します。",
+  "widget.title": "デバイスのバッテリー"
+}

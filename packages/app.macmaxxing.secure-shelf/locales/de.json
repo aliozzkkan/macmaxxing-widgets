@@ -1,0 +1,23 @@
+{
+  "add": "Dateien hinzufügen",
+  "autoLock": "Wird nach 2 Minuten Inaktivität und beim Sperren des Mac wieder gesperrt.",
+  "copy": "Text kopieren; beim Sperren wird die Zwischenablage geleert",
+  "drop": "Datei, Text oder Link ablegen.",
+  "export": "Exportieren",
+  "lock": "Sperren",
+  "locked": "Gesperrt",
+  "lockedHint": "Entsperre zuerst das sichere Ablagefach und lege deine Elemente erneut ab.",
+  "lockedMessage": "Deine Inhalte werden auf diesem Mac verschlüsselt gespeichert. Verwende zum Entsperren Touch ID oder dein Mac-Anmeldepasswort.",
+  "lockedTitle": "Inhalte sind gesperrt",
+  "newNote": "Neue Notiz",
+  "open": "Ein",
+  "remove": "Löschen",
+  "removeMessage": "Dies kann nicht rückgängig gemacht werden. Die Originaldatei außerhalb des Tresors wird nicht gelöscht.",
+  "removeTitle": "Dieses verschlüsselte Element löschen?",
+  "search": "Sicheres Ablagefach durchsuchen",
+  "shelf": "Ablage",
+  "title": "Sicheres Ablagefach",
+  "unlock": "Entsperren",
+  "widget.summary": "Deine Dateien und Notizen bleiben privat.",
+  "widget.title": "Sicheres Ablagefach"
+}

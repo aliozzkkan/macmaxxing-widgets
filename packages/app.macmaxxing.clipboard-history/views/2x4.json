@@ -1,0 +1,49 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "when",
+      "condition": "state.settings.showSearch",
+      "then": {
+        "type": "textField",
+        "key": "query",
+        "placeholder": "{{t.search}}",
+        "action": "search"
+      }
+    },
+    {
+      "type": "list",
+      "items": "state.items",
+      "id": "id",
+      "title": "title",
+      "detail": "detail",
+      "symbol": "sym",
+      "image": "image",
+      "action": "copy",
+      "menu": [
+        {
+          "title": "{{t.copy}}",
+          "action": "copy",
+          "symbol": "doc.on.doc"
+        },
+        {
+          "title": "{{t.copyClean}}",
+          "action": "copyClean",
+          "symbol": "link"
+        },
+        {
+          "title": "{{t.pin}}",
+          "action": "pin",
+          "symbol": "pin"
+        },
+        {
+          "title": "{{t.paste}}",
+          "action": "paste",
+          "symbol": "text.badge.checkmark"
+        }
+      ],
+      "emptyText": "{{t.empty}}"
+    }
+  ],
+  "spacing": 6
+}

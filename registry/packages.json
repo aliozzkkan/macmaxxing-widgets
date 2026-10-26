@@ -1,0 +1,142 @@
+{
+  "app.macmaxxing.ai-usage": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.app-power": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.calendar": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.camera": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.clipboard-history": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.current-power": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.device-batteries": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.file-shelf": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.github-center": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.internet-health": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.keep-awake": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.local-servers": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.media": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.next-meeting": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.permissions": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.quit": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.refresh": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.reminders": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.screenshot-shelf": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.secure-shelf": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.settings": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.sony-headphones": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.system-controls": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.system-health": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": true
+  },
+  "app.macmaxxing.teleprompter": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.time-machine": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.video-downloader": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  },
+  "app.macmaxxing.widget-library": {
+    "owner": "aliozzkkan",
+    "official": true,
+    "bundled": false
+  }
+}

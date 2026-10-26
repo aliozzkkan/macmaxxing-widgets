@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "id": "community.example.starter",
+  "version": "1.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Example Author",
+    "url": "https://example.com"
+  },
+  "presentation": {
+    "title": "Başlangıç Şablonu",
+    "summary": "Bir düğmeyle sayaç artıran en küçük betikli widget.",
+    "category": "tools",
+    "systemImageName": "square.and.pencil",
+    "defaultSize": "2x3",
+    "allowedSizes": [
+      "2x3",
+      "2x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 300,
+  "defaultSettings": {}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "symbol",
+      "name": "hand.wave.fill"
+    },
+    {
+      "type": "text",
+      "text": "{{t.greeting}}",
+      "style": "title"
+    },
+    {
+      "type": "text",
+      "text": "{{t.body}}",
+      "style": "body"
+    }
+  ]
+}

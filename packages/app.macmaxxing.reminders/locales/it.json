@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Distribuzione per priorità delle attività di oggi",
+  "chartNote": "Ogni barra indica la quota di attività di un livello di priorità",
+  "chartTitle": "Distribuzione delle attività per urgenza",
+  "deniedHint": "Consenti l’accesso ai promemoria in Impostazioni di Sistema",
+  "grantAccess": "Consenti accesso ai promemoria",
+  "itemsTitle": "In sospeso",
+  "maximumRows": "Righe massime",
+  "needsAccess": "Autorizzazione Promemoria richiesta",
+  "needsAccessHint": "Consenti l’accesso per vedere i promemoria",
+  "noItems": "Nessuna attività in sospeso",
+  "noItemsBody": "Non ci sono promemoria in scadenza entro oggi.",
+  "permission": "Autorizzazione richiesta",
+  "refreshInterval": "Intervallo di aggiornamento (secondi)",
+  "subtitle": "Attività non completate fino a oggi",
+  "tasks": "Attività",
+  "unavailable": "Impossibile leggere i promemoria",
+  "unavailableHint": "I dati dei promemoria non sono disponibili al momento",
+  "widget.summary": "Mostra le attività e lo stato dei permessi per i promemoria di oggi.",
+  "widget.title": "Promemoria"
+}

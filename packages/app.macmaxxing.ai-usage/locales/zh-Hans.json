@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "提供商额度与使用率",
+  "chartNote": "每个柱表示提供商的最高使用率",
+  "chartTitle": "用量",
+  "heroTitle": "哪项限额先刷新？",
+  "left": "剩余",
+  "noSession": "未找到 AI 会话",
+  "noSessionBody": "在支持的 AI 工具中使用您的账号登录",
+  "providersNote": "在 4×4 小组件中同时最多显示 4 个工具",
+  "providersTitle": "要显示的 AI 工具",
+  "remaining": "剩余",
+  "resetsIn": "距重置",
+  "subtitle": "提供商额度与重置时间",
+  "usage": "用量",
+  "widget.summary": "显示 AI 配额、刷新时间和余额。",
+  "widget.title": "AI 用量中心"
+}

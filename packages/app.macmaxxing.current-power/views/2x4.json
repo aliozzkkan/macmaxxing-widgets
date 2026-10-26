@@ -1,0 +1,72 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "vstack",
+      "spacing": 6,
+      "children": [
+        {
+          "type": "donut",
+          "items": "state.flow",
+          "label": "label",
+          "value": "value",
+          "unit": "W"
+        },
+        {
+          "type": "text",
+          "text": "{{state.primary}}",
+          "style": "value"
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "label": "{{t.battery}} {{state.batteryText}}",
+      "percent": "{{state.batteryPercent}}"
+    },
+    {
+      "type": "when",
+      "condition": "state.isDetailed",
+      "then": {
+        "type": "chart",
+        "kind": "line",
+        "series": "state.history",
+        "isLive": false,
+        "seriesInfo": [
+          {
+            "key": "in",
+            "label": "{{t.incoming}}",
+            "unit": "W"
+          },
+          {
+            "key": "load",
+            "label": "{{t.load}}",
+            "unit": "W"
+          }
+        ],
+        "legend": true,
+        "accessibilityLabel": "{{t.flow}}"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isNotDetailed",
+      "then": {
+        "type": "chart",
+        "kind": "line",
+        "series": "state.history",
+        "isLive": false,
+        "seriesInfo": [
+          {
+            "key": "in",
+            "label": "{{t.incoming}}",
+            "unit": "W"
+          }
+        ],
+        "legend": false,
+        "accessibilityLabel": "{{t.flow}}"
+      }
+    }
+  ]
+}

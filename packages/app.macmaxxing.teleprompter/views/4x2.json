@@ -1,0 +1,123 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isRunning",
+          "then": {
+            "type": "text",
+            "text": "{{t.running}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isFinished",
+          "then": {
+            "type": "text",
+            "text": "{{t.finished}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isReady",
+          "then": {
+            "type": "hstack",
+            "children": [
+              {
+                "type": "text",
+                "text": "{{state.wordCount}}",
+                "style": "body"
+              },
+              {
+                "type": "text",
+                "text": "{{t.words}}",
+                "style": "body"
+              }
+            ],
+            "spacing": 4
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isEmpty",
+          "then": {
+            "type": "text",
+            "text": "{{t.prepare}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 0
+    },
+    {
+      "type": "text",
+      "text": "{{state.preview}}",
+      "style": "caption"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isRunning",
+          "then": {
+            "type": "button",
+            "title": "{{t.stop}}",
+            "action": "stop",
+            "symbol": "stop.fill"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isReady",
+          "then": {
+            "type": "button",
+            "title": "{{t.start}}",
+            "action": "start",
+            "symbol": "play.fill"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isFinished",
+          "then": {
+            "type": "button",
+            "title": "{{t.restart}}",
+            "action": "start",
+            "symbol": "arrow.counterclockwise"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isEmpty",
+          "then": {
+            "type": "button",
+            "title": "{{t.edit}}",
+            "action": "edit",
+            "symbol": "square.and.pencil"
+          }
+        }
+      ],
+      "spacing": 0
+    },
+    {
+      "type": "when",
+      "condition": "state.hasScript",
+      "then": {
+        "type": "button",
+        "title": "{{t.edit}}",
+        "action": "edit",
+        "symbol": "square.and.pencil"
+      }
+    }
+  ],
+  "spacing": 8
+}

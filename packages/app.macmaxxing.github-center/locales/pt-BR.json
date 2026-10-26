@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub tranquilo",
+  "calmBody": "Nenhuma notificação não lida",
+  "chartAccessibility": "Notificações não lidas por motivo",
+  "chartNote": "Cada barra é a participação de um motivo nas notificações não lidas",
+  "chartTitle": "Motivos das notificações",
+  "emptyList": "Nenhuma notificação não lida",
+  "failed": "Não foi possível ler as notificações do GitHub",
+  "failedBody": "As notificações do GitHub não estão disponíveis no momento",
+  "ghMissing": "GitHub CLI não encontrado",
+  "ghMissingBody": "O gh pode ser instalado via Homebrew",
+  "itemsTitle": "Notificações",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "signedOut": "GitHub desconectado",
+  "signedOutBody": "Revisões e status de CI aparecerão aqui quando o GitHub CLI estiver conectado.",
+  "subtitle": "Revisões, notificações e verificações de CI",
+  "unread": "Não lidas",
+  "widget.summary": "Exibe revisões, notificações e status de CI.",
+  "widget.title": "Central do GitHub"
+}

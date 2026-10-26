@@ -1,0 +1,7 @@
+{
+  "widget.title": "Başlangıç Şablonu",
+  "widget.summary": "Bir düğmeyle sayaç artıran en küçük betikli widget.",
+  "heading": "Sayaç",
+  "hint": "Değer yeniden başlatmada korunur.",
+  "increment": "Artır"
+}

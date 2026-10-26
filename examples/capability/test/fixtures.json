@@ -1,0 +1,9 @@
+{
+  "capabilities": {
+    "system.timeMachine": {
+      "status": "ok",
+      "summary": "2 saat önce",
+      "caption": "Yedekler güncel"
+    }
+  }
+}

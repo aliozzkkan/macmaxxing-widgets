@@ -1,0 +1,193 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "file",
+    "url",
+    "text",
+    "image"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "vstack",
+    "children": [
+      {
+        "type": "when",
+        "condition": "state.isLocked",
+        "then": {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "hstack",
+              "children": [
+                {
+                  "type": "symbol",
+                  "name": "lock.fill"
+                },
+                {
+                  "type": "text",
+                  "text": "{{t.title}}",
+                  "style": "title"
+                },
+                {
+                  "type": "spacer"
+                },
+                {
+                  "type": "badge",
+                  "text": "{{t.locked}}",
+                  "tone": "warning"
+                }
+              ],
+              "spacing": 8
+            },
+            {
+              "type": "text",
+              "text": "{{t.lockedTitle}}",
+              "style": "title"
+            },
+            {
+              "type": "text",
+              "text": "{{t.lockedMessage}}",
+              "style": "body"
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "type": "button",
+              "title": "{{t.unlock}}",
+              "action": "unlock",
+              "symbol": "lock.open"
+            }
+          ],
+          "spacing": 12
+        }
+      },
+      {
+        "type": "when",
+        "condition": "state.isUnlocked",
+        "then": {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "hstack",
+              "children": [
+                {
+                  "type": "symbol",
+                  "name": "lock.open.fill"
+                },
+                {
+                  "type": "text",
+                  "text": "{{t.title}}",
+                  "style": "title"
+                },
+                {
+                  "type": "spacer"
+                },
+                {
+                  "type": "badge",
+                  "text": "{{t.open}}",
+                  "tone": "positive"
+                },
+                {
+                  "type": "button",
+                  "title": "{{t.newNote}}",
+                  "action": "newNote",
+                  "symbol": "square.and.pencil"
+                },
+                {
+                  "type": "button",
+                  "title": "{{t.lock}}",
+                  "action": "lock",
+                  "symbol": "lock"
+                }
+              ],
+              "spacing": 8
+            },
+            {
+              "type": "textField",
+              "key": "query",
+              "placeholder": "{{t.search}}",
+              "action": "search"
+            },
+            {
+              "type": "hstack",
+              "children": [
+                {
+                  "type": "list",
+                  "items": "state.items",
+                  "id": "id",
+                  "title": "name",
+                  "symbol": "symbol",
+                  "image": "preview",
+                  "action": "open",
+                  "menu": [
+                    {
+                      "title": "{{t.export}}",
+                      "symbol": "square.and.arrow.up",
+                      "action": "export"
+                    },
+                    {
+                      "title": "{{t.remove}}",
+                      "symbol": "trash",
+                      "action": "remove",
+                      "confirm": {
+                        "title": "{{t.removeTitle}}",
+                        "message": "{{t.removeMessage}}",
+                        "destructiveTitle": "{{t.remove}}"
+                      }
+                    }
+                  ],
+                  "selection": "state.selectedId",
+                  "emptyText": "{{t.drop}}"
+                },
+                {
+                  "type": "vstack",
+                  "children": [
+                    {
+                      "type": "when",
+                      "condition": "state.isNoteSelected",
+                      "then": {
+                        "type": "textEditor",
+                        "handle": "{{state.noteHandle}}",
+                        "action": "save"
+                      }
+                    },
+                    {
+                      "type": "when",
+                      "condition": "state.isNoteSelected",
+                      "then": {
+                        "type": "button",
+                        "title": "{{t.copy}}",
+                        "action": "copy",
+                        "symbol": "doc.on.doc"
+                      }
+                    },
+                    {
+                      "type": "when",
+                      "condition": "state.isImageSelected",
+                      "then": {
+                        "type": "image",
+                        "handle": "{{state.previewHandle}}",
+                        "fallbackSymbol": "photo",
+                        "shape": "rounded"
+                      }
+                    }
+                  ],
+                  "spacing": 6
+                }
+              ],
+              "spacing": 10
+            },
+            {
+              "type": "text",
+              "text": "{{t.autoLock}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 8
+        }
+      }
+    ],
+    "spacing": 0
+  }
+}

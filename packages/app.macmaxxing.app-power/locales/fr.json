@@ -1,0 +1,14 @@
+{
+  "comfortable": "Équilibré",
+  "compact": "Compact",
+  "density": "Apparence",
+  "detailed": "Détaillé",
+  "estimate": "Valeurs estimées à partir de la charge du processeur",
+  "heading": "Principaux consommateurs",
+  "rows": "Nombre maximal de lignes",
+  "subtitle": "Part estimée de l’application",
+  "top": "Plus gros consommateurs d’énergie",
+  "waiting": "En attente des données de l’application",
+  "widget.summary": "Affiche les applications consommant le plus d’énergie lorsque la carte de puissance actuelle est ouverte.",
+  "widget.title": "Puissance des applications"
+}

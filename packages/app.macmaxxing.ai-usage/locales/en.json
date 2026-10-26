@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Provider quotas and usage rates",
+  "chartNote": "Each bar is a provider's highest usage rate",
+  "chartTitle": "Usage",
+  "heroTitle": "Which limit resets first?",
+  "left": "remaining",
+  "noSession": "No AI session found",
+  "noSessionBody": "Sign in with your account in a supported AI tool",
+  "providersNote": "Up to four tools are displayed at once in the 4×4 widget",
+  "providersTitle": "AI tools to display",
+  "remaining": "Remaining",
+  "resetsIn": "Resets in",
+  "subtitle": "Provider quotas and reset times",
+  "usage": "Usage",
+  "widget.summary": "Shows AI quotas, renewal times, and balances.",
+  "widget.title": "AI Usage Center"
+}

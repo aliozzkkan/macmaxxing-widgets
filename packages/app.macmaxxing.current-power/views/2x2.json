@@ -1,0 +1,13 @@
+{
+  "type": "vstack",
+  "spacing": 4,
+  "children": [
+    {
+      "type": "donut",
+      "items": "state.flow",
+      "label": "label",
+      "value": "value",
+      "unit": "W"
+    }
+  ]
+}

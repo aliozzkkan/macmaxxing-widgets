@@ -1,0 +1,23 @@
+{
+  "add": "Ajouter des fichiers",
+  "autoLock": "Se verrouille après 2 minutes d’inactivité et lorsque le Mac se verrouille.",
+  "copy": "Copier le texte ; le presse-papiers est effacé au verrouillage",
+  "drop": "Déposez un fichier, du texte ou un lien.",
+  "export": "Exporter",
+  "lock": "Verrouiller",
+  "locked": "Verrouillé",
+  "lockedHint": "Déverrouillez d’abord l’étagère sécurisée, puis déposez à nouveau vos éléments.",
+  "lockedMessage": "Votre contenu est chiffré sur ce Mac. Utilisez Touch ID ou le mot de passe de connexion du Mac pour le déverrouiller.",
+  "lockedTitle": "Contenu verrouillé",
+  "newNote": "Nouvelle note",
+  "open": "Activé",
+  "remove": "Supprimer",
+  "removeMessage": "Cette opération est irréversible. Le fichier original hors du coffre ne sera pas supprimé.",
+  "removeTitle": "Supprimer cet élément chiffré ?",
+  "search": "Rechercher dans l’étagère sécurisée",
+  "shelf": "Étagère",
+  "title": "Étagère sécurisée",
+  "unlock": "Déverrouiller",
+  "widget.summary": "Vos fichiers et notes restent privés.",
+  "widget.title": "Étagère sécurisée"
+}

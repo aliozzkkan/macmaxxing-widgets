@@ -1,0 +1,146 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "file",
+    "url",
+    "text",
+    "image"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "vstack",
+    "children": [
+      {
+        "type": "hstack",
+        "children": [
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "when",
+                "condition": "state.isLocked",
+                "then": {
+                  "type": "symbol",
+                  "name": "lock.fill"
+                }
+              },
+              {
+                "type": "when",
+                "condition": "state.isUnlocked",
+                "then": {
+                  "type": "symbol",
+                  "name": "lock.open.fill"
+                }
+              }
+            ],
+            "spacing": 0
+          },
+          {
+            "type": "text",
+            "text": "{{t.title}}",
+            "style": "title"
+          },
+          {
+            "type": "spacer"
+          }
+        ],
+        "spacing": 8
+      },
+      {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "when",
+            "condition": "state.isLocked",
+            "then": {
+              "type": "text",
+              "text": "{{t.locked}}",
+              "style": "body"
+            }
+          },
+          {
+            "type": "when",
+            "condition": "state.isUnlocked",
+            "then": {
+              "type": "hstack",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "{{state.itemCount}}",
+                  "style": "body"
+                },
+                {
+                  "type": "text",
+                  "text": "{{t.shelf}}",
+                  "style": "body"
+                }
+              ],
+              "spacing": 4
+            }
+          }
+        ],
+        "spacing": 0
+      },
+      {
+        "type": "when",
+        "condition": "state.isUnlocked",
+        "then": {
+          "type": "text",
+          "text": "{{t.drop}}",
+          "style": "caption"
+        }
+      },
+      {
+        "type": "when",
+        "condition": "state.isLocked",
+        "then": {
+          "type": "text",
+          "text": "{{t.lockedHint}}",
+          "style": "caption"
+        }
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "when",
+            "condition": "state.isLocked",
+            "then": {
+              "type": "button",
+              "title": "{{t.unlock}}",
+              "action": "unlock",
+              "symbol": "lock.open"
+            }
+          },
+          {
+            "type": "when",
+            "condition": "state.isUnlocked",
+            "then": {
+              "type": "hstack",
+              "children": [
+                {
+                  "type": "button",
+                  "title": "{{t.add}}",
+                  "action": "pickFiles",
+                  "symbol": "plus"
+                },
+                {
+                  "type": "button",
+                  "title": "{{t.lock}}",
+                  "action": "lock",
+                  "symbol": "lock"
+                }
+              ],
+              "spacing": 6
+            }
+          }
+        ],
+        "spacing": 0
+      }
+    ],
+    "spacing": 8
+  }
+}

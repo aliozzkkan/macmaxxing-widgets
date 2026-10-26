@@ -1,0 +1,15 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "symbol",
+      "name": "photo.on.rectangle"
+    },
+    {
+      "type": "value",
+      "label": "{{t.count}}",
+      "value": "{{state.count}}"
+    }
+  ],
+  "spacing": 4
+}

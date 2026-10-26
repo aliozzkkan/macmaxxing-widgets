@@ -1,0 +1,45 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 12,
+      "children": [
+        {
+          "type": "donut",
+          "items": "state.flow",
+          "label": "label",
+          "value": "value",
+          "unit": "W"
+        },
+        {
+          "type": "vstack",
+          "spacing": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{state.primary}}",
+              "style": "value"
+            },
+            {
+              "type": "text",
+              "text": "{{t.incoming}} {{state.incomingText}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{t.load}} {{state.loadText}}",
+              "style": "caption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "label": "{{t.battery}} {{state.batteryText}}",
+      "percent": "{{state.batteryPercent}}"
+    }
+  ]
+}

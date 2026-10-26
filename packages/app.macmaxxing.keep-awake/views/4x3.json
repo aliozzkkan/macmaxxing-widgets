@@ -1,0 +1,123 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 10,
+      "children": [
+        {
+          "type": "vstack",
+          "spacing": 2,
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isActive",
+              "then": {
+                "type": "text",
+                "text": "{{t.awake}}",
+                "style": "title"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isIdle",
+              "then": {
+                "type": "text",
+                "text": "{{t.off}}",
+                "style": "title"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isTimed",
+              "then": {
+                "type": "countdown",
+                "until": "state.endsAt",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isIndefinite",
+              "then": {
+                "type": "text",
+                "text": "{{t.indef}}",
+                "style": "value"
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    },
+    {
+      "type": "when",
+      "condition": "state.isActive",
+      "then": {
+        "type": "text",
+        "text": "{{t.awakeNote}}",
+        "style": "caption"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "text",
+        "text": "{{t.idleNote}}",
+        "style": "caption"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "hstack",
+        "spacing": 6,
+        "children": [
+          {
+            "type": "button",
+            "title": "{{t.m15}}",
+            "action": "start15"
+          },
+          {
+            "type": "button",
+            "title": "{{t.h1}}",
+            "action": "start60"
+          },
+          {
+            "type": "button",
+            "title": "{{t.indef}}",
+            "action": "startIndefinite"
+          }
+        ]
+      }
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "button",
+        "title": "{{t.start}}",
+        "action": "start15",
+        "symbol": "play.fill"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isActive",
+      "then": {
+        "type": "button",
+        "title": "{{t.stop}}",
+        "action": "stop",
+        "symbol": "stop.fill"
+      }
+    }
+  ]
+}

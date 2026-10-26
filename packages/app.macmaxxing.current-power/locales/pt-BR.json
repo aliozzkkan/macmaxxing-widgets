@@ -1,0 +1,17 @@
+{
+  "adapter": "Carregador",
+  "battery": "Bateria",
+  "comfortable": "Equilibrado",
+  "compact": "Compacto",
+  "density": "Aparência",
+  "detailed": "Detalhado",
+  "details": "Detalhes de medição",
+  "flow": "FLUXO DE ENERGIA",
+  "incoming": "Entrada",
+  "load": "Saída",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "remaining": "Estimado",
+  "subtitle": "Potência atual",
+  "widget.summary": "Mostra watts atuais, bateria, status de carregamento e gráfico de energia.",
+  "widget.title": "Central de energia"
+}

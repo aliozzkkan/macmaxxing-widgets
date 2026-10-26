@@ -1,0 +1,20 @@
+{
+  "audioMP3": "仅音频 (MP3)",
+  "cancel": "取消",
+  "cancelled": "已取消",
+  "compatibleMP4": "兼容的 MP4",
+  "drop": "将视频链接拖放至此处",
+  "failed": "下载失败",
+  "finished": "下载完成",
+  "formatTitle": "下载格式",
+  "hint": "将视频链接拖到小组件上，或下载剪贴板中的链接。",
+  "original": "原始格式",
+  "paste": "从剪贴板下载",
+  "preparing": "准备中",
+  "qualityNote": "选择 MP3 时不使用视频质量设置；仅录制音频。",
+  "qualityTitle": "视频画质",
+  "reveal": "在访达中显示",
+  "title": "视频下载器",
+  "widget.summary": "通过拖放支持的视频链接并将其保存至“下载”文件夹。",
+  "widget.title": "视频下载器"
+}

@@ -1,0 +1,16 @@
+{
+  "capabilities": {
+    "screenshots.history.list": {
+      "items": [
+        {
+          "id": "s1",
+          "name": "Shot.png",
+          "modifiedAt": 1700000000,
+          "thumbnail": "",
+          "file": ""
+        }
+      ],
+      "scanStatus": "ok"
+    }
+  }
+}

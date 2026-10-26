@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Önümüzdeki saatlerde etkinliklerle dolu sürenin yüzdesi",
+  "chartNote": "Her çubuk, bir saat diliminde etkinliklerle dolu sürenin yüzdesidir",
+  "chartTitle": "Günün akışı",
+  "deniedHint": "Sistem Ayarları'ndan takvim erişimine izin verin",
+  "eventsTitle": "Bugünkü etkinlikler",
+  "grantAccess": "Takvim iznini ver",
+  "maximumRows": "En fazla satır",
+  "needsAccess": "Takvim izni gerekiyor",
+  "needsAccessHint": "Toplantıları görmek için takvim erişimi verin",
+  "noEvents": "Bugün etkinlik yok",
+  "noEventsBody": "Takviminiz bugün için saatli bir etkinlik göstermiyor. Tüm gün etkinlikleri bu görünümde listelenmez.",
+  "permission": "İzin gerekiyor",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "subtitle": "Bugünkü etkinlikler",
+  "today": "Bugün",
+  "widget.summary": "Bugünkü sıradaki etkinlikleri ve izin durumunu gösterir.",
+  "widget.title": "Takvim"
+}

@@ -1,0 +1,79 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 8,
+      "children": [
+        {
+          "type": "value",
+          "label": "{{t.volume}}",
+          "value": "{{state.volumeText}}"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isMuted",
+          "then": {
+            "type": "badge",
+            "text": "{{t.muted}}",
+            "tone": "warning"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 6,
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isMuted",
+          "then": {
+            "type": "button",
+            "title": "{{t.unmute}}",
+            "action": "toggleMute",
+            "symbol": "speaker.wave.2"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.notMuted",
+          "then": {
+            "type": "button",
+            "title": "{{t.mute}}",
+            "action": "toggleMute",
+            "symbol": "speaker.slash"
+          }
+        },
+        {
+          "type": "button",
+          "title": "{{t.sleep}}",
+          "action": "displaySleep",
+          "symbol": "display"
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 6,
+      "children": [
+        {
+          "type": "button",
+          "title": "{{t.down}}",
+          "action": "volumeDown",
+          "symbol": "speaker.wave.1"
+        },
+        {
+          "type": "button",
+          "title": "{{t.up}}",
+          "action": "volumeUp",
+          "symbol": "speaker.wave.3"
+        }
+      ]
+    }
+  ]
+}

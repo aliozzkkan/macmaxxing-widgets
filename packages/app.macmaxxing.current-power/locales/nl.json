@@ -1,0 +1,17 @@
+{
+  "adapter": "Oplader",
+  "battery": "Batterij",
+  "comfortable": "Gebalanceerd",
+  "compact": "Compact",
+  "density": "Weergave",
+  "detailed": "Gedetailleerd",
+  "details": "Meetdetails",
+  "flow": "STROOMVERLOOP",
+  "incoming": "Inkomend",
+  "load": "Uitvoer",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "remaining": "Geschat",
+  "subtitle": "Actueel vermogen",
+  "widget.summary": "Toont huidig wattage, batterij, laadstatus en vermogensgrafiek.",
+  "widget.title": "Energiecentrum"
+}

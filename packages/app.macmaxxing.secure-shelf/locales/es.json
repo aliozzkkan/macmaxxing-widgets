@@ -1,0 +1,23 @@
+{
+  "add": "Añadir archivos",
+  "autoLock": "Se bloquea tras 2 minutos de inactividad y cuando se bloquea el Mac.",
+  "copy": "Copiar texto; el portapapeles se vacía al bloquear el estante seguro",
+  "drop": "Suelta un archivo, texto o enlace.",
+  "export": "Exportar",
+  "lock": "Bloquear",
+  "locked": "Bloqueado",
+  "lockedHint": "Desbloquea primero el estante seguro y vuelve a soltar los elementos.",
+  "lockedMessage": "Tu contenido se guarda cifrado en este Mac. Usa Touch ID o tu contraseña de inicio de sesión del Mac para desbloquearlo.",
+  "lockedTitle": "Contenido bloqueado",
+  "newNote": "Nueva nota",
+  "open": "Activado",
+  "remove": "Eliminar",
+  "removeMessage": "Esta acción no se puede deshacer. No se elimina el archivo original fuera del estante seguro.",
+  "removeTitle": "¿Eliminar este elemento cifrado?",
+  "search": "Buscar en el estante seguro",
+  "shelf": "Estante",
+  "title": "Estante seguro",
+  "unlock": "Desbloquear",
+  "widget.summary": "Tus archivos y notas son privados.",
+  "widget.title": "Estante seguro"
+}

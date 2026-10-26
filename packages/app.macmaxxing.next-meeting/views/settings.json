@@ -1,0 +1,70 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "toggle",
+      "title": "{{t.showEnded}}",
+      "key": "showEnded"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.showMeetingService}}",
+      "key": "showMeetingService"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.oneClickJoin}}",
+      "key": "oneClickJoin"
+    },
+    {
+      "type": "text",
+      "text": "{{t.lookAhead}}",
+      "style": "caption"
+    },
+    {
+      "type": "stepper",
+      "key": "lookAheadHours",
+      "min": 1,
+      "max": 168,
+      "step": 1,
+      "unit": "{{t.hoursUnit}}"
+    },
+    {
+      "type": "text",
+      "text": "{{t.joinEarly}}",
+      "style": "caption"
+    },
+    {
+      "type": "stepper",
+      "key": "joinEarlyMinutes",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "unit": "{{t.minutesUnit}}"
+    },
+    {
+      "type": "text",
+      "text": "{{t.maximumRows}}",
+      "style": "caption"
+    },
+    {
+      "type": "stepper",
+      "key": "maximumRows",
+      "min": 1,
+      "max": 12,
+      "step": 1
+    },
+    {
+      "type": "text",
+      "text": "{{t.refreshInterval}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "refreshIntervalSeconds",
+      "options": "10,30,60,300",
+      "style": "segmented"
+    }
+  ],
+  "spacing": 10
+}

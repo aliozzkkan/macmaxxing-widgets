@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Prioriteitsverdeling van de taken van vandaag",
+  "chartNote": "Elke balk toont het aandeel taken van één prioriteitsniveau",
+  "chartTitle": "Verdeling van taken naar urgentie",
+  "deniedHint": "Sta toegang tot herinneringen toe in Systeeminstellingen",
+  "grantAccess": "Toegang tot herinneringen toestaan",
+  "itemsTitle": "Openstaande items",
+  "maximumRows": "Maximum regels",
+  "needsAccess": "Toestemming voor Herinneringen vereist",
+  "needsAccessHint": "Geef toegang om je herinneringen te zien",
+  "noItems": "Geen openstaande taken",
+  "noItemsBody": "Er zijn geen herinneringen die vandaag of eerder vervallen.",
+  "permission": "Toestemming vereist",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "subtitle": "Taken die tot vandaag niet zijn voltooid",
+  "tasks": "Taken",
+  "unavailable": "Herinneringen konden niet worden gelezen",
+  "unavailableHint": "Herinneringsgegevens zijn nu niet beschikbaar",
+  "widget.summary": "Toont de taken van vandaag en de status van herinneringsmachtiging.",
+  "widget.title": "Herinneringen"
+}

@@ -1,0 +1,13 @@
+{
+  "edit": "Bewerk tekst",
+  "finished": "Voltooid",
+  "prepare": "Bereid tekst voor",
+  "restart": "Herstart",
+  "running": "Actief",
+  "start": "Start",
+  "stop": "Stop",
+  "title": "Teleprompter",
+  "widget.summary": "Scrolt tekst automatisch onder de inkeping met aanpasbare snelheid.",
+  "widget.title": "Teleprompter",
+  "words": "woorden"
+}

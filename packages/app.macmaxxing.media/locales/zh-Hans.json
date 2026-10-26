@@ -1,0 +1,10 @@
+{
+  "density": "外观",
+  "idle": "没有正在播放的内容",
+  "openSource": "打开来源",
+  "queue": "接下来",
+  "queueEmpty": "队列为空",
+  "subtitle": "显示音乐或视频信息及播放控制。",
+  "widget.summary": "显示音乐或视频信息及播放控制。",
+  "widget.title": "媒体"
+}

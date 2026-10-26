@@ -1,0 +1,78 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.summary}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 1
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isRunning",
+              "then": {
+                "type": "badge",
+                "text": "{{t.running}}",
+                "tone": "accent"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOk",
+              "then": {
+                "type": "badge",
+                "text": "{{t.upToDate}}",
+                "tone": "positive"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isNone",
+              "then": {
+                "type": "badge",
+                "text": "{{t.noBackup}}",
+                "tone": "warning"
+              }
+            }
+          ],
+          "spacing": 0
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

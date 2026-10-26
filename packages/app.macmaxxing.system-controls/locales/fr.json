@@ -1,0 +1,12 @@
+{
+  "down": "Baisser le volume",
+  "mute": "Couper le son",
+  "muted": "Silencieux",
+  "sleep": "Mettre l’écran en veille",
+  "sound": "Ouvrir les réglages Son",
+  "unmute": "Réactiver le son",
+  "up": "Augmenter le volume",
+  "volume": "Son",
+  "widget.summary": "Affiche des commandes rapides telles que le volume, le mode silencieux et la veille de l’écran.",
+  "widget.title": "Commandes système"
+}

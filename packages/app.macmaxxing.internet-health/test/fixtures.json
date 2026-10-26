@@ -1,0 +1,13 @@
+{
+  "capabilities": {
+    "network.health.snapshot": {
+      "status": "good",
+      "statusText": "Good",
+      "pingMs": 21,
+      "loss": 0,
+      "download": 120.5,
+      "measuredText": "now",
+      "isTesting": false
+    }
+  }
+}

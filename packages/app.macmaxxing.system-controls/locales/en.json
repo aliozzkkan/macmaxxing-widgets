@@ -1,0 +1,12 @@
+{
+  "down": "Volume down",
+  "mute": "Mute",
+  "muted": "Muted",
+  "sleep": "Sleep display",
+  "sound": "Open Sound Settings",
+  "unmute": "Unmute",
+  "up": "Increase volume",
+  "volume": "Sound",
+  "widget.summary": "Shows quick controls such as volume, mute, and display sleep.",
+  "widget.title": "System Controls"
+}

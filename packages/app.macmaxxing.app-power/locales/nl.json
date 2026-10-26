@@ -1,0 +1,14 @@
+{
+  "comfortable": "Gebalanceerd",
+  "compact": "Compact",
+  "density": "Weergave",
+  "detailed": "Gedetailleerd",
+  "estimate": "Waarden worden geschat op basis van CPU-belasting",
+  "heading": "Grootste verbruikers",
+  "rows": "Maximum regels",
+  "subtitle": "Geschat app-aandeel",
+  "top": "Grootste energieverbruikers",
+  "waiting": "Wachten op app-gegevens",
+  "widget.summary": "Toont apps met het hoogste stroomverbruik wanneer de kaart voor huidig vermogen is geopend.",
+  "widget.title": "App-energieverbruik"
+}

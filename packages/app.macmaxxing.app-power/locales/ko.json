@@ -1,0 +1,14 @@
+{
+  "comfortable": "균형",
+  "compact": "컴팩트",
+  "density": "모양",
+  "detailed": "세부사항",
+  "estimate": "값은 CPU 부하로부터 추정됩니다",
+  "heading": "최다 사용 항목",
+  "rows": "최대 줄 수",
+  "subtitle": "예상 앱 점유율",
+  "top": "최다 전력 소모 항목",
+  "waiting": "앱 데이터 대기 중",
+  "widget.summary": "현재 전력 카드가 열릴 때 전력을 가장 많이 사용하는 앱을 표시합니다.",
+  "widget.title": "앱 전원"
+}

@@ -1,0 +1,12 @@
+{
+  "grant": "Allow",
+  "needed": "Camera permission required",
+  "openStudio": "Open Studio",
+  "ready": "Camera ready",
+  "record": "Start recording",
+  "recording": "Recording",
+  "studio": "Camera Studio",
+  "waiting": "Camera standby",
+  "widget.summary": "Brings camera preview and permission status to quick access.",
+  "widget.title": "Camera"
+}

@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub спокійний",
+  "calmBody": "Немає непрочитаних сповіщень",
+  "chartAccessibility": "Непрочитані сповіщення за причинами",
+  "chartNote": "Кожен стовпчик — частка причини серед непрочитаних сповіщень",
+  "chartTitle": "Причини сповіщень",
+  "emptyList": "Немає непрочитаних сповіщень",
+  "failed": "Не вдалося прочитати сповіщення GitHub",
+  "failedBody": "Сповіщення GitHub зараз недоступні",
+  "ghMissing": "GitHub CLI не знайдено",
+  "ghMissingBody": "gh можна встановити через Homebrew",
+  "itemsTitle": "Сповіщення",
+  "refreshInterval": "Інтервал оновлення (секунди)",
+  "signedOut": "Вхід у GitHub не виконано",
+  "signedOutBody": "Рев’ю та статус CI з’являться тут після входу в GitHub CLI.",
+  "subtitle": "Рев’ю, сповіщення та перевірки CI",
+  "unread": "Непрочитані",
+  "widget.summary": "Показує рецензії, сповіщення та статус CI.",
+  "widget.title": "Центр GitHub"
+}

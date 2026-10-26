@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub هادئ",
+  "calmBody": "لا توجد إشعارات غير مقروءة",
+  "chartAccessibility": "الإشعارات غير المقروءة حسب السبب",
+  "chartNote": "يمثل كل شريط حصة سبب من الإشعارات غير المقروءة",
+  "chartTitle": "أسباب الإشعارات",
+  "emptyList": "لا توجد إشعارات غير مقروءة",
+  "failed": "تعذّرت قراءة إشعارات GitHub",
+  "failedBody": "إشعارات GitHub غير متاحة حاليًا",
+  "ghMissing": "لم يتم العثور على GitHub CLI",
+  "ghMissingBody": "يمكن تثبيت gh عبر Homebrew",
+  "itemsTitle": "الإشعارات",
+  "refreshInterval": "فترة التحديث (بالثواني)",
+  "signedOut": "تم تسجيل الخروج من GitHub",
+  "signedOutBody": "تظهر المراجعات وحالة CI هنا بعد تسجيل الدخول إلى GitHub CLI.",
+  "subtitle": "المراجعات والإشعارات وفحوصات CI",
+  "unread": "غير مقروء",
+  "widget.summary": "يعرض المراجعات والإشعارات وحالة الدمج المستمر (CI).",
+  "widget.title": "مركز GitHub"
+}

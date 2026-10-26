@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "未來幾小時被行程佔用的比例",
+  "chartNote": "每個長條表示該小時被行程佔用的比例",
+  "chartTitle": "一天的節奏",
+  "deniedHint": "請在「系統設定」中允許存取行事曆",
+  "eventsTitle": "今日行程",
+  "grantAccess": "允許存取行事曆",
+  "maximumRows": "最多行數",
+  "needsAccess": "需要行事曆權限",
+  "needsAccessHint": "授予行事曆存取權限以查看會議",
+  "noEvents": "今天沒有行程",
+  "noEventsBody": "行事曆今天沒有指定時間的行程。全天行程不會顯示在此檢視中。",
+  "permission": "需要權限",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "今日行程",
+  "today": "今天",
+  "widget.summary": "顯示今天即將到來的行程與權限狀態。",
+  "widget.title": "行事曆"
+}

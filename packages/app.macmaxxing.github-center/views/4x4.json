@@ -1,0 +1,114 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasUnread",
+              "then": {
+                "type": "value",
+                "label": "{{t.unread}}",
+                "value": "{{state.unread}}"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isCalm",
+              "then": {
+                "type": "text",
+                "text": "{{t.calm}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isMissing",
+              "then": {
+                "type": "text",
+                "text": "{{t.ghMissing}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isSignedOut",
+              "then": {
+                "type": "text",
+                "text": "{{t.signedOut}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isFailed",
+              "then": {
+                "type": "text",
+                "text": "{{t.failed}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasUnread",
+              "then": {
+                "type": "text",
+                "text": "{{state.firstTitle}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isCalm",
+              "then": {
+                "type": "text",
+                "text": "{{t.calmBody}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isMissing",
+              "then": {
+                "type": "text",
+                "text": "{{t.ghMissingBody}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isSignedOut",
+              "then": {
+                "type": "text",
+                "text": "{{t.signedOutBody}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isFailed",
+              "then": {
+                "type": "text",
+                "text": "{{t.failedBody}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 2
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "rows",
+      "items": "state.rows",
+      "title": "title",
+      "value": "value"
+    }
+  ],
+  "spacing": 10
+}

@@ -1,0 +1,23 @@
+{
+  "type": "hstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "value",
+      "label": "{{t.volume}}",
+      "value": "{{state.volumeText}}"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.isMuted",
+      "then": {
+        "type": "badge",
+        "text": "{{t.muted}}",
+        "tone": "warning"
+      }
+    }
+  ]
+}

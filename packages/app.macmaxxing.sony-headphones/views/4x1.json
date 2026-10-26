@@ -1,0 +1,65 @@
+{
+  "type": "hstack",
+  "children": [
+    {
+      "type": "symbol",
+      "name": "headphones"
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isConnected",
+          "then": {
+            "type": "text",
+            "text": "{{t.connected}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isConnecting",
+          "then": {
+            "type": "text",
+            "text": "{{t.connecting}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isOffline",
+          "then": {
+            "type": "text",
+            "text": "{{t.offline}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 0
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.hasBattery",
+      "then": {
+        "type": "text",
+        "text": "{{state.battery}}%",
+        "style": "value"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isOffline",
+      "then": {
+        "type": "button",
+        "title": "{{t.reconnect}}",
+        "action": "connect",
+        "symbol": "arrow.clockwise"
+      }
+    }
+  ],
+  "spacing": 8
+}

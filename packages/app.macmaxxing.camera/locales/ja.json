@@ -1,0 +1,12 @@
+{
+  "grant": "許可",
+  "needed": "カメラのアクセス権が必要です",
+  "openStudio": "スタジオを開く",
+  "ready": "カメラ準備完了",
+  "record": "録画を開始",
+  "recording": "録画中",
+  "studio": "カメラスタジオ",
+  "waiting": "カメラ待機中",
+  "widget.summary": "カメラのプレビューとアクセス権の状態に素早くアクセスできます。",
+  "widget.title": "カメラ"
+}

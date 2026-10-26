@@ -1,0 +1,12 @@
+{
+  "down": "Leiser",
+  "mute": "Stumm schalten",
+  "muted": "Stumm",
+  "sleep": "Display in den Ruhezustand versetzen",
+  "sound": "Tonoptionen öffnen",
+  "unmute": "Ton einschalten",
+  "up": "Lautstärke erhöhen",
+  "volume": "Ton",
+  "widget.summary": "Zeigt Schnellsteuerungen wie Lautstärke, Stummschaltung und Display-Ruhezustand an.",
+  "widget.title": "Systemsteuerelemente"
+}

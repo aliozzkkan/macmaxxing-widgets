@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Porcentagem das próximas horas ocupada por eventos",
+  "chartNote": "Cada barra é a porcentagem de uma hora ocupada por eventos",
+  "chartTitle": "Fluxo do dia",
+  "deniedHint": "Permita o acesso à agenda em Ajustes do Sistema",
+  "eventsTitle": "Eventos de hoje",
+  "grantAccess": "Permitir acesso à agenda",
+  "maximumRows": "Máximo de linhas",
+  "needsAccess": "Permissão de Calendário necessária",
+  "needsAccessHint": "Conceda acesso ao calendário para ver reuniões",
+  "noEvents": "Nenhum evento hoje",
+  "noEventsBody": "Sua agenda não mostra eventos com horário para hoje. Eventos de dia inteiro não são listados nesta visualização.",
+  "permission": "Permissão necessária",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "subtitle": "Eventos de hoje",
+  "today": "Hoje",
+  "widget.summary": "Mostra os próximos eventos de hoje e o status da permissão.",
+  "widget.title": "Calendário"
+}

@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Solo audio (MP3)",
+  "cancel": "Cancelar",
+  "cancelled": "Cancelado",
+  "compatibleMP4": "MP4 compatible",
+  "drop": "Arrastra el enlace del video aquí",
+  "failed": "Descarga fallida",
+  "finished": "Descarga completada",
+  "formatTitle": "Formato de descarga",
+  "hint": "Arrastra un enlace de vídeo al widget o descarga el enlace del portapapeles.",
+  "original": "Formato original",
+  "paste": "Descargar del portapapeles",
+  "preparing": "Preparando",
+  "qualityNote": "Al seleccionar MP3 no se aplica calidad de video; solo se graba el audio.",
+  "qualityTitle": "Calidad de video",
+  "reveal": "Mostrar en el Finder",
+  "title": "Descargador de vídeo",
+  "widget.summary": "Guarda enlaces de video compatibles en Descargas arrastrando y soltando.",
+  "widget.title": "Descargador de vídeo"
+}

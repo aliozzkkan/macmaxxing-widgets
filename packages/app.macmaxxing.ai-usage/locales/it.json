@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Quote dei provider e tassi di utilizzo",
+  "chartNote": "Ogni barra indica il tasso di utilizzo più alto di un provider",
+  "chartTitle": "Utilizzo",
+  "heroTitle": "Quale limite si ripristina per primo?",
+  "left": "rimanenti",
+  "noSession": "Nessuna sessione IA trovata",
+  "noSessionBody": "Accedi con il tuo account a uno strumento IA supportato",
+  "providersNote": "Nel widget 4×4 vengono mostrati al massimo quattro strumenti contemporaneamente",
+  "providersTitle": "Strumenti IA da mostrare",
+  "remaining": "Rimanente",
+  "resetsIn": "Si azzera tra",
+  "subtitle": "Quote dei provider e orari di azzeramento",
+  "usage": "Utilizzo",
+  "widget.summary": "Mostra quote IA, tempi di rinnovo e saldi.",
+  "widget.title": "Centro utilizzo AI"
+}

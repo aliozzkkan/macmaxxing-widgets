@@ -1,0 +1,20 @@
+{
+  "cancel": "취소",
+  "chartAccessibility": "최근 측정의 Ping 시간",
+  "chartNote": "시간은 마지막 새로 고침 시점의 순간 값입니다",
+  "chartTitle": "Ping 기록",
+  "details": "측정 세부사항",
+  "download": "다운로드",
+  "lastTest": "마지막 속도 테스트",
+  "loss": "패킷 손실",
+  "offline": "인터넷 연결 없음",
+  "offlineBody": "테스트 주소에 연결할 수 없습니다",
+  "ping": "Ping",
+  "refreshInterval": "새로고침 간격(초)",
+  "speedTest": "속도 테스트",
+  "startTest": "속도 테스트 시작",
+  "subtitle": "최근 측정과 연결 품질",
+  "testing": "속도 측정 중…",
+  "widget.summary": "핑, 패킷 손실 및 연결 품질을 표시합니다.",
+  "widget.title": "인터넷 상태"
+}

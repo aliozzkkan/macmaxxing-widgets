@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Providerquota en gebruik",
+  "chartNote": "Elke balk toont het hoogste gebruik van een provider",
+  "chartTitle": "Verbruik",
+  "heroTitle": "Welke limiet wordt als eerste gereset?",
+  "left": "resterend",
+  "noSession": "Geen AI-sessie gevonden",
+  "noSessionBody": "Log in met je account bij een ondersteunde AI-tool",
+  "providersNote": "In de 4×4-widget worden maximaal vier hulpprogramma's tegelijk getoond",
+  "providersTitle": "Weer te geven AI-tools",
+  "remaining": "Resterend",
+  "resetsIn": "Reset over",
+  "subtitle": "Providerquota en resettijden",
+  "usage": "Verbruik",
+  "widget.summary": "Toont AI-quota, vernieuwingstijden en tegoeden.",
+  "widget.title": "AI-gebruikscentrum"
+}

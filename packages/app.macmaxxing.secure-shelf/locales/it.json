@@ -1,0 +1,23 @@
+{
+  "add": "Aggiungi file",
+  "autoLock": "Si blocca dopo 2 minuti di inattività e quando il Mac viene bloccato.",
+  "copy": "Copia testo; gli appunti si svuotano quando lo scaffale sicuro si blocca",
+  "drop": "Trascina un file, un testo o un collegamento.",
+  "export": "Esporta",
+  "lock": "Blocca",
+  "locked": "Bloccato",
+  "lockedHint": "Sblocca prima lo scaffale sicuro, poi trascina di nuovo gli elementi.",
+  "lockedMessage": "I contenuti vengono conservati in forma cifrata su questo Mac. Per sbloccarli, usa Touch ID o la password di accesso al Mac.",
+  "lockedTitle": "Contenuti bloccati",
+  "newNote": "Nuova nota",
+  "open": "Attivo",
+  "remove": "Elimina",
+  "removeMessage": "L'operazione non può essere annullata. Il file originale fuori dallo scaffale sicuro non viene eliminato.",
+  "removeTitle": "Eliminare questo elemento cifrato?",
+  "search": "Cerca nello scaffale sicuro",
+  "shelf": "Scaffale",
+  "title": "Scaffale sicuro",
+  "unlock": "Sblocca",
+  "widget.summary": "I tuoi file e le tue note restano privati.",
+  "widget.title": "Scaffale sicuro"
+}

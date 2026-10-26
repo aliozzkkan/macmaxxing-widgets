@@ -1,0 +1,17 @@
+{
+  "allGood": "Alle apparaten hebben genoeg batterij",
+  "chartAccessibility": "Grafiek van batterijniveaus van apparaten",
+  "chartNote": "Elke balk toont het huidige batterijpercentage van een apparaat",
+  "chartTitle": "Batterijniveaus",
+  "devicesTitle": "Apparaten",
+  "lowBadge": "Batterij bijna leeg",
+  "lowest": "Laagste",
+  "noDevices": "Geen apparaat gevonden",
+  "noDevicesBody": "Zodra een Bluetooth-apparaat met batterij-informatie is verbonden, verschijnt het niveau hier.",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "subtitle": "Batterijniveau van verbonden Bluetooth-apparaten",
+  "unavailable": "Kan apparaten niet lezen",
+  "unavailableHint": "Bluetooth-gegevens niet beschikbaar",
+  "widget.summary": "Toont batterijniveaus van verbonden Bluetooth-apparaten.",
+  "widget.title": "Apparaatbatterijen"
+}

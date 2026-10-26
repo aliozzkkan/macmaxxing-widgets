@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub rustig",
+  "calmBody": "Geen ongelezen meldingen",
+  "chartAccessibility": "Ongelezen meldingen per reden",
+  "chartNote": "Elke balk toont het aandeel van een reden in de ongelezen meldingen",
+  "chartTitle": "Redenen van meldingen",
+  "emptyList": "Geen ongelezen meldingen",
+  "failed": "GitHub-meldingen konden niet worden gelezen",
+  "failedBody": "GitHub-meldingen zijn nu niet beschikbaar",
+  "ghMissing": "GitHub CLI niet gevonden",
+  "ghMissingBody": "gh kan worden geïnstalleerd via Homebrew",
+  "itemsTitle": "Meldingen",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "signedOut": "GitHub is afgemeld",
+  "signedOutBody": "Reviews en CI-status verschijnen hier zodra de GitHub CLI is aangemeld.",
+  "subtitle": "Reviews, meldingen en CI-controles",
+  "unread": "Ongelezen",
+  "widget.summary": "Toont beoordelingen, meldingen en CI-status.",
+  "widget.title": "GitHub-centrum"
+}

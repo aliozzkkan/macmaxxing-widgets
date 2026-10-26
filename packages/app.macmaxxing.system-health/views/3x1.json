@@ -1,0 +1,26 @@
+{
+  "type": "vstack",
+  "spacing": 0,
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "hstack",
+      "spacing": 8,
+      "children": [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "text": "{{state.summary}}",
+          "style": "value"
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    }
+  ]
+}

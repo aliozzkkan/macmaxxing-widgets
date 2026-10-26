@@ -1,0 +1,10 @@
+{
+  "density": "Erscheinungsbild",
+  "idle": "Es wird nichts wiedergegeben",
+  "openSource": "Quelle öffnen",
+  "queue": "Als Nächstes",
+  "queueEmpty": "Die Warteschlange ist leer",
+  "subtitle": "Zeigt Musik- oder Videoinformationen sowie Wiedergabesteuerelemente an.",
+  "widget.summary": "Zeigt Musik- oder Videoinformationen sowie Wiedergabesteuerelemente an.",
+  "widget.title": "Medien"
+}

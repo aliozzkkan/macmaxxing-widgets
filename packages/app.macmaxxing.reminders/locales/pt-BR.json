@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Distribuição por prioridade das tarefas de hoje",
+  "chartNote": "Cada barra é a proporção de tarefas de um nível de prioridade",
+  "chartTitle": "Distribuição das tarefas por urgência",
+  "deniedHint": "Permita o acesso aos lembretes em Ajustes do Sistema",
+  "grantAccess": "Permitir acesso aos lembretes",
+  "itemsTitle": "Pendências",
+  "maximumRows": "Máximo de linhas",
+  "needsAccess": "Permissão de Lembretes necessária",
+  "needsAccessHint": "Conceda acesso para ver seus lembretes",
+  "noItems": "Nenhuma tarefa pendente",
+  "noItemsBody": "Não há lembretes com vencimento até hoje.",
+  "permission": "Permissão necessária",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "subtitle": "Tarefas não concluídas até hoje",
+  "tasks": "Tarefas",
+  "unavailable": "Não foi possível ler os lembretes",
+  "unavailableHint": "Os dados dos lembretes não estão disponíveis no momento",
+  "widget.summary": "Mostra as tarefas de hoje e o status da permissão de Lembretes.",
+  "widget.title": "Lembretes"
+}

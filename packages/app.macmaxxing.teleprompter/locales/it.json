@@ -1,0 +1,13 @@
+{
+  "edit": "Modifica testo",
+  "finished": "Completato",
+  "prepare": "Prepara testo",
+  "restart": "Riavvia",
+  "running": "In esecuzione",
+  "start": "Avvia",
+  "stop": "Interrompi",
+  "title": "Teleprompter",
+  "widget.summary": "Fa scorrere automaticamente il testo sotto il notch a velocità regolabile.",
+  "widget.title": "Teleprompter",
+  "words": "parole"
+}

@@ -1,0 +1,254 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isGood",
+          "then": {
+            "type": "badge",
+            "text": "{{state.statusText}}",
+            "tone": "positive"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isSlow",
+          "then": {
+            "type": "badge",
+            "text": "{{state.statusText}}",
+            "tone": "warning"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isWeak",
+          "then": {
+            "type": "badge",
+            "text": "{{state.statusText}}",
+            "tone": "critical"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isOffline",
+          "then": {
+            "type": "badge",
+            "text": "{{state.statusText}}",
+            "tone": "critical"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isTesting",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.headline}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.testing}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOnline",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.headline}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.statusText}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isOffline",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.offline}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.offlineBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasPing",
+          "then": {
+            "type": "value",
+            "label": "{{t.ping}}",
+            "value": "{{state.pingText}}"
+          }
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "line",
+              "series": "state.history",
+              "isLive": false,
+              "seriesInfo": [
+                {
+                  "key": "ping",
+                  "label": "{{t.ping}}",
+                  "unit": "ms"
+                }
+              ],
+              "legend": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.details}}",
+              "style": "body"
+            },
+            {
+              "type": "vstack",
+              "children": [
+                {
+                  "type": "hstack",
+                  "children": [
+                    {
+                      "type": "value",
+                      "label": "{{t.ping}}",
+                      "value": "{{state.pingText}}"
+                    },
+                    {
+                      "type": "value",
+                      "label": "{{t.loss}}",
+                      "value": "{{state.lossText}}"
+                    }
+                  ],
+                  "spacing": 10
+                },
+                {
+                  "type": "hstack",
+                  "children": [
+                    {
+                      "type": "value",
+                      "label": "{{t.download}}",
+                      "value": "{{state.downloadText}}"
+                    },
+                    {
+                      "type": "value",
+                      "label": "{{t.lastTest}}",
+                      "value": "{{state.measuredText}}"
+                    }
+                  ],
+                  "spacing": 10
+                },
+                {
+                  "type": "hstack",
+                  "children": [
+                    {
+                      "type": "when",
+                      "condition": "state.canTest",
+                      "then": {
+                        "type": "button",
+                        "title": "{{t.startTest}}",
+                        "action": "startSpeedTest",
+                        "symbol": "speedometer"
+                      }
+                    },
+                    {
+                      "type": "when",
+                      "condition": "state.isTesting",
+                      "then": {
+                        "type": "button",
+                        "title": "{{t.cancel}}",
+                        "action": "cancelSpeedTest",
+                        "symbol": "xmark.circle"
+                      }
+                    }
+                  ],
+                  "spacing": 8
+                }
+              ],
+              "spacing": 8
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 12
+}

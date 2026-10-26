@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Bugünkü görevlerin öncelik dağılımı",
+  "chartNote": "Her çubuk, bir öncelik düzeyindeki görevlerin payıdır",
+  "chartTitle": "Görevlerin aciliyet dağılımı",
+  "deniedHint": "Sistem Ayarları'ndan hatırlatıcı erişimine izin verin",
+  "grantAccess": "Hatırlatıcı iznini ver",
+  "itemsTitle": "Bekleyen işler",
+  "maximumRows": "En fazla satır",
+  "needsAccess": "Hatırlatıcı izni gerekiyor",
+  "needsAccessHint": "Hatırlatıcılarınızı görmek için erişim verin",
+  "noItems": "Bekleyen görev yok",
+  "noItemsBody": "Bugüne kadar tamamlanması gereken bir hatırlatıcı bulunmuyor.",
+  "permission": "İzin gerekiyor",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "subtitle": "Bugüne kadar tamamlanmamış görevler",
+  "tasks": "Görevler",
+  "unavailable": "Hatırlatıcılar okunamadı",
+  "unavailableHint": "Hatırlatıcı verisi şu anda alınamıyor",
+  "widget.summary": "Bugünkü görevleri ve hatırlatıcı izin durumunu gösterir.",
+  "widget.title": "Hatırlatıcılar"
+}

@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "제공업체 할당량과 사용률",
+  "chartNote": "각 막대는 제공업체의 가장 높은 사용률입니다",
+  "chartTitle": "사용량",
+  "heroTitle": "어떤 한도가 먼저 재설정됩니까?",
+  "left": "남음",
+  "noSession": "AI 세션을 찾을 수 없음",
+  "noSessionBody": "지원되는 AI 도구에서 본인 계정으로 로그인하십시오",
+  "providersNote": "4×4 위젯에는 한 번에 최대 4개의 도구가 표시됩니다",
+  "providersTitle": "표시할 AI 도구",
+  "remaining": "남음",
+  "resetsIn": "초기화까지",
+  "subtitle": "제공업체 할당량과 초기화 시간",
+  "usage": "사용량",
+  "widget.summary": "AI 할당량, 갱신 시간 및 잔액을 표시합니다.",
+  "widget.title": "AI 사용 센터"
+}

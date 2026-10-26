@@ -1,0 +1,14 @@
+{
+  "comfortable": "Ausgeglichen",
+  "compact": "Kompakt",
+  "density": "Erscheinungsbild",
+  "detailed": "Detailliert",
+  "estimate": "Werte werden aus der CPU-Last geschätzt",
+  "heading": "Größte Verbraucher",
+  "rows": "Maximale Zeilenanzahl",
+  "subtitle": "Geschätzter App-Anteil",
+  "top": "Größte Stromverbraucher",
+  "waiting": "Warten auf App-Daten",
+  "widget.summary": "Zeigt Apps mit dem höchsten Stromverbrauch an, wenn die aktuelle Leistungskarte geöffnet ist.",
+  "widget.title": "App-Leistung"
+}

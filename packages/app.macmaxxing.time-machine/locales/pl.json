@@ -1,0 +1,16 @@
+{
+  "destination": "Miejsce kopii",
+  "lastBackup": "Ostatnia kopia",
+  "nextBackup": "Następna kopia",
+  "noBackup": "Nie znaleziono kopii zapasowej",
+  "noBackupBody": "Ostatniej kopii nie można odczytać, jeśli dysk Time Machine nie jest podłączony lub nigdy nie wykonano kopii.",
+  "openSettings": "Otwórz ustawienia Time Machine",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "running": "Działa",
+  "runningBody": "Time Machine właśnie wykonuje kopię. Wiek kopii zostanie wyzerowany po zakończeniu.",
+  "status": "Status",
+  "subtitle": "Czas i stan ostatniej kopii",
+  "upToDate": "Kopie zapasowe są aktualne",
+  "widget.summary": "Pokazuje czas ostatniej kopii zapasowej i trwające kopie.",
+  "widget.title": "Stan Time Machine"
+}

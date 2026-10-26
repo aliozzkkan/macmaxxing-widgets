@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub spokojny",
+  "calmBody": "Brak nieprzeczytanych powiadomień",
+  "chartAccessibility": "Nieprzeczytane powiadomienia według powodu",
+  "chartNote": "Każdy słupek to udział powodu wśród nieprzeczytanych powiadomień",
+  "chartTitle": "Powody powiadomień",
+  "emptyList": "Brak nieprzeczytanych powiadomień",
+  "failed": "Nie można odczytać powiadomień GitHub",
+  "failedBody": "Powiadomienia GitHub są obecnie niedostępne",
+  "ghMissing": "Nie znaleziono GitHub CLI",
+  "ghMissingBody": "Pakiet gh można zainstalować za pomocą Homebrew",
+  "itemsTitle": "Powiadomienia",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "signedOut": "Wylogowano z GitHub",
+  "signedOutBody": "Recenzje i status CI pojawią się tutaj po zalogowaniu w GitHub CLI.",
+  "subtitle": "Recenzje, powiadomienia i kontrole CI",
+  "unread": "Nieprzeczytane",
+  "widget.summary": "Pokazuje recenzje, powiadomienia i status CI.",
+  "widget.title": "Centrum GitHub"
+}

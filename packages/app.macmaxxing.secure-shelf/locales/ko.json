@@ -1,0 +1,23 @@
+{
+  "add": "파일 추가",
+  "autoLock": "2분 동안 사용하지 않거나 Mac이 잠기면 다시 잠깁니다.",
+  "copy": "텍스트 복사; 잠기면 클립보드가 비워집니다",
+  "drop": "파일, 텍스트 또는 링크를 놓으세요.",
+  "export": "내보내기",
+  "lock": "잠그기",
+  "locked": "잠김",
+  "lockedHint": "먼저 보안 선반의 잠금을 해제한 다음 항목을 다시 놓으세요.",
+  "lockedMessage": "내용은 이 Mac에 암호화되어 저장됩니다. 열려면 Touch ID 또는 Mac 로그인 암호를 사용하세요.",
+  "lockedTitle": "내용이 잠겨 있습니다",
+  "newNote": "새 메모",
+  "open": "켬",
+  "remove": "삭제",
+  "removeMessage": "이 작업은 되돌릴 수 없습니다. 보안 선반 밖의 원본 파일은 삭제되지 않습니다.",
+  "removeTitle": "이 암호화된 항목을 삭제할까요?",
+  "search": "보안 선반에서 검색",
+  "shelf": "선반",
+  "title": "보안 선반",
+  "unlock": "잠금 해제",
+  "widget.summary": "파일과 메모를 나만 볼 수 있게 보관합니다.",
+  "widget.title": "보안 선반"
+}

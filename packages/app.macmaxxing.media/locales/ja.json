@@ -1,0 +1,10 @@
+{
+  "density": "外観",
+  "idle": "再生中のものはありません",
+  "openSource": "ソースを開く",
+  "queue": "次へ",
+  "queueEmpty": "キューは空です",
+  "subtitle": "音楽や動画の情報と再生コントロールを表示します。",
+  "widget.summary": "音楽や動画の情報と再生コントロールを表示します。",
+  "widget.title": "メディア"
+}

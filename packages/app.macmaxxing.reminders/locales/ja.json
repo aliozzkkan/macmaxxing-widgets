@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "今日のタスクの優先度の内訳",
+  "chartNote": "各バーは、その優先度のタスクが占める割合です",
+  "chartTitle": "タスクの緊急度の内訳",
+  "deniedHint": "システム設定でリマインダーへのアクセスを許可してください",
+  "grantAccess": "リマインダーを許可",
+  "itemsTitle": "保留中の項目",
+  "maximumRows": "最大行数",
+  "needsAccess": "リマインダーのアクセス権が必要です",
+  "needsAccessHint": "リマインダーを表示するにはアクセスを許可してください",
+  "noItems": "保留中のタスクはありません",
+  "noItemsBody": "今日までに期限が来るリマインダーはありません。",
+  "permission": "アクセス権が必要です",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "今日までに完了していないタスク",
+  "tasks": "タスク",
+  "unavailable": "リマインダーを読み込めませんでした",
+  "unavailableHint": "現在リマインダーのデータを取得できません",
+  "widget.summary": "今日のタスクとリマインダーのアクセス権状態を表示します。",
+  "widget.title": "リマインダー"
+}

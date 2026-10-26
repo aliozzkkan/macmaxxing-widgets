@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Toegang tot de schermafbeeldingenmap",
+  "count": "Schermafbeelding",
+  "empty": "Geen schermafbeeldingen",
+  "failed": "Schermafbeeldingen konden niet worden gelezen",
+  "grant": "Toegang toestaan",
+  "latest": "Laatste schermafbeelding",
+  "perDay": "Schermafbeeldingen per dag",
+  "readText": "Tekst en QR-codes lezen",
+  "reading": "Herkende tekst",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "reveal": "Toon in Finder",
+  "rows": "Rij",
+  "settings": "Instellingen",
+  "subtitle": "Stapelt, opent en versleept recente schermafbeeldingen wanneer de plank is ingeschakeld in Gedrag.",
+  "trash": "Verplaats naar prullenmand",
+  "trashMessage": "Het bestand wordt niet verwijderd; je kunt het terugzetten vanuit de prullenbak.",
+  "trashTitle": "Schermafbeelding naar de prullenbak verplaatsen?",
+  "widget.summary": "Stapelt, opent en versleept recente schermafbeeldingen wanneer de plank is ingeschakeld in Gedrag.",
+  "widget.title": "Schermafbeeldingenplank"
+}

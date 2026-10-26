@@ -1,0 +1,20 @@
+{
+  "cancel": "Cancel",
+  "chartAccessibility": "Ping time in the latest measurements",
+  "chartNote": "Times are the instant values from the last refresh",
+  "chartTitle": "Ping history",
+  "details": "Measurement details",
+  "download": "Download",
+  "lastTest": "Last speed test",
+  "loss": "Packet loss",
+  "offline": "No internet",
+  "offlineBody": "Could not reach test address",
+  "ping": "Ping",
+  "refreshInterval": "Refresh interval (seconds)",
+  "speedTest": "Speed test",
+  "startTest": "Start speed test",
+  "subtitle": "Latest measurements and connection quality",
+  "testing": "Measuring speed…",
+  "widget.summary": "Shows ping, packet loss, and connection quality.",
+  "widget.title": "Internet Health"
+}

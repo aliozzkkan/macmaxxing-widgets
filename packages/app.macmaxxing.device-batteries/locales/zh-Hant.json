@@ -1,0 +1,17 @@
+{
+  "allGood": "所有裝置電量充足",
+  "chartAccessibility": "裝置電量圖表",
+  "chartNote": "每個長條表示一台裝置目前的電量百分比",
+  "chartTitle": "電量",
+  "devicesTitle": "裝置",
+  "lowBadge": "電量偏低",
+  "lowest": "最低",
+  "noDevices": "找不到裝置",
+  "noDevicesBody": "連接會回報電量的藍牙裝置後，其電量會顯示在這裡。",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "已連接藍牙裝置的電量",
+  "unavailable": "無法讀取裝置",
+  "unavailableHint": "藍牙資料無法使用",
+  "widget.summary": "顯示已連線藍牙裝置的電池電量。",
+  "widget.title": "裝置電池"
+}

@@ -1,0 +1,6 @@
+{
+  "widget.title": "Backup Status",
+  "widget.summary": "Shows the latest backup status through the Time Machine capability.",
+  "heading": "Backups",
+  "refresh": "Refresh"
+}

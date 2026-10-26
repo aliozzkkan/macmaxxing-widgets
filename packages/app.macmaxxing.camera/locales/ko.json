@@ -1,0 +1,12 @@
+{
+  "grant": "허용",
+  "needed": "카메라 권한 필요",
+  "openStudio": "스튜디오 열기",
+  "ready": "카메라 준비됨",
+  "record": "녹화 시작",
+  "recording": "기록 중",
+  "studio": "카메라 스튜디오",
+  "waiting": "카메라 대기 중",
+  "widget.summary": "카메라 미리보기와 권한 상태를 빠른 접근 위치로 가져옵니다.",
+  "widget.title": "카메라"
+}

@@ -1,0 +1,10 @@
+{
+  "density": "Apparence",
+  "idle": "Aucune lecture en cours",
+  "openSource": "Ouvrir la source",
+  "queue": "À venir",
+  "queueEmpty": "La file d'attente est vide",
+  "subtitle": "Affiche les informations de la musique ou vidéo et les commandes de lecture.",
+  "widget.summary": "Affiche les informations de la musique ou vidéo et les commandes de lecture.",
+  "widget.title": "Médias"
+}

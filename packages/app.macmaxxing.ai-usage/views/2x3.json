@@ -1,0 +1,72 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.leastText}} {{t.left}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noSession}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noSessionBody}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 2
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasData",
+          "then": {
+            "type": "ring",
+            "label": "{{t.usage}}",
+            "percent": "{{state.maxUsed}}"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "rows",
+      "items": "state.rows",
+      "title": "title",
+      "value": "value"
+    }
+  ],
+  "spacing": 10
+}

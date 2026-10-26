@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Prioritätsverteilung der heutigen Aufgaben",
+  "chartNote": "Jeder Balken zeigt den Anteil der Aufgaben einer Prioritätsstufe",
+  "chartTitle": "Verteilung der Aufgaben nach Dringlichkeit",
+  "deniedHint": "Erlauben Sie den Zugriff auf Erinnerungen in den Systemeinstellungen",
+  "grantAccess": "Zugriff auf Erinnerungen erlauben",
+  "itemsTitle": "Offene Aufgaben",
+  "maximumRows": "Maximale Zeilenanzahl",
+  "needsAccess": "Erinnerungsberechtigung erforderlich",
+  "needsAccessHint": "Gewähren Sie Zugriff, um Ihre Erinnerungen zu sehen",
+  "noItems": "Keine offenen Aufgaben",
+  "noItemsBody": "Es sind keine Erinnerungen bis heute fällig.",
+  "permission": "Berechtigung erforderlich",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "subtitle": "Bis heute nicht erledigte Aufgaben",
+  "tasks": "Aufgaben",
+  "unavailable": "Erinnerungen konnten nicht gelesen werden",
+  "unavailableHint": "Erinnerungsdaten sind derzeit nicht verfügbar",
+  "widget.summary": "Zeigt heutige Aufgaben und den Berechtigungsstatus für Erinnerungen an.",
+  "widget.title": "Erinnerungen"
+}

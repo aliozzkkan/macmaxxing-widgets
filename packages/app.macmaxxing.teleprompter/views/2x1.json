@@ -1,0 +1,62 @@
+{
+  "type": "hstack",
+  "children": [
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.isRunning",
+          "then": {
+            "type": "text",
+            "text": "{{t.running}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isFinished",
+          "then": {
+            "type": "text",
+            "text": "{{t.finished}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isReady",
+          "then": {
+            "type": "hstack",
+            "children": [
+              {
+                "type": "text",
+                "text": "{{state.wordCount}}",
+                "style": "body"
+              },
+              {
+                "type": "text",
+                "text": "{{t.words}}",
+                "style": "body"
+              }
+            ],
+            "spacing": 4
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isEmpty",
+          "then": {
+            "type": "text",
+            "text": "{{t.prepare}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 0
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 8
+}

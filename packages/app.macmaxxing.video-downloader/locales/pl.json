@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Tylko dźwięk (MP3)",
+  "cancel": "Anuluj",
+  "cancelled": "Anulowano",
+  "compatibleMP4": "Zgodny MP4",
+  "drop": "Upuść łącze wideo tutaj",
+  "failed": "Pobieranie nieudane",
+  "finished": "Pobieranie zakończone",
+  "formatTitle": "Format pobierania",
+  "hint": "Przeciągnij link do wideo na widżet lub pobierz link ze schowka.",
+  "original": "Oryginalny format",
+  "paste": "Pobierz ze schowka",
+  "preparing": "Przygotowywanie",
+  "qualityNote": "Po wybraniu formatu MP3 jakość wideo nie ma zastosowania; nagrywany jest wyłącznie dźwięk.",
+  "qualityTitle": "Jakość wideo",
+  "reveal": "Pokaż w Finderze",
+  "title": "Pobierarka wideo",
+  "widget.summary": "Zapisuje obsługiwane łącza wideo do folderu Pobrane rzeczy metodą przeciągnij i upuść.",
+  "widget.title": "Pobierarka wideo"
+}

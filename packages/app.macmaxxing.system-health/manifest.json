@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.system-health",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "presentation": {
+    "title": "Sistem Sağlığı",
+    "summary": "CPU, GPU, bellek, disk, ağ, sıcaklık ve çalışma süresini ayrıntılı gösterir.",
+    "category": "power",
+    "systemImageName": "waveform.path.ecg",
+    "accentHex": "30D158",
+    "defaultSize": "4x2",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "system.health",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 5,
+  "defaultSettings": {
+    "alerts": false,
+    "refreshIntervalSeconds": 5,
+    "showCPU": true,
+    "showMemory": true,
+    "showGPU": true,
+    "showDisk": true,
+    "showNetwork": true,
+    "showThermal": true,
+    "showUptime": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "density": "外觀",
+  "idle": "沒有正在播放的內容",
+  "openSource": "打開來源",
+  "queue": "即將到來",
+  "queueEmpty": "佇列為空",
+  "subtitle": "顯示音樂或影片資訊以及播放控制項目。",
+  "widget.summary": "顯示音樂或影片資訊以及播放控制項目。",
+  "widget.title": "媒體"
+}

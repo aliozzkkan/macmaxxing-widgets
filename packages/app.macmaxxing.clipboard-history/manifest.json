@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.clipboard-history",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "presentation": {
+    "title": "Pano Geçmişi",
+    "summary": "Son kopyalanan metin, dosya ve görselleri hızlı liste olarak gösterir.",
+    "category": "productivity",
+    "systemImageName": "doc.on.clipboard",
+    "accentHex": "0A84FF",
+    "defaultSize": "3x1",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "clipboard.history",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 10,
+  "defaultSettings": {
+    "refreshIntervalSeconds": 10,
+    "maximumRows": 20,
+    "showSearch": true,
+    "captureText": true,
+    "captureFiles": true,
+    "captureImages": true,
+    "ignoreConcealed": true,
+    "clipboardRetentionHours": 0,
+    "clipboardAutoClearMinutes": 0,
+    "ignoredClipboardApps": []
+  }
+}

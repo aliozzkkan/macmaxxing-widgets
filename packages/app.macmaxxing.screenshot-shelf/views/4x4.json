@@ -1,0 +1,112 @@
+{
+  "type": "hstack",
+  "children": [
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "grid",
+            "items": "state.items",
+            "columns": 2,
+            "thumbnail": "thumbnail",
+            "title": "name",
+            "action": "preview",
+            "menu": [
+              {
+                "title": "{{t.readText}}",
+                "action": "readText",
+                "symbol": "text.viewfinder"
+              },
+              {
+                "title": "{{t.reveal}}",
+                "action": "reveal",
+                "symbol": "folder"
+              },
+              {
+                "title": "{{t.trash}}",
+                "action": "trash",
+                "symbol": "trash",
+                "confirm": {
+                  "title": "{{t.trashTitle}}",
+                  "message": "{{t.trashMessage}}",
+                  "destructiveTitle": "{{t.trash}}"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.needsAccess",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.accessNeeded}}",
+                    "style": "body"
+                  },
+                  {
+                    "type": "button",
+                    "title": "{{t.grant}}",
+                    "action": "requestAccess",
+                    "symbol": "folder.badge.plus"
+                  }
+                ],
+                "spacing": 6
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isFailed",
+              "then": {
+                "type": "text",
+                "text": "{{t.failed}}",
+                "style": "body"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.empty}}",
+                "style": "body"
+              }
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 6
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "value",
+          "label": "{{t.count}}",
+          "value": "{{state.count}}"
+        },
+        {
+          "type": "text",
+          "text": "{{t.latest}}",
+          "style": "caption"
+        },
+        {
+          "type": "text",
+          "text": "{{state.latestName}}",
+          "style": "body"
+        }
+      ],
+      "spacing": 3
+    }
+  ],
+  "spacing": 10
+}

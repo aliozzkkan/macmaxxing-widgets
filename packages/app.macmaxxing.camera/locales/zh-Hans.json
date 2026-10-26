@@ -1,0 +1,12 @@
+{
+  "grant": "允许",
+  "needed": "需要摄像头权限",
+  "openStudio": "打开工作室",
+  "ready": "摄像头就绪",
+  "record": "开始录制",
+  "recording": "正在录制",
+  "studio": "相机工作室",
+  "waiting": "摄像头待机中",
+  "widget.summary": "将摄像头预览与权限状态置于快捷访问位置。",
+  "widget.title": "摄像头"
+}

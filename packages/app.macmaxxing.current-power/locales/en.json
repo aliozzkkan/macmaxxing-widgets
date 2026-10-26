@@ -1,0 +1,17 @@
+{
+  "adapter": "Charger",
+  "battery": "Battery",
+  "comfortable": "Balanced",
+  "compact": "Compact",
+  "density": "Appearance",
+  "detailed": "Detailed",
+  "details": "Measurement details",
+  "flow": "POWER FLOW",
+  "incoming": "Input",
+  "load": "Output",
+  "refreshInterval": "Refresh interval (seconds)",
+  "remaining": "Estimated",
+  "subtitle": "Current Power",
+  "widget.summary": "Shows current wattage, battery, charging status, and power graph.",
+  "widget.title": "Power Center"
+}

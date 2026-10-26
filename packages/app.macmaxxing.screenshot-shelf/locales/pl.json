@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Dostęp do folderu zrzutów ekranu",
+  "count": "Zrzut ekranu",
+  "empty": "Brak zrzutów ekranu",
+  "failed": "Nie udało się odczytać zrzutów ekranu",
+  "grant": "Zezwól na dostęp",
+  "latest": "Ostatni zrzut ekranu",
+  "perDay": "Zrzuty ekranu dziennie",
+  "readText": "Odczytaj tekst i QR",
+  "reading": "Rozpoznany tekst",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "reveal": "Pokaż w Finderze",
+  "rows": "Wiersz",
+  "settings": "Ustawienia",
+  "subtitle": "Układa, otwiera i przeciąga ostatnie zrzuty ekranu, gdy półka jest aktywna w Zachowaniu.",
+  "trash": "Przenieś do Kosza",
+  "trashMessage": "Plik nie zostanie usunięty; możesz go przywrócić z Kosza.",
+  "trashTitle": "Przenieść zrzut ekranu do Kosza?",
+  "widget.summary": "Układa, otwiera i przeciąga ostatnie zrzuty ekranu, gdy półka jest aktywna w Zachowaniu.",
+  "widget.title": "Półka zrzutów ekranu"
+}

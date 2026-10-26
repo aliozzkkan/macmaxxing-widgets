@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.widget-library",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "presentation": {
+    "title": "Widgetlar",
+    "summary": "Widget kütüphanesini açan komut widgetı.",
+    "category": "tools",
+    "systemImageName": "square.grid.2x2",
+    "accentHex": "BF5AF2",
+    "defaultSize": "1x1",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "app.commands",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 60,
+  "defaultSettings": {}
+}

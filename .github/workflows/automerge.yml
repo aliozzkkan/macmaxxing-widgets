@@ -1,0 +1,74 @@
+name: automerge
+
+# Starts after "check" finishes and never checks out or runs code from the pull request: it only
+# reads file lists and the registry through the GitHub API and then squash-merges when every rule holds.
+on:
+  workflow_run:
+    workflows: [check]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge a qualifying package pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          skip() { echo "Not merging automatically: $1" | tee -a "$GITHUB_STEP_SUMMARY"; exit 0; }
+
+          # Fork pull requests are not listed on the workflow run, so find the open one by its head commit.
+          number=$(gh api "repos/$REPO/commits/$HEAD_SHA/pulls" \
+            --jq '[.[] | select(.state == "open" and .head.sha == "'"$HEAD_SHA"'")][0].number // empty')
+          [[ -n "$number" ]] || skip "no open pull request for $HEAD_SHA"
+          pr=$(gh api "repos/$REPO/pulls/$number")
+          login=$(jq -r '.user.login' <<< "$pr")
+          head_repo=$(jq -r '.head.repo.full_name' <<< "$pr")
+          [[ "$(jq -r '.base.ref' <<< "$pr")" == "$DEFAULT_BRANCH" ]] || skip "pull request does not target $DEFAULT_BRANCH"
+          [[ "$(jq -r '.draft' <<< "$pr")" == "false" ]] || skip "draft pull request"
+
+          files=$(gh api --paginate "repos/$REPO/pulls/$number/files" --jq '.[] | .filename, (.previous_filename // empty)')
+          [[ -n "$files" ]] || skip "no changed files"
+
+          # Every changed path must be inside one packages/<id>/ tree; the registry is the only other
+          # path allowed, and only for the new-identity rule below.
+          ids=$(grep '^packages/' <<< "$files" | cut -d/ -f2 | sort -u || true)
+          [[ -n "$ids" && "$(wc -l <<< "$ids" | tr -d ' ')" == "1" ]] || skip "changes do not touch exactly one package"
+          id="$ids"
+          registry_touched=false
+          while IFS= read -r path; do
+            case "$path" in
+              "packages/$id/"*) ;;
+              registry/packages.json) registry_touched=true ;;
+              *) skip "changed path outside the package tree: $path" ;;
+            esac
+          done <<< "$files"
+
+          lower_login=$(tr '[:upper:]' '[:lower:]' <<< "$login")
+          base_registry=$(gh api "repos/$REPO/contents/registry/packages.json?ref=$DEFAULT_BRANCH" --jq '.content' | base64 --decode)
+
+          if [[ "$registry_touched" == "false" ]]; then
+            owner=$(jq -r --arg id "$id" '.[$id].owner // empty' <<< "$base_registry" | tr '[:upper:]' '[:lower:]')
+            [[ -n "$owner" ]] || skip "$id is not registered"
+            [[ "$owner" == "$lower_login" ]] || skip "$login does not own $id"
+          else
+            # New identity: the only registry change is one added entry owned by the submitter,
+            # unofficial and not bundled. The reserved official prefix never merges automatically.
+            [[ "$id" != app.macmaxxing.* ]] || skip "the app.macmaxxing. prefix is reserved"
+            head_registry=$(gh api "repos/$head_repo/contents/registry/packages.json?ref=$HEAD_SHA" --jq '.content' | base64 --decode)
+            jq -e --arg id "$id" --arg login "$login" --argjson base "$base_registry" \
+              '(.[$id] == {owner: $login, official: false, bundled: false}) and (del(.[$id]) == $base) and (($base | has($id)) | not)' \
+              <<< "$head_registry" > /dev/null || skip "registry change is not a single new unofficial entry for $login"
+          fi
+
+          gh pr merge "$number" --repo "$REPO" --squash --match-head-commit "$HEAD_SHA"
+          echo "Merged #$number ($id by $login)." | tee -a "$GITHUB_STEP_SUMMARY"

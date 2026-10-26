@@ -1,0 +1,250 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasService",
+          "then": {
+            "type": "badge",
+            "text": "{{state.service}}",
+            "tone": "accent"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.needsAccess",
+          "then": {
+            "type": "badge",
+            "text": "{{t.permission}}",
+            "tone": "warning"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isDenied",
+          "then": {
+            "type": "badge",
+            "text": "{{t.permission}}",
+            "tone": "warning"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isUpcoming",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.startsIn}}",
+                    "style": "caption"
+                  },
+                  {
+                    "type": "countdown",
+                    "until": "state.startEpoch",
+                    "style": "value"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.title}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isLive",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.inProgress}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.title}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isNone",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.noMeetings}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.noMeetingsHint}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.needsAccess",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.needsAccess}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.needsAccessHint}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isDenied",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.needsAccess}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.deniedHint}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasMeeting",
+          "then": {
+            "type": "value",
+            "label": "{{t.start}}",
+            "value": "{{state.timeRange}}"
+          }
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.busyChart",
+              "isLive": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.meetingsTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "rows",
+              "items": "state.rows",
+              "title": "title",
+              "value": "value"
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 18
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.canJoin",
+          "then": {
+            "type": "button",
+            "title": "{{t.join}}",
+            "action": "join",
+            "symbol": "video.fill"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.needsAccess",
+          "then": {
+            "type": "button",
+            "title": "{{t.grantAccess}}",
+            "action": "requestAccess",
+            "symbol": "calendar"
+          }
+        }
+      ],
+      "spacing": 6
+    }
+  ],
+  "spacing": 12
+}

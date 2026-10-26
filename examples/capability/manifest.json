@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 2,
+  "id": "community.example.capability",
+  "version": "1.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Example Author",
+    "url": "https://example.com"
+  },
+  "presentation": {
+    "title": "Yedek Durumu",
+    "summary": "Time Machine yeteneğiyle son yedekleme durumunu gösterir.",
+    "category": "tools",
+    "systemImageName": "clock.arrow.circlepath",
+    "defaultSize": "2x3",
+    "allowedSizes": [
+      "2x3",
+      "2x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "system.timeMachine",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 60,
+  "defaultSettings": {
+    "refreshIntervalSeconds": 60
+  }
+}

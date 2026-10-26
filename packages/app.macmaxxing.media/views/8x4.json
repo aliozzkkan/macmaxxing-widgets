@@ -1,0 +1,119 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "when",
+      "condition": "state.hasTrack",
+      "then": {
+        "type": "hstack",
+        "children": [
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "image",
+                "handle": "{{state.artwork}}",
+                "fallbackSymbol": "music.note",
+                "shape": "rounded"
+              }
+            ],
+            "spacing": 0
+          },
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.title}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.subtitle}}",
+                    "style": "caption"
+                  }
+                ],
+                "spacing": 2
+              },
+              {
+                "type": "text",
+                "text": "{{state.album}}",
+                "style": "caption"
+              },
+              {
+                "type": "spacer"
+              },
+              {
+                "type": "when",
+                "condition": "state.canSeek",
+                "then": {
+                  "type": "scrubber",
+                  "elapsed": "state.elapsed",
+                  "duration": "state.duration",
+                  "rate": "state.rate",
+                  "at": "state.at",
+                  "action": "seek"
+                }
+              },
+              {
+                "type": "mediaTransport",
+                "state": "state.playing",
+                "actions": {
+                  "playPause": "playPause",
+                  "next": "next",
+                  "previous": "previous",
+                  "skipBack": "skipBack",
+                  "skipForward": "skipForward"
+                }
+              }
+            ],
+            "spacing": 8
+          },
+          {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "text",
+                "text": "{{t.queue}}",
+                "style": "caption"
+              },
+              {
+                "type": "list",
+                "items": "state.queue",
+                "id": "id",
+                "title": "title",
+                "detail": "detail",
+                "emptyText": "{{t.queueEmpty}}"
+              }
+            ],
+            "spacing": 4
+          }
+        ],
+        "spacing": 14
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isIdle",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "symbol",
+            "name": "music.note"
+          },
+          {
+            "type": "text",
+            "text": "{{t.idle}}",
+            "style": "body"
+          }
+        ],
+        "spacing": 4
+      }
+    }
+  ],
+  "spacing": 4
+}

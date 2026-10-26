@@ -1,0 +1,17 @@
+{
+  "allGood": "모든 기기의 배터리가 충분합니다",
+  "chartAccessibility": "기기 배터리 잔량 차트",
+  "chartNote": "각 막대는 기기의 현재 배터리 비율입니다",
+  "chartTitle": "배터리 잔량",
+  "devicesTitle": "기기",
+  "lowBadge": "배터리 부족",
+  "lowest": "최저",
+  "noDevices": "기기를 찾을 수 없음",
+  "noDevicesBody": "배터리 정보를 보고하는 Bluetooth 기기를 연결하면 잔량이 여기에 표시됩니다.",
+  "refreshInterval": "새로고침 간격(초)",
+  "subtitle": "연결된 Bluetooth 기기의 배터리 잔량",
+  "unavailable": "기기를 읽을 수 없음",
+  "unavailableHint": "Bluetooth 데이터를 사용할 수 없음",
+  "widget.summary": "연결된 Bluetooth 기기의 배터리 잔량을 표시합니다.",
+  "widget.title": "기기 배터리"
+}

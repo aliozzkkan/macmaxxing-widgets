@@ -1,0 +1,7 @@
+{
+  "capabilities": {
+    "video.download.status": {
+      "state": "idle"
+    }
+  }
+}

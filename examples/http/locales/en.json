@@ -1,0 +1,9 @@
+{
+  "widget.title": "Air Temperature",
+  "widget.summary": "Reads Istanbul's current temperature from an open HTTP API.",
+  "heading": "Istanbul",
+  "temperature": "Temperature",
+  "updated": "Open-Meteo data",
+  "failed": "Could not load data.",
+  "refresh": "Refresh"
+}

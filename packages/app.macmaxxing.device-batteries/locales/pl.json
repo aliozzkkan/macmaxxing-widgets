@@ -1,0 +1,17 @@
+{
+  "allGood": "Wszystkie urządzenia mają wystarczająco baterii",
+  "chartAccessibility": "Wykres poziomów baterii urządzeń",
+  "chartNote": "Każdy słupek to aktualny procent baterii urządzenia",
+  "chartTitle": "Poziomy baterii",
+  "devicesTitle": "Urządzenia",
+  "lowBadge": "Niski poziom baterii",
+  "lowest": "Najniższy",
+  "noDevices": "Nie znaleziono urządzenia",
+  "noDevicesBody": "Po podłączeniu urządzenia Bluetooth raportującego stan baterii jego poziom pojawi się tutaj.",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "subtitle": "Poziom baterii połączonych urządzeń Bluetooth",
+  "unavailable": "Nie można odczytać urządzeń",
+  "unavailableHint": "Dane Bluetooth niedostępne",
+  "widget.summary": "Pokazuje poziomy baterii podłączonych urządzeń Bluetooth.",
+  "widget.title": "Baterie urządzeń"
+}

@@ -1,0 +1,188 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.isReady",
+          "then": {
+            "type": "value",
+            "label": "{{t.portsTitle}}",
+            "value": "{{state.total}}"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.chart",
+              "isLive": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{t.portsTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "list",
+              "items": "state.items",
+              "id": "id",
+              "title": "title",
+              "detail": "detail",
+              "action": "select",
+              "selection": "state.selectedId",
+              "emptyText": "{{t.noServers}}"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasSelected",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{state.selected.title}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.purpose}}",
+                    "style": "caption"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.selected.purpose}}",
+                    "style": "body"
+                  },
+                  {
+                    "type": "hstack",
+                    "children": [
+                      {
+                        "type": "value",
+                        "label": "{{t.process}}",
+                        "value": "{{state.selected.pid}}"
+                      },
+                      {
+                        "type": "value",
+                        "label": "{{t.address}}",
+                        "value": "{{state.selected.address}}"
+                      },
+                      {
+                        "type": "value",
+                        "label": "{{t.protocol}}",
+                        "value": "{{state.selected.protocolHint}}"
+                      }
+                    ],
+                    "spacing": 10
+                  },
+                  {
+                    "type": "when",
+                    "condition": "state.selected.hasProject",
+                    "then": {
+                      "type": "value",
+                      "label": "{{t.project}}",
+                      "value": "{{state.selected.project}}"
+                    }
+                  },
+                  {
+                    "type": "vstack",
+                    "children": [
+                      {
+                        "type": "button",
+                        "title": "{{t.open}}",
+                        "action": "open",
+                        "symbol": "safari"
+                      },
+                      {
+                        "type": "when",
+                        "condition": "state.selected.hasProject",
+                        "then": {
+                          "type": "button",
+                          "title": "{{t.reveal}}",
+                          "action": "reveal",
+                          "symbol": "folder"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "title": "{{t.stop}}",
+                        "action": "stop",
+                        "symbol": "stop.circle",
+                        "confirm": {
+                          "title": "{{t.confirmTitle}}",
+                          "message": "{{t.confirmMessage}}",
+                          "destructiveTitle": "{{t.stop}}"
+                        }
+                      }
+                    ],
+                    "spacing": 6
+                  }
+                ],
+                "spacing": 8
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.noSelection",
+              "then": {
+                "type": "text",
+                "text": "{{t.noSelection}}",
+                "style": "body"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noneToInspect}}",
+                "style": "body"
+              }
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 8
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 12
+}

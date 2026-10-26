@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Répartition par priorité des tâches du jour",
+  "chartNote": "Chaque barre indique la part des tâches d’un niveau de priorité",
+  "chartTitle": "Répartition des tâches par urgence",
+  "deniedHint": "Autorisez l’accès aux rappels dans Réglages Système",
+  "grantAccess": "Autoriser les rappels",
+  "itemsTitle": "Éléments en attente",
+  "maximumRows": "Nombre maximal de lignes",
+  "needsAccess": "Autorisation pour Rappels requise",
+  "needsAccessHint": "Accordez l’accès pour voir vos rappels",
+  "noItems": "Aucune tâche en attente",
+  "noItemsBody": "Aucun rappel n’est à terminer d’ici aujourd’hui.",
+  "permission": "Autorisation requise",
+  "refreshInterval": "Intervalle d’actualisation (secondes)",
+  "subtitle": "Tâches non terminées à ce jour",
+  "tasks": "Tâches",
+  "unavailable": "Impossible de lire les rappels",
+  "unavailableHint": "Les données des rappels sont indisponibles pour le moment",
+  "widget.summary": "Affiche les tâches d’aujourd’hui et l’état des autorisations de Rappels.",
+  "widget.title": "Rappels"
+}

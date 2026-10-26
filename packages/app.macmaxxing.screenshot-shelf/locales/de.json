@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Zugriff auf den Screenshot-Ordner",
+  "count": "Screenshot",
+  "empty": "Keine Screenshots",
+  "failed": "Screenshots konnten nicht gelesen werden",
+  "grant": "Zugriff erlauben",
+  "latest": "Letzter Screenshot",
+  "perDay": "Screenshots pro Tag",
+  "readText": "Text und QR-Code lesen",
+  "reading": "Erkannter Text",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "reveal": "Im Finder anzeigen",
+  "rows": "Zeile",
+  "settings": "Einstellungen",
+  "subtitle": "Stapelt, öffnet und zieht kürzliche Screenshots, wenn die Ablage unter „Verhalten“ aktiviert ist.",
+  "trash": "In den Papierkorb legen",
+  "trashMessage": "Die Datei wird nicht gelöscht; Sie können sie aus dem Papierkorb wiederherstellen.",
+  "trashTitle": "Screenshot in den Papierkorb legen?",
+  "widget.summary": "Stapelt, öffnet und zieht kürzliche Screenshots, wenn die Ablage unter „Verhalten“ aktiviert ist.",
+  "widget.title": "Screenshot-Ablage"
+}

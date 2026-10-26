@@ -1,0 +1,47 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.heading}}",
+      "style": "title"
+    },
+    {
+      "type": "when",
+      "condition": "state.hasData",
+      "then": {
+        "type": "vstack",
+        "spacing": 8,
+        "children": [
+          {
+            "type": "value",
+            "label": "{{t.temperature}}",
+            "value": "{{state.temperature}}",
+            "unit": "°C"
+          },
+          {
+            "type": "text",
+            "text": "{{t.updated}}",
+            "style": "caption"
+          }
+        ]
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.failed",
+      "then": {
+        "type": "text",
+        "text": "{{t.failed}}",
+        "style": "caption"
+      }
+    },
+    {
+      "type": "button",
+      "title": "{{t.refresh}}",
+      "symbol": "arrow.clockwise",
+      "action": "refresh"
+    }
+  ]
+}

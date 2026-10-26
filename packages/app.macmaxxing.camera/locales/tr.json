@@ -1,0 +1,12 @@
+{
+  "grant": "İzin ver",
+  "needed": "Kamera izni gerekiyor",
+  "openStudio": "Stüdyoyu Aç",
+  "ready": "Kamera hazır",
+  "record": "Kaydı başlat",
+  "recording": "Kaydediliyor",
+  "studio": "Kamera Stüdyosu",
+  "waiting": "Kamera bekliyor",
+  "widget.summary": "Kamera önizlemesi ve izin durumunu hızlı erişime taşır.",
+  "widget.title": "Kamera"
+}

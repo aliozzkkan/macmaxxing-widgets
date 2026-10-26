@@ -1,0 +1,10 @@
+{
+  "capabilities": {
+    "teleprompter.status": {
+      "wordCount": 120,
+      "preview": "Hello",
+      "running": false,
+      "finished": false
+    }
+  }
+}

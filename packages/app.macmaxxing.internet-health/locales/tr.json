@@ -1,0 +1,20 @@
+{
+  "cancel": "İptal",
+  "chartAccessibility": "Son ölçümlerdeki ping süresi",
+  "chartNote": "Süreler son yenilemedeki anlık değerdir",
+  "chartTitle": "Ping geçmişi",
+  "details": "Ölçüm ayrıntıları",
+  "download": "İndirme",
+  "lastTest": "Son hız testi",
+  "loss": "Paket kaybı",
+  "offline": "İnternet yok",
+  "offlineBody": "Test adresine ulaşılamadı",
+  "ping": "Ping",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "speedTest": "Hız testi",
+  "startTest": "Hız testini başlat",
+  "subtitle": "Son ölçümler ve bağlantı kalitesi",
+  "testing": "Hız ölçülüyor…",
+  "widget.summary": "Ping, paket kaybı ve bağlantı kalitesini gösterir.",
+  "widget.title": "İnternet Sağlığı"
+}

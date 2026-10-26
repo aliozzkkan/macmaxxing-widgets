@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Acceso a la carpeta de capturas de pantalla",
+  "count": "Captura de pantalla",
+  "empty": "Sin capturas de pantalla",
+  "failed": "No se pudieron leer las capturas de pantalla",
+  "grant": "Permitir acceso",
+  "latest": "Última captura de pantalla",
+  "perDay": "Capturas de pantalla por día",
+  "readText": "Leer texto y códigos QR",
+  "reading": "Texto reconocido",
+  "refreshInterval": "Intervalo de actualización (segundos)",
+  "reveal": "Mostrar en el Finder",
+  "rows": "Fila",
+  "settings": "Ajustes",
+  "subtitle": "Apila, abre y arrastra capturas recientes cuando el estante está activo en Comportamiento.",
+  "trash": "Mover al basurero",
+  "trashMessage": "El archivo no se elimina; puedes recuperarlo desde la Papelera.",
+  "trashTitle": "¿Mover la captura de pantalla a la Papelera?",
+  "widget.summary": "Apila, abre y arrastra capturas recientes cuando el estante está activo en Comportamiento.",
+  "widget.title": "Estante de capturas"
+}

@@ -1,0 +1,8 @@
+{
+  "capabilities": {
+    "system.controls.snapshot": {
+      "volume": 40,
+      "muted": false
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.isReady",
+              "then": {
+                "type": "text",
+                "text": "{{state.summary}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noDevices}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isUnavailable",
+              "then": {
+                "type": "text",
+                "text": "{{t.unavailable}}",
+                "style": "value"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.hasLow",
+              "then": {
+                "type": "text",
+                "text": "{{state.caption}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.allGood",
+              "then": {
+                "type": "text",
+                "text": "{{t.allGood}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "text",
+                "text": "{{t.noDevicesBody}}",
+                "style": "caption"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isUnavailable",
+              "then": {
+                "type": "text",
+                "text": "{{t.unavailableHint}}",
+                "style": "caption"
+              }
+            }
+          ],
+          "spacing": 2
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.lowest",
+          "then": {
+            "type": "ring",
+            "label": "{{t.lowest}}",
+            "percent": "{{state.lowest.percent}}"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "rows",
+      "items": "state.rows",
+      "title": "title",
+      "value": "value"
+    }
+  ],
+  "spacing": 10
+}

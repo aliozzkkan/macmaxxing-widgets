@@ -1,0 +1,16 @@
+{
+  "destination": "Destino de la copia",
+  "lastBackup": "Última copia",
+  "nextBackup": "Próxima copia",
+  "noBackup": "No se encontraron copias de seguridad",
+  "noBackupBody": "No se puede leer la última copia si el disco de Time Machine no está conectado o nunca se hizo una copia.",
+  "openSettings": "Abrir ajustes de Time Machine",
+  "refreshInterval": "Intervalo de actualización (segundos)",
+  "running": "En ejecución",
+  "runningBody": "Time Machine está haciendo una copia ahora. La antigüedad se reinicia al terminar.",
+  "status": "Estado",
+  "subtitle": "Hora y estado de la última copia",
+  "upToDate": "Las copias están al día",
+  "widget.summary": "Muestra la hora de la última copia de seguridad y las copias en curso.",
+  "widget.title": "Salud de Time Machine"
+}

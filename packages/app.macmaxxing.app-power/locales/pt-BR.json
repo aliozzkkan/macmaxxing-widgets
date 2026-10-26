@@ -1,0 +1,14 @@
+{
+  "comfortable": "Equilibrado",
+  "compact": "Compacto",
+  "density": "Aparência",
+  "detailed": "Detalhado",
+  "estimate": "Valores estimados a partir da carga da CPU",
+  "heading": "Maior Consumo",
+  "rows": "Máximo de linhas",
+  "subtitle": "Participação estimada do app",
+  "top": "Maior consumo de energia",
+  "waiting": "Aguardando dados do app",
+  "widget.summary": "Mostra os aplicativos que consomem mais energia ao abrir o cartão de energia atual.",
+  "widget.title": "Potência de Apps"
+}

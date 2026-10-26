@@ -1,0 +1,14 @@
+{
+  "comfortable": "均衡",
+  "compact": "紧凑",
+  "density": "外观",
+  "detailed": "详细",
+  "estimate": "数值由 CPU 负载估算得出",
+  "heading": "耗电最多的应用",
+  "rows": "最多行数",
+  "subtitle": "预估应用占比",
+  "top": "耗电最多的应用",
+  "waiting": "等待应用数据",
+  "widget.summary": "当打开当前功耗卡片时，显示消耗电量最多的应用程序。",
+  "widget.title": "应用功耗"
+}

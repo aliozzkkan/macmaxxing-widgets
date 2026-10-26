@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Deel van de komende uren dat met afspraken is gevuld",
+  "chartNote": "Elke balk toont het deel van een uur dat met afspraken is gevuld",
+  "chartTitle": "Verloop van de dag",
+  "deniedHint": "Sta agendatoegang toe in Systeeminstellingen",
+  "eventsTitle": "Afspraken van vandaag",
+  "grantAccess": "Agendatoegang toestaan",
+  "maximumRows": "Maximum regels",
+  "needsAccess": "Agendamachtiging vereist",
+  "needsAccessHint": "Geef toegang tot Agenda om vergaderingen te bekijken",
+  "noEvents": "Geen afspraken vandaag",
+  "noEventsBody": "Je agenda toont vandaag geen afspraken met tijd. Afspraken die de hele dag duren worden in deze weergave niet getoond.",
+  "permission": "Toestemming vereist",
+  "refreshInterval": "Vernieuwingsinterval (seconden)",
+  "subtitle": "Afspraken van vandaag",
+  "today": "Vandaag",
+  "widget.summary": "Toont de komende evenementen van vandaag en de machtigingsstatus.",
+  "widget.title": "Agenda"
+}

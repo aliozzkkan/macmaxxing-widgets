@@ -1,0 +1,17 @@
+{
+  "adapter": "充電器",
+  "battery": "バッテリー",
+  "comfortable": "バランス",
+  "compact": "コンパクト",
+  "density": "外観",
+  "detailed": "詳細",
+  "details": "測定の詳細",
+  "flow": "電力フロー",
+  "incoming": "入力",
+  "load": "送信",
+  "refreshInterval": "更新間隔（秒）",
+  "remaining": "推定",
+  "subtitle": "現在の電力",
+  "widget.summary": "現在のワット数、バッテリー、充電状態、電力グラフを表示します。",
+  "widget.title": "パワーセンター"
+}

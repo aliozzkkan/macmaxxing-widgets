@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Distribución por prioridad de las tareas de hoy",
+  "chartNote": "Cada barra es la proporción de tareas de un nivel de prioridad",
+  "chartTitle": "Distribución de tareas por urgencia",
+  "deniedHint": "Permite el acceso a los recordatorios en Ajustes del Sistema",
+  "grantAccess": "Dar permiso de recordatorios",
+  "itemsTitle": "Pendientes",
+  "maximumRows": "Líneas máximas",
+  "needsAccess": "Se requiere permiso de Recordatorios",
+  "needsAccessHint": "Concede acceso para ver tus recordatorios",
+  "noItems": "No hay tareas pendientes",
+  "noItemsBody": "No hay recordatorios pendientes hasta hoy.",
+  "permission": "Permiso requerido",
+  "refreshInterval": "Intervalo de actualización (segundos)",
+  "subtitle": "Tareas sin completar hasta hoy",
+  "tasks": "Tareas",
+  "unavailable": "No se pudieron leer los recordatorios",
+  "unavailableHint": "Los datos de recordatorios no están disponibles ahora",
+  "widget.summary": "Muestra las tareas de hoy y el estado de los permisos de Recordatorios.",
+  "widget.title": "Recordatorios"
+}

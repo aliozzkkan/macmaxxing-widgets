@@ -1,0 +1,9 @@
+# Everything that is not a single package folder needs the maintainer.
+*                       @aliozzkkan
+/registry/              @aliozzkkan
+/revocations/           @aliozzkkan
+/.github/               @aliozzkkan
+/validator-ref          @aliozzkkan
+/CODEOWNERS             @aliozzkkan
+# Package folders are owned by the account recorded in registry/packages.json; the automatic
+# merge enforces that, so the maintainer is only the fallback reviewer.

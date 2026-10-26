@@ -1,0 +1,20 @@
+{
+  "audioMP3": "音声のみ（MP3）",
+  "cancel": "キャンセル",
+  "cancelled": "キャンセルしました",
+  "compatibleMP4": "互換性MP4",
+  "drop": "ここに動画リンクをドロップ",
+  "failed": "ダウンロード失敗",
+  "finished": "ダウンロード完了",
+  "formatTitle": "ダウンロード形式",
+  "hint": "動画のリンクをウィジェットにドラッグするか、クリップボードのリンクをダウンロードします。",
+  "original": "オリジナル形式",
+  "paste": "クリップボードからダウンロード",
+  "preparing": "準備中",
+  "qualityNote": "MP3を選択した場合、画質設定は使用されず音声のみが保存されます。",
+  "qualityTitle": "画質",
+  "reveal": "Finderで表示",
+  "title": "動画ダウンローダー",
+  "widget.summary": "ドラッグ＆ドロップされた対応動画リンクをダウンロードフォルダに保存します。",
+  "widget.title": "動画ダウンローダー"
+}

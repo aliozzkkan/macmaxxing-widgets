@@ -1,0 +1,24 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "file",
+    "url",
+    "text"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "vstack",
+    "children": [
+      {
+        "type": "symbol",
+        "name": "tray.full"
+      },
+      {
+        "type": "value",
+        "label": "{{t.items}}",
+        "value": "{{state.count}}"
+      }
+    ],
+    "spacing": 4
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "vstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.refreshInterval}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "refreshIntervalSeconds",
+      "options": "5,10,30,60",
+      "style": "segmented"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.alerts}}",
+      "key": "alerts"
+    },
+    {
+      "type": "text",
+      "text": "{{t.alertsNote}}",
+      "style": "caption"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.cpu}}",
+      "key": "showCPU"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.memory}}",
+      "key": "showMemory"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.gpu}}",
+      "key": "showGPU"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.disk}}",
+      "key": "showDisk"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.networkSpeed}}",
+      "key": "showNetwork"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.thermal}}",
+      "key": "showThermal"
+    },
+    {
+      "type": "toggle",
+      "title": "{{t.uptime}}",
+      "key": "showUptime"
+    }
+  ]
+}

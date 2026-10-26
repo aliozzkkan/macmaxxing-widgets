@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "今日工作的優先順序分布",
+  "chartNote": "每個長條表示某一優先順序工作所占的比例",
+  "chartTitle": "工作緊急程度分布",
+  "deniedHint": "請在「系統設定」中允許存取提醒事項",
+  "grantAccess": "允許存取提醒事項",
+  "itemsTitle": "待處理事項",
+  "maximumRows": "最多行數",
+  "needsAccess": "需要提醒事項權限",
+  "needsAccessHint": "允許存取以查看提醒事項",
+  "noItems": "沒有待辦工作",
+  "noItemsBody": "今天及之前沒有到期的提醒事項。",
+  "permission": "需要權限",
+  "refreshInterval": "更新間隔（秒）",
+  "subtitle": "截至今天尚未完成的工作",
+  "tasks": "工作",
+  "unavailable": "無法讀取提醒事項",
+  "unavailableHint": "目前無法取得提醒事項資料",
+  "widget.summary": "顯示今天的任務和提醒事項權限狀態。",
+  "widget.title": "提醒事項"
+}

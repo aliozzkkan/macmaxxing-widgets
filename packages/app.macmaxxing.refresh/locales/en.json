@@ -1,0 +1,6 @@
+{
+  "caption": "Refresh data now",
+  "title": "Refresh",
+  "widget.summary": "Command widget that manually refreshes panel data.",
+  "widget.title": "Refresh"
+}

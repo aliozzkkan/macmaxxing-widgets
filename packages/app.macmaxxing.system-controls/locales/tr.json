@@ -1,0 +1,12 @@
+{
+  "down": "Sesi kıs",
+  "mute": "Sessize al",
+  "muted": "Sessiz",
+  "sleep": "Ekranı uyut",
+  "sound": "Ses ayarlarını aç",
+  "unmute": "Sesi aç",
+  "up": "Sesi artır",
+  "volume": "Ses",
+  "widget.summary": "Ses, sessize alma ve ekran uyutma gibi hızlı kontrolleri gösterir.",
+  "widget.title": "Sistem Kontrolleri"
+}

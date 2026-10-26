@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub ruhig",
+  "calmBody": "Keine ungelesenen Benachrichtigungen",
+  "chartAccessibility": "Ungelesene Benachrichtigungen nach Grund",
+  "chartNote": "Jeder Balken zeigt den Anteil eines Grundes an den ungelesenen Benachrichtigungen",
+  "chartTitle": "Gründe der Benachrichtigungen",
+  "emptyList": "Keine ungelesenen Benachrichtigungen",
+  "failed": "GitHub-Benachrichtigungen konnten nicht gelesen werden",
+  "failedBody": "GitHub-Benachrichtigungen sind derzeit nicht verfügbar",
+  "ghMissing": "GitHub CLI nicht gefunden",
+  "ghMissingBody": "gh kann über Homebrew installiert werden",
+  "itemsTitle": "Mitteilungen",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "signedOut": "GitHub ist abgemeldet",
+  "signedOutBody": "Reviews und CI-Status erscheinen hier, sobald die GitHub CLI angemeldet ist.",
+  "subtitle": "Reviews, Benachrichtigungen und CI-Prüfungen",
+  "unread": "Ungelesen",
+  "widget.summary": "Zeigt Reviews, Benachrichtigungen und den CI-Status an.",
+  "widget.title": "GitHub Center"
+}

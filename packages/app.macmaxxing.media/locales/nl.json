@@ -1,0 +1,10 @@
+{
+  "density": "Weergave",
+  "idle": "Er wordt niets afgespeeld",
+  "openSource": "Bron openen",
+  "queue": "Aankomend",
+  "queueEmpty": "De wachtrij is leeg",
+  "subtitle": "Toont muziek- of video-informatie en afspeelregelaars.",
+  "widget.summary": "Toont muziek- of video-informatie en afspeelregelaars.",
+  "widget.title": "Media"
+}

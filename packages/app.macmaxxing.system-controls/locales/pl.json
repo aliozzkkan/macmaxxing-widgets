@@ -1,0 +1,12 @@
+{
+  "down": "Ścisz",
+  "mute": "Wycisz",
+  "muted": "Wyciszono",
+  "sleep": "Uśpij wyświetlacz",
+  "sound": "Otwórz ustawienia dźwięku",
+  "unmute": "Włącz dźwięk",
+  "up": "Zwiększ głośność",
+  "volume": "Dźwięk",
+  "widget.summary": "Pokazuje szybkie kontrolki, takie jak głośność, wyciszenie i uśpienie wyświetlacza.",
+  "widget.title": "Kontrolki systemowe"
+}

@@ -1,0 +1,20 @@
+{
+  "audioMP3": "Apenas áudio (MP3)",
+  "cancel": "Cancelar",
+  "cancelled": "Cancelado",
+  "compatibleMP4": "MP4 compatível",
+  "drop": "Solte o link do vídeo aqui",
+  "failed": "Download falhou",
+  "finished": "Download concluído",
+  "formatTitle": "Formato de download",
+  "hint": "Arraste um link de vídeo para o widget ou baixe o link da área de transferência.",
+  "original": "Formato original",
+  "paste": "Baixar da área de transferência",
+  "preparing": "Preparando",
+  "qualityNote": "Ao selecionar MP3, a qualidade de vídeo não é usada; apenas o áudio é gravado.",
+  "qualityTitle": "Qualidade do vídeo",
+  "reveal": "Mostrar no Finder",
+  "title": "Baixador de vídeo",
+  "widget.summary": "Salva links de vídeos suportados na pasta Downloads arrastando e soltando.",
+  "widget.title": "Baixador de vídeo"
+}

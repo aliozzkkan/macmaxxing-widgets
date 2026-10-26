@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Limity dostawców i wykorzystanie",
+  "chartNote": "Każdy słupek to najwyższe wykorzystanie danego dostawcy",
+  "chartTitle": "Użycie",
+  "heroTitle": "Który limit zostanie zresetowany pierwszy?",
+  "left": "pozostało",
+  "noSession": "Nie znaleziono sesji AI",
+  "noSessionBody": "Zaloguj się swoim kontem w obsługiwanym narzędziu AI",
+  "providersNote": "W widżecie 4×4 wyświetlane są jednocześnie maksymalnie cztery narzędzia",
+  "providersTitle": "Narzędzia AI do wyświetlenia",
+  "remaining": "Pozostało",
+  "resetsIn": "Reset za",
+  "subtitle": "Limity dostawców i czasy resetu",
+  "usage": "Użycie",
+  "widget.summary": "Pokazuje limity AI, czasy odnowienia i salda.",
+  "widget.title": "Centrum użycia AI"
+}

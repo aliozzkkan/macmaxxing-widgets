@@ -1,0 +1,13 @@
+{
+  "edit": "編輯文字",
+  "finished": "已完成",
+  "prepare": "準備文字",
+  "restart": "重新啟動",
+  "running": "正在執行",
+  "start": "開始",
+  "stop": "停止",
+  "title": "讀稿機",
+  "widget.summary": "在瀏海下方以可調整的速度自動捲動文字。",
+  "widget.title": "讀稿機",
+  "words": "字"
+}

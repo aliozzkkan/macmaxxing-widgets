@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Cuotas de proveedores y tasas de uso",
+  "chartNote": "Cada barra es la tasa de uso más alta de un proveedor",
+  "chartTitle": "Uso",
+  "heroTitle": "¿Qué límite se restablecerá primero?",
+  "left": "restante",
+  "noSession": "No se encontró ninguna sesión de IA",
+  "noSessionBody": "Inicia sesión con tu cuenta en una herramienta de IA compatible",
+  "providersNote": "En el widget 4×4 se muestran hasta cuatro herramientas a la vez",
+  "providersTitle": "Herramientas de IA a mostrar",
+  "remaining": "Restante",
+  "resetsIn": "Se restablece en",
+  "subtitle": "Cuotas de proveedores y tiempos de reinicio",
+  "usage": "Uso",
+  "widget.summary": "Muestra cuotas de IA, tiempos de renovación y saldos.",
+  "widget.title": "Centro de uso de IA"
+}

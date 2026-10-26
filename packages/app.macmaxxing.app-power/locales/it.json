@@ -1,0 +1,14 @@
+{
+  "comfortable": "Bilanciato",
+  "compact": "Compatto",
+  "density": "Aspetto",
+  "detailed": "Dettagliato",
+  "estimate": "I valori sono stimati dal carico della CPU",
+  "heading": "Maggiori consumi",
+  "rows": "Righe massime",
+  "subtitle": "Quota stimata dell'app",
+  "top": "Maggiori consumi energetici",
+  "waiting": "In attesa dei dati dell'app",
+  "widget.summary": "Mostra le app che consumano più energia quando si apre la scheda del consumo attuale.",
+  "widget.title": "Consumo app"
+}

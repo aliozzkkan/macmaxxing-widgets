@@ -1,0 +1,16 @@
+{
+  "destination": "バックアップ先",
+  "lastBackup": "最後のバックアップ",
+  "nextBackup": "次のバックアップ",
+  "noBackup": "バックアップが見つかりません",
+  "noBackupBody": "Time Machineのディスクが接続されていない場合や、バックアップが一度もない場合は、最後のバックアップを読み取れません。",
+  "openSettings": "Time Machine設定を開く",
+  "refreshInterval": "更新間隔（秒）",
+  "running": "動作中",
+  "runningBody": "Time Machineがバックアップ中です。完了すると経過時間がリセットされます。",
+  "status": "状態",
+  "subtitle": "最後のバックアップの日時と状態",
+  "upToDate": "バックアップは最新です",
+  "widget.summary": "前回のバックアップ時刻と進行中のバックアップを表示します。",
+  "widget.title": "Time Machineの状態"
+}

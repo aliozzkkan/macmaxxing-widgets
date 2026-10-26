@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Kontingente und Auslastung der Anbieter",
+  "chartNote": "Jeder Balken zeigt die höchste Auslastung eines Anbieters",
+  "chartTitle": "Nutzung",
+  "heroTitle": "Welches Limit wird zuerst zurückgesetzt?",
+  "left": "verbleibend",
+  "noSession": "Keine KI-Sitzung gefunden",
+  "noSessionBody": "Mit deinem Konto bei einem unterstützten KI-Tool anmelden",
+  "providersNote": "Im 4×4-Widget werden maximal vier Tools gleichzeitig angezeigt",
+  "providersTitle": "Anzuzeigende KI-Tools",
+  "remaining": "Verbleibend",
+  "resetsIn": "Zurückgesetzt in",
+  "subtitle": "Kontingente der Anbieter und Rücksetzzeiten",
+  "usage": "Nutzung",
+  "widget.summary": "Zeigt KI-Kontingente, Erneuerungszeiten und Guthaben an.",
+  "widget.title": "KI-Nutzungszentrum"
+}

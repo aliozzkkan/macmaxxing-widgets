@@ -1,0 +1,14 @@
+{
+  "comfortable": "Balanced",
+  "compact": "Compact",
+  "density": "Appearance",
+  "detailed": "Detailed",
+  "estimate": "Values estimated from CPU load",
+  "heading": "Top Consumers",
+  "rows": "Maximum lines",
+  "subtitle": "Estimated app share",
+  "top": "Top Power Consumers",
+  "waiting": "Waiting for app data",
+  "widget.summary": "Shows apps using the most power when current power card is opened.",
+  "widget.title": "App Power"
+}

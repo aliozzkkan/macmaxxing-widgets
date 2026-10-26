@@ -1,0 +1,30 @@
+{
+  "type": "hstack",
+  "children": [
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{state.latest}}",
+          "style": "body"
+        },
+        {
+          "type": "text",
+          "text": "{{t.latest}}",
+          "style": "caption"
+        }
+      ],
+      "spacing": 2
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "value",
+      "label": "{{t.items}}",
+      "value": "{{state.count}}"
+    }
+  ],
+  "spacing": 8
+}

@@ -1,0 +1,208 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "badge",
+            "text": "{{state.count}}",
+            "tone": "accent"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "value",
+              "label": "{{t.count}}",
+              "value": "{{state.count}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.latest}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{state.latestName}}",
+              "style": "body"
+            }
+          ],
+          "spacing": 3
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.perDay}}",
+              "style": "caption"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.days",
+              "isLive": false,
+              "accessibilityLabel": "{{t.perDay}}"
+            }
+          ],
+          "spacing": 4
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "when",
+      "condition": "state.hasItems",
+      "then": {
+        "type": "grid",
+        "items": "state.items",
+        "columns": 4,
+        "thumbnail": "thumbnail",
+        "title": "name",
+        "action": "preview",
+        "menu": [
+          {
+            "title": "{{t.readText}}",
+            "action": "readText",
+            "symbol": "text.viewfinder"
+          },
+          {
+            "title": "{{t.reveal}}",
+            "action": "reveal",
+            "symbol": "folder"
+          },
+          {
+            "title": "{{t.trash}}",
+            "action": "trash",
+            "symbol": "trash",
+            "confirm": {
+              "title": "{{t.trashTitle}}",
+              "message": "{{t.trashMessage}}",
+              "destructiveTitle": "{{t.trash}}"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.needsAccess",
+          "then": {
+            "type": "vstack",
+            "children": [
+              {
+                "type": "text",
+                "text": "{{t.accessNeeded}}",
+                "style": "body"
+              },
+              {
+                "type": "button",
+                "title": "{{t.grant}}",
+                "action": "requestAccess",
+                "symbol": "folder.badge.plus"
+              }
+            ],
+            "spacing": 6
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isFailed",
+          "then": {
+            "type": "text",
+            "text": "{{t.failed}}",
+            "style": "body"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.isEmpty",
+          "then": {
+            "type": "text",
+            "text": "{{t.empty}}",
+            "style": "body"
+          }
+        }
+      ],
+      "spacing": 6
+    },
+    {
+      "type": "when",
+      "condition": "state.reading",
+      "then": {
+        "type": "vstack",
+        "children": [
+          {
+            "type": "text",
+            "text": "{{t.reading}}",
+            "style": "caption"
+          },
+          {
+            "type": "text",
+            "text": "{{state.reading}}",
+            "style": "body"
+          }
+        ],
+        "spacing": 2
+      }
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "button",
+            "title": "{{t.readText}}",
+            "action": "readLatest",
+            "symbol": "text.viewfinder"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "button",
+            "title": "{{t.reveal}}",
+            "action": "revealLatest",
+            "symbol": "folder"
+          }
+        },
+        {
+          "type": "button",
+          "title": "{{t.settings}}",
+          "action": "openSettings",
+          "symbol": "gearshape"
+        }
+      ],
+      "spacing": 8
+    }
+  ],
+  "spacing": 10
+}

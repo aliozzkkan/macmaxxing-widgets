@@ -1,0 +1,11 @@
+{
+  "type": "dropTarget",
+  "accepts": [
+    "url",
+    "text"
+  ],
+  "action": "dropped",
+  "child": {
+    "type": "spacer"
+  }
+}

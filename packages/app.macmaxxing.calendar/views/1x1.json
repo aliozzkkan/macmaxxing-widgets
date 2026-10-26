@@ -1,0 +1,48 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.isReady",
+      "then": {
+        "type": "text",
+        "text": "{{state.summary}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isEmpty",
+      "then": {
+        "type": "text",
+        "text": "{{t.noEvents}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.needsAccess",
+      "then": {
+        "type": "text",
+        "text": "{{t.needsAccess}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isDenied",
+      "then": {
+        "type": "text",
+        "text": "{{t.needsAccess}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

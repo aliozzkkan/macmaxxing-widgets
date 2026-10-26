@@ -1,0 +1,34 @@
+{
+  "type": "hstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "symbol",
+      "name": "gearshape"
+    },
+    {
+      "type": "vstack",
+      "spacing": 2,
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.title}}",
+          "style": "title"
+        },
+        {
+          "type": "text",
+          "text": "{{t.caption}}",
+          "style": "caption"
+        }
+      ]
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "button",
+      "title": "{{t.title}}",
+      "action": "run"
+    }
+  ]
+}

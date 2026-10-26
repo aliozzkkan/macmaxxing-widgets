@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.next-meeting",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "presentation": {
+    "title": "Sonraki Toplantı",
+    "summary": "Sıradaki toplantıya kalan süreyi ve katılım bağlantısını gösterir.",
+    "category": "planning",
+    "systemImageName": "video.fill",
+    "accentHex": "0A84FF",
+    "defaultSize": "3x1",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "componentKitVersion": 2,
+  "capabilities": [
+    {
+      "name": "calendar.events",
+      "version": 1
+    }
+  ],
+  "allowedNetworkHosts": [],
+  "refreshIntervalSeconds": 30,
+  "defaultSettings": {
+    "showEnded": false,
+    "showMeetingService": true,
+    "oneClickJoin": true,
+    "lookAheadHours": 24,
+    "joinEarlyMinutes": 5,
+    "maximumRows": 5,
+    "refreshIntervalSeconds": 30
+  }
+}

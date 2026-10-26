@@ -1,0 +1,18 @@
+{
+  "type": "hstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "symbol",
+      "name": "power"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "button",
+      "title": "{{t.title}}",
+      "action": "run"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "add": "添加文件",
+  "autoLock": "闲置 2 分钟后或 Mac 锁定时会重新锁定。",
+  "copy": "复制文本；保险库锁定时会清空剪贴板",
+  "drop": "拖放文件、文本或链接。",
+  "export": "导出",
+  "lock": "锁定",
+  "locked": "已锁定",
+  "lockedHint": "请先解锁安全架，然后重新拖放项目。",
+  "lockedMessage": "内容在此 Mac 上加密保存。请使用触控 ID 或 Mac 登录密码解锁。",
+  "lockedTitle": "内容已锁定",
+  "newNote": "新建笔记",
+  "open": "开启",
+  "remove": "删除",
+  "removeMessage": "此操作无法撤销。保险库外的源文件不会被删除。",
+  "removeTitle": "删除此加密项目？",
+  "search": "搜索安全架",
+  "shelf": "暂存架",
+  "title": "安全架",
+  "unlock": "解锁",
+  "widget.summary": "私密保存你的文件和笔记。",
+  "widget.title": "安全架"
+}

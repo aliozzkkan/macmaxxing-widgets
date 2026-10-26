@@ -1,0 +1,12 @@
+{
+  "down": "Abbassa volume",
+  "mute": "Silenzia",
+  "muted": "Muto",
+  "sleep": "Disattiva schermo",
+  "sound": "Apri Impostazioni Audio",
+  "unmute": "Riattiva audio",
+  "up": "Alza il volume",
+  "volume": "Suono",
+  "widget.summary": "Mostra controlli rapidi quali volume, disattivazione audio e stop dello schermo.",
+  "widget.title": "Controlli di sistema"
+}

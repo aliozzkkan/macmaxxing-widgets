@@ -1,0 +1,17 @@
+{
+  "adapter": "Netzteil",
+  "battery": "Batterie",
+  "comfortable": "Ausgeglichen",
+  "compact": "Kompakt",
+  "density": "Erscheinungsbild",
+  "detailed": "Detailliert",
+  "details": "Messdetails",
+  "flow": "STROMFLUSS",
+  "incoming": "Eingang",
+  "load": "Ausgang",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "remaining": "Geschätzt",
+  "subtitle": "Aktuelle Leistung",
+  "widget.summary": "Zeigt aktuelle Watt, Batterie, Ladestatus und ein Leistungsdiagramm an.",
+  "widget.title": "Energiezentrale"
+}

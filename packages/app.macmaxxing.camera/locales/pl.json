@@ -1,0 +1,12 @@
+{
+  "grant": "Zezwól",
+  "needed": "Wymagane uprawnienie do kamery",
+  "openStudio": "Otwórz Studio",
+  "ready": "Kamera gotowa",
+  "record": "Rozpocznij nagrywanie",
+  "recording": "Nagrywanie",
+  "studio": "Studio kamery",
+  "waiting": "Kamera w trybie oczekiwania",
+  "widget.summary": "Przenosi podgląd kamery i stan uprawnień do szybkiego dostępu.",
+  "widget.title": "Kamera"
+}

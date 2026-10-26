@@ -1,0 +1,16 @@
+{
+  "destination": "Backup location",
+  "lastBackup": "Last backup",
+  "nextBackup": "Next backup",
+  "noBackup": "No backups found",
+  "noBackupBody": "The last backup cannot be read if the Time Machine disk is not connected or no backup was ever made.",
+  "openSettings": "Open Time Machine settings",
+  "refreshInterval": "Refresh interval (seconds)",
+  "running": "Running",
+  "runningBody": "Time Machine is backing up now. The age resets when it finishes.",
+  "status": "Status",
+  "subtitle": "Last backup time and status",
+  "upToDate": "Backups are up to date",
+  "widget.summary": "Shows last backup time and ongoing backups.",
+  "widget.title": "Time Machine Health"
+}

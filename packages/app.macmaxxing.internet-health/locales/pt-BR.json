@@ -1,0 +1,20 @@
+{
+  "cancel": "Cancelar",
+  "chartAccessibility": "Tempo de ping nas últimas medições",
+  "chartNote": "Os tempos são os valores instantâneos da última atualização",
+  "chartTitle": "Histórico de ping",
+  "details": "Detalhes de medição",
+  "download": "Download",
+  "lastTest": "Último teste de velocidade",
+  "loss": "Perda de pacotes",
+  "offline": "Sem internet",
+  "offlineBody": "Não foi possível acessar o endereço de teste",
+  "ping": "Ping",
+  "refreshInterval": "Intervalo de atualização (segundos)",
+  "speedTest": "Teste de velocidade",
+  "startTest": "Iniciar teste de velocidade",
+  "subtitle": "Últimas medições e qualidade da conexão",
+  "testing": "Medindo velocidade…",
+  "widget.summary": "Mostra ping, perda de pacotes e qualidade da conexão.",
+  "widget.title": "Saúde da Internet"
+}

@@ -1,0 +1,21 @@
+{
+  "chartAccessibility": "Priority breakdown of today's tasks",
+  "chartNote": "Each bar is the share of tasks at one priority level",
+  "chartTitle": "Task urgency breakdown",
+  "deniedHint": "Allow reminders access in System Settings",
+  "grantAccess": "Grant reminders permission",
+  "itemsTitle": "Pending items",
+  "maximumRows": "Maximum lines",
+  "needsAccess": "Reminders permission required",
+  "needsAccessHint": "Grant access to see your reminders",
+  "noItems": "No pending tasks",
+  "noItemsBody": "There are no reminders due by today.",
+  "permission": "Permission required",
+  "refreshInterval": "Refresh interval (seconds)",
+  "subtitle": "Tasks not completed as of today",
+  "tasks": "Tasks",
+  "unavailable": "Could not read reminders",
+  "unavailableHint": "Reminder data is unavailable right now",
+  "widget.summary": "Shows today's tasks and reminders permission status.",
+  "widget.title": "Reminders"
+}

@@ -1,0 +1,9 @@
+{
+  "widget.title": "Hava Sıcaklığı",
+  "widget.summary": "İstanbul'un anlık sıcaklığını açık bir HTTP API'den okur.",
+  "heading": "İstanbul",
+  "temperature": "Sıcaklık",
+  "updated": "Open-Meteo verisi",
+  "failed": "Veri alınamadı.",
+  "refresh": "Yenile"
+}

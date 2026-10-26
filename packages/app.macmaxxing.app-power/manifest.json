@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 2,
+  "id": "app.macmaxxing.app-power",
+  "version": "2.0.0",
+  "minimumHostVersion": "1.0.0",
+  "author": {
+    "name": "Appnor",
+    "url": "https://macmaxxing.appnor.io"
+  },
+  "componentKitVersion": 2,
+  "allowedNetworkHosts": [],
+  "presentation": {
+    "title": "Uygulama Gücü",
+    "summary": "Anlık güç kartı açıldığında en çok güç kullanan uygulamaları gösterir.",
+    "category": "power",
+    "systemImageName": "gauge.with.dots.needle.67percent",
+    "accentHex": "30D158",
+    "defaultSize": "3x1",
+    "allowedSizes": [
+      "1x1",
+      "2x1",
+      "3x1",
+      "4x1",
+      "2x2",
+      "3x2",
+      "4x2",
+      "2x3",
+      "3x3",
+      "4x3",
+      "2x4",
+      "4x4"
+    ]
+  },
+  "capabilities": [
+    {
+      "name": "power.processes",
+      "version": 1
+    }
+  ],
+  "refreshIntervalSeconds": 10,
+  "defaultSettings": {
+    "density": "comfortable",
+    "maximumRows": 6,
+    "refreshIntervalSeconds": 10
+  }
+}

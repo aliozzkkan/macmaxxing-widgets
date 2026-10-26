@@ -1,0 +1,17 @@
+{
+  "allGood": "Alle Geräte haben genug Akku",
+  "chartAccessibility": "Diagramm der Geräte-Akkustände",
+  "chartNote": "Jeder Balken zeigt den aktuellen Akkustand eines Geräts in Prozent",
+  "chartTitle": "Akkustände",
+  "devicesTitle": "Geräte",
+  "lowBadge": "Batteriestand niedrig",
+  "lowest": "Niedrigster",
+  "noDevices": "Kein Gerät gefunden",
+  "noDevicesBody": "Sobald ein Bluetooth-Gerät mit Akkuinformationen verbunden ist, erscheint sein Ladestand hier.",
+  "refreshInterval": "Aktualisierungsintervall (Sekunden)",
+  "subtitle": "Akkustand verbundener Bluetooth-Geräte",
+  "unavailable": "Geräte konnten nicht gelesen werden",
+  "unavailableHint": "Bluetooth-Daten nicht verfügbar",
+  "widget.summary": "Zeigt die Batteriestände verbundener Bluetooth-Geräte an.",
+  "widget.title": "Gerätebatterien"
+}

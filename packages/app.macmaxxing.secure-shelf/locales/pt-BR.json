@@ -1,0 +1,23 @@
+{
+  "add": "Adicionar arquivos",
+  "autoLock": "Bloqueia após 2 minutos de inatividade e quando o Mac é bloqueado.",
+  "copy": "Copiar texto; a área de transferência é limpa ao bloquear a prateleira segura",
+  "drop": "Solte um arquivo, texto ou link.",
+  "export": "Exportar",
+  "lock": "Bloquear",
+  "locked": "Bloqueado",
+  "lockedHint": "Desbloqueie primeiro a prateleira segura e solte os itens novamente.",
+  "lockedMessage": "Seu conteúdo é armazenado com criptografia neste Mac. Use o Touch ID ou a senha de início de sessão do Mac para desbloqueá-lo.",
+  "lockedTitle": "Conteúdo bloqueado",
+  "newNote": "Nova nota",
+  "open": "Ativado",
+  "remove": "Apagar",
+  "removeMessage": "Esta ação não pode ser desfeita. O arquivo original fora da prateleira segura não será apagado.",
+  "removeTitle": "Apagar este item criptografado?",
+  "search": "Buscar na prateleira segura",
+  "shelf": "Prateleira",
+  "title": "Prateleira segura",
+  "unlock": "Desbloquear",
+  "widget.summary": "Seus arquivos e notas permanecem privados.",
+  "widget.title": "Prateleira segura"
+}

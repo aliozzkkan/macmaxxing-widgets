@@ -1,0 +1,37 @@
+{
+  "type": "vstack",
+  "spacing": 8,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.heading}}",
+      "style": "title"
+    },
+    {
+      "type": "when",
+      "condition": "state.hasData",
+      "then": {
+        "type": "vstack",
+        "spacing": 8,
+        "children": [
+          {
+            "type": "text",
+            "text": "{{state.summary}}",
+            "style": "value"
+          },
+          {
+            "type": "text",
+            "text": "{{state.caption}}",
+            "style": "caption"
+          }
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "title": "{{t.refresh}}",
+      "symbol": "arrow.clockwise",
+      "action": "refresh"
+    }
+  ]
+}

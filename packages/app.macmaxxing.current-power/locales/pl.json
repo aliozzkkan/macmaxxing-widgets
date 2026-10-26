@@ -1,0 +1,17 @@
+{
+  "adapter": "Ładowarka",
+  "battery": "Bateria",
+  "comfortable": "Zrównoważony",
+  "compact": "Kompaktowy",
+  "density": "Wygląd",
+  "detailed": "Szczegółowy",
+  "details": "Szczegóły pomiaru",
+  "flow": "PRZEPŁYW MOCY",
+  "incoming": "Wejście",
+  "load": "Wyjście",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "remaining": "Szacunkowe",
+  "subtitle": "Bieżąca moc",
+  "widget.summary": "Pokazuje bieżącą moc w watach, baterię, status ładowania i wykres zasilania.",
+  "widget.title": "Centrum zasilania"
+}

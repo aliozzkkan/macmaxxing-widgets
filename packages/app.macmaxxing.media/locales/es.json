@@ -1,0 +1,10 @@
+{
+  "density": "Aspecto",
+  "idle": "No se está reproduciendo nada",
+  "openSource": "Abrir origen",
+  "queue": "Próximo",
+  "queueEmpty": "La cola está vacía",
+  "subtitle": "Muestra información de música o video y controles de reproducción.",
+  "widget.summary": "Muestra información de música o video y controles de reproducción.",
+  "widget.title": "Multimedia"
+}

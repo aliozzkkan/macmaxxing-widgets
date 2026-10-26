@@ -1,0 +1,183 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "badge",
+            "text": "{{state.count}}",
+            "tone": "accent"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "value",
+              "label": "{{t.items}}",
+              "value": "{{state.count}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.latestAdded}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{state.latest}}",
+              "style": "body"
+            }
+          ],
+          "spacing": 3
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.kinds}}",
+              "style": "caption"
+            },
+            {
+              "type": "chart",
+              "kind": "line",
+              "series": "state.kinds",
+              "isLive": true,
+              "seriesInfo": [
+                {
+                  "key": "file",
+                  "label": "{{t.file}}"
+                },
+                {
+                  "key": "link",
+                  "label": "{{t.link}}"
+                },
+                {
+                  "key": "text",
+                  "label": "{{t.text}}"
+                }
+              ],
+              "legend": false,
+              "accessibilityLabel": "{{t.kinds}}"
+            }
+          ],
+          "spacing": 4
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "when",
+      "condition": "state.hasLatestFile",
+      "then": {
+        "type": "dragSource",
+        "handle": "{{state.latestFile}}",
+        "child": {
+          "type": "hstack",
+          "children": [
+            {
+              "type": "symbol",
+              "name": "hand.draw"
+            },
+            {
+              "type": "text",
+              "text": "{{t.dragLatest}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        }
+      }
+    },
+    {
+      "type": "dropTarget",
+      "accepts": [
+        "file",
+        "url",
+        "text"
+      ],
+      "action": "dropped",
+      "child": {
+        "type": "list",
+        "items": "state.items",
+        "id": "id",
+        "title": "name",
+        "detail": "detail",
+        "symbol": "sym",
+        "image": "icon",
+        "action": "open",
+        "menu": [
+          {
+            "title": "{{t.open}}",
+            "action": "open",
+            "symbol": "arrow.up.forward.app"
+          },
+          {
+            "title": "{{t.reveal}}",
+            "action": "reveal",
+            "symbol": "folder"
+          },
+          {
+            "title": "{{t.quickLook}}",
+            "action": "quickLook",
+            "symbol": "eye"
+          },
+          {
+            "title": "{{t.copyFile}}",
+            "action": "copyFile",
+            "symbol": "doc.on.doc"
+          },
+          {
+            "title": "{{t.copyPath}}",
+            "action": "copyPath",
+            "symbol": "link"
+          },
+          {
+            "title": "{{t.remove}}",
+            "action": "remove",
+            "symbol": "xmark.circle",
+            "confirm": {
+              "title": "{{t.removeTitle}}",
+              "message": "{{t.removeMessage}}",
+              "destructiveTitle": "{{t.remove}}"
+            }
+          }
+        ],
+        "emptyText": "{{t.empty}}"
+      }
+    },
+    {
+      "type": "button",
+      "title": "{{t.clear}}",
+      "action": "clear",
+      "symbol": "trash",
+      "confirm": {
+        "title": "{{t.clearTitle}}",
+        "message": "{{t.clearMessage}}",
+        "destructiveTitle": "{{t.clear}}"
+      }
+    }
+  ],
+  "spacing": 10
+}

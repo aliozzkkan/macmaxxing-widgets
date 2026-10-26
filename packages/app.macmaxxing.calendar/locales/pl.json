@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Odsetek najbliższych godzin zajęty przez wydarzenia",
+  "chartNote": "Każdy słupek to odsetek godziny zajęty przez wydarzenia",
+  "chartTitle": "Przebieg dnia",
+  "deniedHint": "Zezwól na dostęp do kalendarza w Ustawieniach systemowych",
+  "eventsTitle": "Dzisiejsze wydarzenia",
+  "grantAccess": "Zezwól na dostęp do kalendarza",
+  "maximumRows": "Maksymalna liczba wierszy",
+  "needsAccess": "Wymagany dostęp do Kalendarza",
+  "needsAccessHint": "Udziel dostępu do kalendarza, aby zobaczyć spotkania",
+  "noEvents": "Brak wydarzeń na dziś",
+  "noEventsBody": "Kalendarz nie pokazuje dziś wydarzeń z godziną. Wydarzenia całodniowe nie są wyświetlane w tym widoku.",
+  "permission": "Wymagane uprawnienie",
+  "refreshInterval": "Interwał odświeżania (sekundy)",
+  "subtitle": "Dzisiejsze wydarzenia",
+  "today": "Dzisiaj",
+  "widget.summary": "Pokazuje dzisiejsze nadchodzące wydarzenia i status uprawnień.",
+  "widget.title": "Kalendarz"
+}

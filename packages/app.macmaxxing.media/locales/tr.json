@@ -1,0 +1,10 @@
+{
+  "density": "Görünüm",
+  "idle": "Hiçbir şey çalmıyor",
+  "openSource": "Kaynağı aç",
+  "queue": "Sıradaki",
+  "queueEmpty": "Sıra boş",
+  "subtitle": "Müzik veya video bilgisini ve oynatma kontrollerini gösterir.",
+  "widget.summary": "Müzik veya video bilgisini ve oynatma kontrollerini gösterir.",
+  "widget.title": "Medya"
+}

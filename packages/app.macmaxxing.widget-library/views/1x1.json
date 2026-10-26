@@ -1,0 +1,15 @@
+{
+  "type": "vstack",
+  "spacing": 6,
+  "children": [
+    {
+      "type": "symbol",
+      "name": "square.grid.2x2"
+    },
+    {
+      "type": "button",
+      "title": "{{t.title}}",
+      "action": "run"
+    }
+  ]
+}

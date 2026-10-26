@@ -1,0 +1,356 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "when",
+              "condition": "state.hasData",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.heroTitle}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{state.caption}}",
+                    "style": "caption"
+                  }
+                ],
+                "spacing": 3
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isEmpty",
+              "then": {
+                "type": "vstack",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "{{t.noSession}}",
+                    "style": "title"
+                  },
+                  {
+                    "type": "text",
+                    "text": "{{t.noSessionBody}}",
+                    "style": "body"
+                  }
+                ],
+                "spacing": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasData",
+          "then": {
+            "type": "value",
+            "label": "{{t.remaining}}",
+            "value": "{{state.leastText}}"
+          }
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.chartTitle}}",
+              "style": "body"
+            },
+            {
+              "type": "chart",
+              "kind": "bar",
+              "series": "state.chart",
+              "isLive": true,
+              "accessibilityLabel": "{{t.chartAccessibility}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.chartNote}}",
+              "style": "caption"
+            }
+          ],
+          "spacing": 6
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.resetsIn}}",
+              "style": "body"
+            },
+            {
+              "type": "vstack",
+              "children": [
+                {
+                  "type": "when",
+                  "condition": "state.slots.0",
+                  "then": {
+                    "type": "vstack",
+                    "children": [
+                      {
+                        "type": "hstack",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.0.name}}",
+                            "style": "caption"
+                          },
+                          {
+                            "type": "spacer"
+                          },
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.0.usedText}}",
+                            "style": "caption"
+                          }
+                        ],
+                        "spacing": 6
+                      },
+                      {
+                        "type": "progress",
+                        "value": "state.slots.0.used"
+                      },
+                      {
+                        "type": "when",
+                        "condition": "state.slots.0.hasReset",
+                        "then": {
+                          "type": "hstack",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "{{t.resetsIn}}",
+                              "style": "caption"
+                            },
+                            {
+                              "type": "spacer"
+                            },
+                            {
+                              "type": "countdown",
+                              "until": "state.slots.0.resetAt",
+                              "style": "caption"
+                            }
+                          ],
+                          "spacing": 6
+                        }
+                      }
+                    ],
+                    "spacing": 3
+                  }
+                },
+                {
+                  "type": "when",
+                  "condition": "state.slots.1",
+                  "then": {
+                    "type": "vstack",
+                    "children": [
+                      {
+                        "type": "hstack",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.1.name}}",
+                            "style": "caption"
+                          },
+                          {
+                            "type": "spacer"
+                          },
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.1.usedText}}",
+                            "style": "caption"
+                          }
+                        ],
+                        "spacing": 6
+                      },
+                      {
+                        "type": "progress",
+                        "value": "state.slots.1.used"
+                      },
+                      {
+                        "type": "when",
+                        "condition": "state.slots.1.hasReset",
+                        "then": {
+                          "type": "hstack",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "{{t.resetsIn}}",
+                              "style": "caption"
+                            },
+                            {
+                              "type": "spacer"
+                            },
+                            {
+                              "type": "countdown",
+                              "until": "state.slots.1.resetAt",
+                              "style": "caption"
+                            }
+                          ],
+                          "spacing": 6
+                        }
+                      }
+                    ],
+                    "spacing": 3
+                  }
+                },
+                {
+                  "type": "when",
+                  "condition": "state.slots.2",
+                  "then": {
+                    "type": "vstack",
+                    "children": [
+                      {
+                        "type": "hstack",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.2.name}}",
+                            "style": "caption"
+                          },
+                          {
+                            "type": "spacer"
+                          },
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.2.usedText}}",
+                            "style": "caption"
+                          }
+                        ],
+                        "spacing": 6
+                      },
+                      {
+                        "type": "progress",
+                        "value": "state.slots.2.used"
+                      },
+                      {
+                        "type": "when",
+                        "condition": "state.slots.2.hasReset",
+                        "then": {
+                          "type": "hstack",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "{{t.resetsIn}}",
+                              "style": "caption"
+                            },
+                            {
+                              "type": "spacer"
+                            },
+                            {
+                              "type": "countdown",
+                              "until": "state.slots.2.resetAt",
+                              "style": "caption"
+                            }
+                          ],
+                          "spacing": 6
+                        }
+                      }
+                    ],
+                    "spacing": 3
+                  }
+                },
+                {
+                  "type": "when",
+                  "condition": "state.slots.3",
+                  "then": {
+                    "type": "vstack",
+                    "children": [
+                      {
+                        "type": "hstack",
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.3.name}}",
+                            "style": "caption"
+                          },
+                          {
+                            "type": "spacer"
+                          },
+                          {
+                            "type": "text",
+                            "text": "{{state.slots.3.usedText}}",
+                            "style": "caption"
+                          }
+                        ],
+                        "spacing": 6
+                      },
+                      {
+                        "type": "progress",
+                        "value": "state.slots.3.used"
+                      },
+                      {
+                        "type": "when",
+                        "condition": "state.slots.3.hasReset",
+                        "then": {
+                          "type": "hstack",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "{{t.resetsIn}}",
+                              "style": "caption"
+                            },
+                            {
+                              "type": "spacer"
+                            },
+                            {
+                              "type": "countdown",
+                              "until": "state.slots.3.resetAt",
+                              "style": "caption"
+                            }
+                          ],
+                          "spacing": 6
+                        }
+                      }
+                    ],
+                    "spacing": 3
+                  }
+                }
+              ],
+              "spacing": 8
+            },
+            {
+              "type": "spacer"
+            }
+          ],
+          "spacing": 6
+        }
+      ],
+      "spacing": 18
+    }
+  ],
+  "spacing": 12
+}

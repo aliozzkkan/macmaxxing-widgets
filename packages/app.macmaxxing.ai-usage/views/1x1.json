@@ -1,0 +1,30 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "when",
+      "condition": "state.hasData",
+      "then": {
+        "type": "text",
+        "text": "{{state.leastText}} {{t.left}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "when",
+      "condition": "state.isEmpty",
+      "then": {
+        "type": "text",
+        "text": "{{t.noSession}}",
+        "style": "value"
+      }
+    },
+    {
+      "type": "spacer"
+    }
+  ],
+  "spacing": 0
+}

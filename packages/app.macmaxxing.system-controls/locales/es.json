@@ -1,0 +1,12 @@
+{
+  "down": "Bajar volumen",
+  "mute": "Silenciar",
+  "muted": "Silencio",
+  "sleep": "Poner pantalla en reposo",
+  "sound": "Abrir ajustes de Sonido",
+  "unmute": "Activar sonido",
+  "up": "Subir volumen",
+  "volume": "Sonido",
+  "widget.summary": "Muestra controles rápidos como volumen, silenciar y reposo de pantalla.",
+  "widget.title": "Controles del sistema"
+}

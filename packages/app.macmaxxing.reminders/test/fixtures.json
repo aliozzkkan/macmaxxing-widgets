@@ -1,0 +1,7 @@
+{
+  "capabilities": {
+    "reminders.list.today": {
+      "items": []
+    }
+  }
+}

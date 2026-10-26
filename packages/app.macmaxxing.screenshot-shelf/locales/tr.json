@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Ekran Görüntüsü Klasörüne Erişim",
+  "count": "Ekran görüntüsü",
+  "empty": "Ekran görüntüsü yok",
+  "failed": "Ekran görüntüleri okunamadı",
+  "grant": "Erişim Ver",
+  "latest": "Son ekran görüntüsü",
+  "perDay": "Günlük ekran görüntüsü",
+  "readText": "Metin ve QR oku",
+  "reading": "Okunan metin",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "reveal": "Finder'da Göster",
+  "rows": "Satır",
+  "settings": "Ayarlar",
+  "subtitle": "Davranışlar'daki raf etkin olduğunda son görüntüleri üst üste gösterir, açar ve sürükler.",
+  "trash": "Çöp Sepeti'ne taşı",
+  "trashMessage": "Dosya silinmez; Çöp Sepeti'nden geri alabilirsiniz.",
+  "trashTitle": "Ekran görüntüsü Çöp Sepeti'ne taşınsın mı?",
+  "widget.summary": "Davranışlar'daki raf etkin olduğunda son görüntüleri üst üste gösterir, açar ve sürükler.",
+  "widget.title": "Ekran Görüntüsü Rafı"
+}

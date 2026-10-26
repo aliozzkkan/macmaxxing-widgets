@@ -1,0 +1,20 @@
+{
+  "audioMP3": "오디오 전용(MP3)",
+  "cancel": "취소",
+  "cancelled": "취소됨",
+  "compatibleMP4": "호환 MP4",
+  "drop": "비디오 링크를 여기에 드롭하세요",
+  "failed": "다운로드 실패",
+  "finished": "다운로드 완료",
+  "formatTitle": "다운로드 형식",
+  "hint": "동영상 링크를 위젯으로 끌어다 놓거나 클립보드의 링크를 다운로드하세요.",
+  "original": "원본 형식",
+  "paste": "클립보드에서 다운로드",
+  "preparing": "준비 중",
+  "qualityNote": "MP3를 선택하면 비디오 화질은 사용되지 않고 오디오만 녹음됩니다.",
+  "qualityTitle": "비디오 화질",
+  "reveal": "Finder에서 보기",
+  "title": "비디오 다운로더",
+  "widget.summary": "지원되는 비디오 링크를 드래그 앤 드롭하여 다운로드 폴더에 저장합니다.",
+  "widget.title": "비디오 다운로더"
+}

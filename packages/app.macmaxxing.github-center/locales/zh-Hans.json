@@ -1,0 +1,20 @@
+{
+  "calm": "GitHub 平稳",
+  "calmBody": "没有未读通知",
+  "chartAccessibility": "按原因划分的未读通知",
+  "chartNote": "每个柱表示某个原因占未读通知的比例",
+  "chartTitle": "通知原因",
+  "emptyList": "没有未读通知",
+  "failed": "无法读取 GitHub 通知",
+  "failedBody": "目前无法获取 GitHub 通知",
+  "ghMissing": "未找到 GitHub CLI",
+  "ghMissingBody": "可通过 Homebrew 安装 gh",
+  "itemsTitle": "通知",
+  "refreshInterval": "刷新间隔（秒）",
+  "signedOut": "未登录 GitHub",
+  "signedOutBody": "登录 GitHub CLI 后，审查和 CI 状态会显示在这里。",
+  "subtitle": "审查、通知和 CI 检查",
+  "unread": "未读",
+  "widget.summary": "显示代码审查、通知与 CI 状态。",
+  "widget.title": "GitHub 中心"
+}

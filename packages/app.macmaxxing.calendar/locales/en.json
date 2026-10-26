@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "Share of upcoming hours filled with events",
+  "chartNote": "Each bar is the share of an hour filled with events",
+  "chartTitle": "Flow of the day",
+  "deniedHint": "Allow calendar access in System Settings",
+  "eventsTitle": "Today's events",
+  "grantAccess": "Grant calendar permission",
+  "maximumRows": "Maximum lines",
+  "needsAccess": "Calendar permission required",
+  "needsAccessHint": "Grant calendar access to see meetings",
+  "noEvents": "No events today",
+  "noEventsBody": "Your calendar shows no timed events for today. All-day events are not listed in this view.",
+  "permission": "Permission required",
+  "refreshInterval": "Refresh interval (seconds)",
+  "subtitle": "Today's events",
+  "today": "Today",
+  "widget.summary": "Shows today's upcoming events and permission status.",
+  "widget.title": "Calendar"
+}

@@ -1,0 +1,6 @@
+{
+  "widget.title": "Hello",
+  "widget.summary": "A fixed widget that needs neither a script nor permissions.",
+  "greeting": "Hello!",
+  "body": "This widget is made only of view recipes and locale files."
+}

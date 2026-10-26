@@ -1,0 +1,17 @@
+{
+  "chartAccessibility": "Sağlayıcı kotaları ve kullanım oranları",
+  "chartNote": "Her çubuk, sağlayıcının en yüksek kullanım oranıdır",
+  "chartTitle": "Kullanım",
+  "heroTitle": "Hangi limit önce sıfırlanacak?",
+  "left": "kaldı",
+  "noSession": "AI oturumu bulunamadı",
+  "noSessionBody": "Desteklenen bir AI aracında hesabınızla giriş yapın",
+  "providersNote": "4×4 widgetta aynı anda en fazla dört araç gösterilir",
+  "providersTitle": "Gösterilecek AI araçları",
+  "remaining": "Kalan",
+  "resetsIn": "Sıfırlanmasına kalan",
+  "subtitle": "Sağlayıcı kotaları ve yenilenme zamanları",
+  "usage": "Kullanım",
+  "widget.summary": "AI kotalarını, yenilenme sürelerini ve bakiyeleri gösterir.",
+  "widget.title": "AI Kullanım Merkezi"
+}

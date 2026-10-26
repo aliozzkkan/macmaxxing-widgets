@@ -1,0 +1,16 @@
+{
+  "destination": "Yedek konumu",
+  "lastBackup": "Son yedek",
+  "nextBackup": "Sonraki yedekleme",
+  "noBackup": "Yedekleme bulunamadı",
+  "noBackupBody": "Time Machine diski bağlı değilse veya hiç yedek alınmadıysa son yedek okunamaz.",
+  "openSettings": "Time Machine ayarlarını aç",
+  "refreshInterval": "Yenileme aralığı (saniye)",
+  "running": "Çalışıyor",
+  "runningBody": "Time Machine şu anda yedek alıyor. İşlem bitince yaş sıfırlanır.",
+  "status": "Durum",
+  "subtitle": "Son yedekleme zamanı ve durumu",
+  "upToDate": "Yedekler güncel",
+  "widget.summary": "Son yedekleme zamanını ve devam eden yedeklemeyi gösterir.",
+  "widget.title": "Time Machine Sağlığı"
+}

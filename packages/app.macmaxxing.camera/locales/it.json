@@ -1,0 +1,12 @@
+{
+  "grant": "Consenti",
+  "needed": "Autorizzazione fotocamera richiesta",
+  "openStudio": "Apri Studio",
+  "ready": "Fotocamera pronta",
+  "record": "Avvia registrazione",
+  "recording": "Registrazione in corso",
+  "studio": "Camera Studio",
+  "waiting": "Fotocamera in attesa",
+  "widget.summary": "Porta l’anteprima della fotocamera e lo stato dei permessi all’accesso rapido.",
+  "widget.title": "Fotocamera"
+}

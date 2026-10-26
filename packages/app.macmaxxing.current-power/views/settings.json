@@ -1,0 +1,28 @@
+{
+  "type": "vstack",
+  "spacing": 10,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{t.density}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "density",
+      "options": "compact,comfortable,detailed",
+      "style": "segmented"
+    },
+    {
+      "type": "text",
+      "text": "{{t.refreshInterval}}",
+      "style": "caption"
+    },
+    {
+      "type": "picker",
+      "key": "refreshIntervalSeconds",
+      "options": "5,10,30,60",
+      "style": "segmented"
+    }
+  ]
+}

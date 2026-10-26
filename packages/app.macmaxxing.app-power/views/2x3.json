@@ -1,0 +1,21 @@
+{
+  "type": "vstack",
+  "spacing": 6,
+  "children": [
+    {
+      "type": "list",
+      "items": "state.items",
+      "id": "id",
+      "title": "name",
+      "detail": "detail",
+      "symbol": "app",
+      "image": "icon",
+      "emptyText": "{{t.waiting}}"
+    },
+    {
+      "type": "text",
+      "text": "{{t.estimate}}",
+      "style": "caption"
+    }
+  ]
+}

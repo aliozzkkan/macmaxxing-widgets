@@ -1,0 +1,16 @@
+{
+  "type": "vstack",
+  "spacing": 2,
+  "children": [
+    {
+      "type": "text",
+      "text": "{{state.topName}}",
+      "style": "caption"
+    },
+    {
+      "type": "text",
+      "text": "{{state.topWatts}}",
+      "style": "value"
+    }
+  ]
+}

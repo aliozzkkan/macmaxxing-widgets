@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Accesso alla cartella delle schermate",
+  "count": "Screenshot",
+  "empty": "Nessuno screenshot",
+  "failed": "Impossibile leggere gli screenshot",
+  "grant": "Consenti accesso",
+  "latest": "Ultimo screenshot",
+  "perDay": "Screenshot al giorno",
+  "readText": "Leggi testo e codici QR",
+  "reading": "Testo riconosciuto",
+  "refreshInterval": "Intervallo di aggiornamento (secondi)",
+  "reveal": "Mostra nel Finder",
+  "rows": "Riga",
+  "settings": "Impostazioni",
+  "subtitle": "Sovrappone, apre e trascina gli screenshot recenti quando lo scaffale è abilitato in Comportamento.",
+  "trash": "Sposta nel Cestino",
+  "trashMessage": "Il file non viene eliminato; puoi ripristinarlo dal Cestino.",
+  "trashTitle": "Spostare lo screenshot nel Cestino?",
+  "widget.summary": "Sovrappone, apre e trascina gli screenshot recenti quando lo scaffale è abilitato in Comportamento.",
+  "widget.title": "Scaffale screenshot"
+}

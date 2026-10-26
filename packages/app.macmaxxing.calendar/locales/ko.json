@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "앞으로의 시간 중 일정이 차지하는 비율",
+  "chartNote": "각 막대는 한 시간 중 일정이 차지하는 비율입니다",
+  "chartTitle": "하루의 흐름",
+  "deniedHint": "시스템 설정에서 캘린더 접근을 허용하세요",
+  "eventsTitle": "오늘의 일정",
+  "grantAccess": "캘린더 권한 허용",
+  "maximumRows": "최대 줄 수",
+  "needsAccess": "캘린더 권한 필요",
+  "needsAccessHint": "회의를 보려면 캘린더 접근 권한을 허용하십시오",
+  "noEvents": "오늘 일정이 없습니다",
+  "noEventsBody": "오늘은 시간이 지정된 일정이 없습니다. 종일 일정은 이 보기에 표시되지 않습니다.",
+  "permission": "권한 필요",
+  "refreshInterval": "새로고침 간격(초)",
+  "subtitle": "오늘의 일정",
+  "today": "오늘",
+  "widget.summary": "오늘의 예정된 이벤트 및 권한 상태를 표시합니다.",
+  "widget.title": "캘린더"
+}

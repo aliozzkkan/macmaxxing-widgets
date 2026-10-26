@@ -1,0 +1,14 @@
+{
+  "comfortable": "Dengeli",
+  "compact": "Kompakt",
+  "density": "Görünüm",
+  "detailed": "Detaylı",
+  "estimate": "Değerler CPU yükünden tahmin edilir",
+  "heading": "En Çok Kullananlar",
+  "rows": "En fazla satır",
+  "subtitle": "Tahmini uygulama payı",
+  "top": "En Çok Güç Kullananlar",
+  "waiting": "Uygulama verisi bekleniyor",
+  "widget.summary": "Anlık güç kartı açıldığında en çok güç kullanan uygulamaları gösterir.",
+  "widget.title": "Uygulama Gücü"
+}

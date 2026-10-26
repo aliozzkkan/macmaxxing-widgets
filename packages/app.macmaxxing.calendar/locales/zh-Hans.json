@@ -1,0 +1,19 @@
+{
+  "chartAccessibility": "未来几小时被日程占用的比例",
+  "chartNote": "每个柱表示该小时被日程占用的比例",
+  "chartTitle": "一天的节奏",
+  "deniedHint": "请在“系统设置”中允许访问日历",
+  "eventsTitle": "今日日程",
+  "grantAccess": "允许访问日历",
+  "maximumRows": "最多行数",
+  "needsAccess": "需要日历权限",
+  "needsAccessHint": "授予日历访问权限以查看会议日程",
+  "noEvents": "今天没有日程",
+  "noEventsBody": "日历今天没有带具体时间的日程。全天日程不会在此视图中列出。",
+  "permission": "需要权限",
+  "refreshInterval": "刷新间隔（秒）",
+  "subtitle": "今日日程",
+  "today": "今天",
+  "widget.summary": "显示今天接下来的日程与权限状态。",
+  "widget.title": "日历"
+}

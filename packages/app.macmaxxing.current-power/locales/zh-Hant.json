@@ -1,0 +1,17 @@
+{
+  "adapter": "充電器",
+  "battery": "電池",
+  "comfortable": "平衡",
+  "compact": "精簡",
+  "density": "外觀",
+  "detailed": "詳細",
+  "details": "測量詳細資訊",
+  "flow": "電源流向",
+  "incoming": "流入",
+  "load": "流出",
+  "refreshInterval": "更新間隔（秒）",
+  "remaining": "預估",
+  "subtitle": "即時功率",
+  "widget.summary": "顯示即時瓦數、電池、充電狀態及電源圖表。",
+  "widget.title": "電源中心"
+}

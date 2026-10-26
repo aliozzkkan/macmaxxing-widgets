@@ -1,0 +1,12 @@
+{
+  "down": "调低音量",
+  "mute": "静音",
+  "muted": "静音",
+  "sleep": "关闭显示器",
+  "sound": "打开声音设置",
+  "unmute": "取消静音",
+  "up": "调高音量",
+  "volume": "声音",
+  "widget.summary": "显示音量、静音和显示器休眠等快捷控制项。",
+  "widget.title": "系统控制"
+}

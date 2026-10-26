@@ -1,0 +1,12 @@
+{
+  "down": "Zachter",
+  "mute": "Dempen",
+  "muted": "Geluid uit",
+  "sleep": "Zet beeldscherm in sluimerstand",
+  "sound": "Geluidsinstellingen openen",
+  "unmute": "Dempen opheffen",
+  "up": "Verhoog volume",
+  "volume": "Geluid",
+  "widget.summary": "Toont snelle bediening zoals volume, dempen en schermuitschakeling.",
+  "widget.title": "Systeembediening"
+}

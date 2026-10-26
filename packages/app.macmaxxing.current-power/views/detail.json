@@ -1,0 +1,146 @@
+{
+  "type": "vstack",
+  "spacing": 12,
+  "children": [
+    {
+      "type": "hstack",
+      "spacing": 8,
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.insight.isGood",
+          "then": {
+            "type": "badge",
+            "text": "{{state.insight.title}}",
+            "tone": "positive"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.insight.isWarning",
+          "then": {
+            "type": "badge",
+            "text": "{{state.insight.title}}",
+            "tone": "warning"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.insight.isCritical",
+          "then": {
+            "type": "badge",
+            "text": "{{state.insight.title}}",
+            "tone": "critical"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.insight.isNeutral",
+          "then": {
+            "type": "badge",
+            "text": "{{state.insight.title}}",
+            "tone": "neutral"
+          }
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 14,
+      "children": [
+        {
+          "type": "donut",
+          "items": "state.flow",
+          "label": "label",
+          "value": "value",
+          "unit": "W"
+        },
+        {
+          "type": "vstack",
+          "spacing": 4,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{state.insight.title}}",
+              "style": "title"
+            },
+            {
+              "type": "text",
+              "text": "{{state.insight.detail}}",
+              "style": "body"
+            },
+            {
+              "type": "text",
+              "text": "{{state.insight.trend}}",
+              "style": "caption"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hstack",
+      "spacing": 10,
+      "children": [
+        {
+          "type": "value",
+          "label": "{{t.incoming}}",
+          "value": "{{state.incomingText}}"
+        },
+        {
+          "type": "value",
+          "label": "{{t.load}}",
+          "value": "{{state.loadText}}"
+        },
+        {
+          "type": "value",
+          "label": "{{t.battery}}",
+          "value": "{{state.batteryText}}"
+        },
+        {
+          "type": "value",
+          "label": "{{t.remaining}}",
+          "value": "{{state.timeRemaining}}"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": "{{t.flow}}",
+      "style": "caption"
+    },
+    {
+      "type": "chart",
+      "kind": "line",
+      "series": "state.history",
+      "isLive": false,
+      "seriesInfo": [
+        {
+          "key": "in",
+          "label": "{{t.incoming}}",
+          "unit": "W"
+        },
+        {
+          "key": "load",
+          "label": "{{t.load}}",
+          "unit": "W"
+        }
+      ],
+      "legend": true,
+      "accessibilityLabel": "{{t.flow}}"
+    },
+    {
+      "type": "text",
+      "text": "{{t.details}}: {{t.adapter}} {{state.adapterName}}",
+      "style": "caption"
+    }
+  ]
+}

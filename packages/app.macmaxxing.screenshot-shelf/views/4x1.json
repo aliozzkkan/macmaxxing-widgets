@@ -1,0 +1,44 @@
+{
+  "type": "hstack",
+  "children": [
+    {
+      "type": "when",
+      "condition": "state.hasItems",
+      "then": {
+        "type": "dragSource",
+        "handle": "{{state.latestFile}}",
+        "child": {
+          "type": "image",
+          "handle": "{{state.latestThumbnail}}",
+          "fallbackSymbol": "photo",
+          "shape": "rounded"
+        }
+      }
+    },
+    {
+      "type": "vstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{state.latestName}}",
+          "style": "body"
+        },
+        {
+          "type": "text",
+          "text": "{{t.latest}}",
+          "style": "caption"
+        }
+      ],
+      "spacing": 2
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "value",
+      "label": "{{t.count}}",
+      "value": "{{state.count}}"
+    }
+  ],
+  "spacing": 8
+}

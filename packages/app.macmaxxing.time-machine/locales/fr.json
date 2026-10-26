@@ -1,0 +1,16 @@
+{
+  "destination": "Destination de sauvegarde",
+  "lastBackup": "Dernière sauvegarde",
+  "nextBackup": "Prochaine sauvegarde",
+  "noBackup": "Aucune sauvegarde trouvée",
+  "noBackupBody": "La dernière sauvegarde est illisible si le disque Time Machine n’est pas connecté ou si aucune sauvegarde n’a jamais été faite.",
+  "openSettings": "Ouvrir les réglages de Time Machine",
+  "refreshInterval": "Intervalle d’actualisation (secondes)",
+  "running": "En cours d’exécution",
+  "runningBody": "Time Machine sauvegarde en ce moment. L’ancienneté est réinitialisée à la fin.",
+  "status": "État",
+  "subtitle": "Heure et état de la dernière sauvegarde",
+  "upToDate": "Les sauvegardes sont à jour",
+  "widget.summary": "Affiche l’heure de la dernière sauvegarde et les sauvegardes en cours.",
+  "widget.title": "Santé de Time Machine"
+}

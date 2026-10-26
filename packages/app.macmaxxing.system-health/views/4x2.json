@@ -1,0 +1,124 @@
+{
+  "type": "hstack",
+  "spacing": 14,
+  "children": [
+    {
+      "type": "vstack",
+      "spacing": 6,
+      "children": [
+        {
+          "type": "hstack",
+          "spacing": 8,
+          "children": [
+            {
+              "type": "text",
+              "text": "{{state.summary}}",
+              "style": "value"
+            },
+            {
+              "type": "spacer"
+            },
+            {
+              "type": "when",
+              "condition": "state.isOk",
+              "then": {
+                "type": "badge",
+                "text": "{{state.thermal.label}}",
+                "tone": "positive"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isWarning",
+              "then": {
+                "type": "badge",
+                "text": "{{state.thermal.label}}",
+                "tone": "warning"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isCritical",
+              "then": {
+                "type": "badge",
+                "text": "{{state.thermal.label}}",
+                "tone": "critical"
+              }
+            },
+            {
+              "type": "when",
+              "condition": "state.isMeasuring",
+              "then": {
+                "type": "badge",
+                "text": "{{t.monitoring}}",
+                "tone": "neutral"
+              }
+            }
+          ]
+        },
+        {
+          "type": "chart",
+          "kind": "line",
+          "series": "state.history",
+          "isLive": false
+        }
+      ]
+    },
+    {
+      "type": "vstack",
+      "spacing": 6,
+      "children": [
+        {
+          "type": "when",
+          "condition": "state.settings.showMemory",
+          "then": {
+            "type": "bar",
+            "label": "{{state.memory.label}}",
+            "percent": "{{state.memory.value}}"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.settings.showGPU",
+          "then": {
+            "type": "bar",
+            "label": "{{state.gpu.label}}",
+            "percent": "{{state.gpu.value}}"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.settings.showDisk",
+          "then": {
+            "type": "bar",
+            "label": "{{state.disk.label}}",
+            "percent": "{{state.disk.value}}"
+          }
+        },
+        {
+          "type": "when",
+          "condition": "state.settings.showNetwork",
+          "then": {
+            "type": "hstack",
+            "spacing": 8,
+            "children": [
+              {
+                "type": "value",
+                "label": "{{t.networkSpeed}}",
+                "value": "{{state.network.downText}}"
+              },
+              {
+                "type": "spacer"
+              },
+              {
+                "type": "value",
+                "label": "{{state.network.upLabel}}",
+                "value": "{{state.network.upText}}"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

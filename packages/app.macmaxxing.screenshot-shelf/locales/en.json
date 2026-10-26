@@ -1,0 +1,21 @@
+{
+  "accessNeeded": "Screenshot Folder Access",
+  "count": "Screenshot",
+  "empty": "No screenshots",
+  "failed": "Screenshots could not be read",
+  "grant": "Allow Access",
+  "latest": "Latest screenshot",
+  "perDay": "Screenshots per day",
+  "readText": "Read text and QR",
+  "reading": "Recognized text",
+  "refreshInterval": "Refresh interval (seconds)",
+  "reveal": "Show in Finder",
+  "rows": "Row",
+  "settings": "Settings",
+  "subtitle": "Stacks, opens, and drags recent screenshots when shelf is enabled in Behavior.",
+  "trash": "Move to Trash",
+  "trashMessage": "The file is not deleted; you can restore it from the Trash.",
+  "trashTitle": "Move the screenshot to the Trash?",
+  "widget.summary": "Stacks, opens, and drags recent screenshots when shelf is enabled in Behavior.",
+  "widget.title": "Screenshot Shelf"
+}

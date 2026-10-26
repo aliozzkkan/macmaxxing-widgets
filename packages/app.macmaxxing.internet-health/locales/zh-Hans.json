@@ -1,0 +1,20 @@
+{
+  "cancel": "取消",
+  "chartAccessibility": "最近测量中的 Ping 时间",
+  "chartNote": "时间为上次刷新时的瞬时值",
+  "chartTitle": "Ping 历史",
+  "details": "测量详情",
+  "download": "下载",
+  "lastTest": "上次测速",
+  "loss": "丢包率",
+  "offline": "无互联网连接",
+  "offlineBody": "无法连接到测试地址",
+  "ping": "Ping",
+  "refreshInterval": "刷新间隔（秒）",
+  "speedTest": "测速",
+  "startTest": "开始速度测试",
+  "subtitle": "最近的测量结果与连接质量",
+  "testing": "正在测速…",
+  "widget.summary": "显示 Ping、丢包率和连接质量。",
+  "widget.title": "网络运行状况"
+}

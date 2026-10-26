@@ -1,0 +1,13 @@
+{
+  "edit": "Metni düzenle",
+  "finished": "Tamamlandı",
+  "prepare": "Metin hazırla",
+  "restart": "Yeniden başlat",
+  "running": "Çalışıyor",
+  "start": "Başlat",
+  "stop": "Durdur",
+  "title": "Teleprompter",
+  "widget.summary": "Metni notch altında, ayarlanabilir hızla otomatik kaydırır.",
+  "widget.title": "Teleprompter",
+  "words": "kelime"
+}

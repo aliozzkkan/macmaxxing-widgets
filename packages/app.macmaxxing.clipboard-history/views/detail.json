@@ -1,0 +1,150 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "text",
+          "text": "{{t.subtitle}}",
+          "style": "caption"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "when",
+          "condition": "state.hasItems",
+          "then": {
+            "type": "badge",
+            "text": "{{state.count}}",
+            "tone": "accent"
+          }
+        }
+      ],
+      "spacing": 8
+    },
+    {
+      "type": "hstack",
+      "children": [
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "value",
+              "label": "{{t.items}}",
+              "value": "{{state.count}}"
+            },
+            {
+              "type": "text",
+              "text": "{{t.latest}}",
+              "style": "caption"
+            },
+            {
+              "type": "text",
+              "text": "{{state.latest}}",
+              "style": "body"
+            }
+          ],
+          "spacing": 3
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "vstack",
+          "children": [
+            {
+              "type": "text",
+              "text": "{{t.kinds}}",
+              "style": "caption"
+            },
+            {
+              "type": "chart",
+              "kind": "line",
+              "series": "state.kinds",
+              "isLive": true,
+              "seriesInfo": [
+                {
+                  "key": "text",
+                  "label": "{{t.text}}"
+                },
+                {
+                  "key": "link",
+                  "label": "{{t.link}}"
+                },
+                {
+                  "key": "file",
+                  "label": "{{t.file}}"
+                },
+                {
+                  "key": "image",
+                  "label": "{{t.image}}"
+                }
+              ],
+              "legend": false,
+              "accessibilityLabel": "{{t.kinds}}"
+            }
+          ],
+          "spacing": 4
+        }
+      ],
+      "spacing": 14
+    },
+    {
+      "type": "when",
+      "condition": "state.settings.showSearch",
+      "then": {
+        "type": "textField",
+        "key": "query",
+        "placeholder": "{{t.search}}",
+        "action": "search"
+      }
+    },
+    {
+      "type": "list",
+      "items": "state.items",
+      "id": "id",
+      "title": "title",
+      "detail": "detail",
+      "symbol": "sym",
+      "image": "image",
+      "action": "copy",
+      "menu": [
+        {
+          "title": "{{t.copy}}",
+          "action": "copy",
+          "symbol": "doc.on.doc"
+        },
+        {
+          "title": "{{t.copyClean}}",
+          "action": "copyClean",
+          "symbol": "link"
+        },
+        {
+          "title": "{{t.pin}}",
+          "action": "pin",
+          "symbol": "pin"
+        },
+        {
+          "title": "{{t.paste}}",
+          "action": "paste",
+          "symbol": "text.badge.checkmark"
+        }
+      ],
+      "emptyText": "{{t.empty}}"
+    },
+    {
+      "type": "button",
+      "title": "{{t.clear}}",
+      "action": "clear",
+      "symbol": "trash",
+      "confirm": {
+        "title": "{{t.clearTitle}}",
+        "message": "{{t.clearMessage}}",
+        "destructiveTitle": "{{t.clearConfirm}}"
+      }
+    }
+  ],
+  "spacing": 10
+}

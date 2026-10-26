@@ -1,0 +1,15 @@
+{
+  "type": "vstack",
+  "children": [
+    {
+      "type": "symbol",
+      "name": "doc.on.clipboard"
+    },
+    {
+      "type": "value",
+      "label": "{{t.items}}",
+      "value": "{{state.count}}"
+    }
+  ],
+  "spacing": 4
+}
